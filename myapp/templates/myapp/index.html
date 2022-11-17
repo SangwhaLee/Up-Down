@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+  <button onclick="location.href='{% url 'gameclear' %}'">clear</button>
+  <br>
+  {% for movie in randomdata %}
+  {{ movie.title }}  : {{ movie.userRating }}
+  <br>
+  score: {{ forloop.counter0 }}
+  <button onclick="location.href='{% url 'gameover' forloop.counter0 %}'"> Gameover </button>
+  <br>
+  <img src="{{ movie.poster_path }}" width='200'>
+  <hr>
+  {% endfor %}
+
+{% endblock content %}
+{% block script %}
+<script>
+ 
+</script>
+{% endblock script %}
