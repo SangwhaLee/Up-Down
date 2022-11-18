@@ -7,14 +7,18 @@ from bs4 import BeautifulSoup
 
 moviedata = list(movie.objects.all())
 
-def index(request):    
+
+def index(request):
+    return render(request,'myapp/index.html')
+
+def game(request):    
     randomdata = random.sample(moviedata,30)
     print(randomdata)
 
     context = {   
         'randomdata': randomdata
     }
-    return render(request, 'myapp/index.html', context)
+    return render(request, 'myapp/game.html', context)
 
 def gameover(request,score):
     context = {
@@ -43,5 +47,5 @@ def gameclear(request):
     #좋은 영화 데이터 하나 뽑아서 render
 
 def scoreboard(request):
-    pass
+    return render(request,'myapp/scoreboard.html')
     #좋은 영화 데이터 하나 뽑아서 render
