@@ -45,6 +45,7 @@ body {
 
   /* size */
   width: 50%;
+  height: 100%;
   
   /* flex item의 flex-shrink는 기본값이 1이므로 컨테이너 크기에 맞게 줄어드는데, 슬라이드를 구현할 것이므로 줄어들지 않도록 0을 준다. */
   /* 기본 디폴트 값이 1로 선언되어있음 */
@@ -141,9 +142,9 @@ li {
   transition: left 0.15s;
 }
 
-button {
+.answer-btn {
   font-family: 'Fredoka One', cursive;
-  position: absolute;
+  position: relative;
   width: 7rem;
   height: 3rem;
   border: solid 4px white;
@@ -154,12 +155,12 @@ button {
 }
 
 .up_btn {
-  bottom: 40%;
+  bottom: -1%;
   cursor: pointer;
 }
 
 .down_btn {
-  bottom: 32%;
+  bottom: -5%;
   cursor: pointer;
 }
 
@@ -178,17 +179,20 @@ button {
 .movie-title {
   font-family: 'Noto Sans KR', sans-serif;
   position: relative;
-  top: -15%;
+  top: -5%;
   text-align: center;
   color: white;
   font-size: 320%;
+  text-shadow: 1px 1px 1.5px black;
+  word-break: keep-all;
 }
 
 .count {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
-  color: wheat;
+  color: beige;
   font-size: 300%;
+  text-shadow: 1px 1px 1px black;
 }
 
 .result-score {
