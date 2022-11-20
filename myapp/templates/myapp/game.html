@@ -11,7 +11,7 @@
   <div class="slide_item item">
     <h1 class="movie-title">{{ movie.title }}</h1>
     <div class="result-score">
-      <h2 class="count">{{ movie.userRating }}</h2>
+      <h2 class="count">{{ movie.userRating }} 점</h2>
       <div class="star-ratings">
         <div id="first-score" class="star-ratings-fill">
           <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
@@ -158,10 +158,16 @@
       backCircle.style.backgroundColor = "red";
       backCircle.style.color = "white";
       backCircle.appendChild(word);
-      vsFlip();
-      setTimeout(() => {
-        answerForms[currSlide].submit();
-      }, 1100);
+      upButtons[currSlide].classList.add("hidden")
+      downButtons[currSlide].classList.add("hidden")
+      resultScore[currSlide+1].classList.remove("hidden")
+      countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+      setTimeout(function() {
+        vsFlip();
+        setTimeout(() => {
+          answerForms[currSlide].submit();
+        }, 1100);
+      }, 3900)
       // console.log(currSlide);
     }
   }
@@ -196,10 +202,16 @@
       backCircle.style.backgroundColor = "red";
       backCircle.style.color = "white";
       backCircle.appendChild(word);
-      vsFlip();
-      setTimeout(() => {
-        answerForms[currSlide].submit();
-      }, 1100);
+      upButtons[currSlide].classList.add("hidden")
+      downButtons[currSlide].classList.add("hidden")
+      resultScore[currSlide+1].classList.remove("hidden")
+      countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+      setTimeout(function() {
+        vsFlip();
+        setTimeout(() => {
+          answerForms[currSlide].submit();
+        }, 1100);
+      }, 3900)
       // console.log(currSlide)
     }
   }
@@ -259,7 +271,7 @@
     let now = max;
 
     const handle= setInterval(() => {
-      counter.innerHTML = (Math.round((max - now)*100)/100).toFixed(2);
+      counter.innerHTML = (Math.round((max - now)*100)/100).toFixed(2) + ' 점';
       rating.style.width = (Math.round((max - now)*100)/10) + '%';
 
       // 목표에 도달하면 정지
