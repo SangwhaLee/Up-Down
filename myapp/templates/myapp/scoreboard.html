@@ -1,4 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
 <p>스코어보드 페이지</p>
+{% for score in scoreboard %}
+  <h2>
+    {{ forloop.counter }}등 
+    {{ score.name }} 님의 점수:
+    {{ score.score }}
+  </h2>
+  <br>
+{% endfor %}
 {% endblock content %}

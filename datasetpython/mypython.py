@@ -2,7 +2,7 @@ import json
 import requests 
 from time import sleep
 
-file_path = './myexcel.json'
+file_path = './datasetpython/myexcel.json'
 with open(file_path,'r', encoding='UTF-8') as file:
     datas = json.load(file)
 
@@ -28,7 +28,7 @@ for i in range(len(datas)):
             if myjson[j]['title'].replace(" ","")=='<b>'+str(title).replace(" ","")+'</b>' and (-1<=int(myjson[j]['pubDate'])-year<=1): #정확히 일치하는 것만 반환
                 if myjson[j]['userRating']!="0.00":
                     # 필요한 것: link(네이버 댓글 크롤링 위함), userRating
-                    datas[i]['userRating'] = myjson[j]['userRating']
+                    datas[i]['userRating'] = int(myjson[j]['userRating'])
                     datas[i]['link'] = myjson[j]['link'].lstrip('https://movie.naver.com/movie/bi/mi/basic.nhn?code=')
         except:
             pass
