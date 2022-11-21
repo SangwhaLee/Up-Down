@@ -40,6 +40,7 @@
       <button class="up_btn answer-btn">up</button>
       <button class="down_btn answer-btn">down</button>
     </form>
+    <form id="full-score-form" class="hidden" action="{% url 'gameclear' %}"></form>
   </div>
   {% endif %}
   {% endfor %}
@@ -102,8 +103,8 @@
 
   // 슬라이드 전체를 선택해 값을 변경해주기 위해 슬라이드 전체 선택하기
   let slideItems = document.querySelectorAll(".slide_item");
-  // 현재 슬라이드 위치가 슬라이드 개수를 넘기지 않게 하기 위한 변수
-  const maxSlide = 59;
+  // 마지막 문제까지 풀 경우 만점 페이지로 이동하기 위한 값
+  const maxSlide = 29;
 
   //up 버튼에 이벤트 추가
   const upButtons = document.querySelectorAll(".up_btn")
@@ -156,25 +157,46 @@
   const isHigher = (event) => {
     event.preventDefault();
     if(movie[currSlide].rating < movie[currSlide+1].rating){
-      console.log(movie[currSlide].title,movie[currSlide].rating)
-      console.log(movie[currSlide+1].title,movie[currSlide+1].rating)
-      const word = document.createElement("h1");
-      backCircle.innerText= "";
-      word.innerText = "O";
-      backCircle.style.backgroundColor = "green";
-      backCircle.style.color = "white";
-      backCircle.appendChild(word);
-      upButtons[currSlide].classList.add("hidden")
-      downButtons[currSlide].classList.add("hidden")
-      resultScore[currSlide+1].classList.remove("hidden")
-      countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
-      setTimeout(function() {
-        vsFlip();
+      if(currSlide < maxSlide){
+        console.log(movie[currSlide].title,movie[currSlide].rating)
+        console.log(movie[currSlide+1].title,movie[currSlide+1].rating)
+        const word = document.createElement("h1");
+        backCircle.innerText= "";
+        word.innerText = "O";
+        backCircle.style.backgroundColor = "green";
+        backCircle.style.color = "white";
+        backCircle.appendChild(word);
+        upButtons[currSlide].classList.add("hidden")
+        downButtons[currSlide].classList.add("hidden")
+        resultScore[currSlide+1].classList.remove("hidden")
+        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
         setTimeout(function() {
-        nextMove();
-        writeScore();
-      }, 1300);
-      }, 3900)
+          vsFlip();
+          setTimeout(function() {
+          nextMove();
+          writeScore();
+        }, 1300);
+        }, 3900)
+      }
+      else{
+        const lastForm = document.getElementById("full-score-form");
+        const word = document.createElement("h1");
+        backCircle.innerText= "";
+        word.innerText = "O";
+        backCircle.style.backgroundColor = "green";
+        backCircle.style.color = "white";
+        backCircle.appendChild(word);
+        upButtons[currSlide].classList.add("hidden")
+        downButtons[currSlide].classList.add("hidden")
+        resultScore[currSlide+1].classList.remove("hidden")
+        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+        setTimeout(function() {
+          vsFlip();
+          setTimeout(() => {
+            lastForm.submit();
+          }, 1100);
+        }, 3900)
+      }
     }
     else if(movie[currSlide].rating > movie[currSlide+1].rating){
       const word = document.createElement("h1");
@@ -202,25 +224,46 @@
   const isLower = (event) => {
     event.preventDefault();
     if(movie[currSlide].rating > movie[currSlide+1].rating){
-      console.log(movie[currSlide].title,movie[currSlide].rating)
-      console.log(movie[currSlide+1].title,movie[currSlide+1].rating)
-      const word = document.createElement("h1");
-      backCircle.innerText= "";
-      word.innerText = "O";
-      backCircle.style.backgroundColor = "green";
-      backCircle.style.color = "white";
-      backCircle.appendChild(word);
-      upButtons[currSlide].classList.add("hidden")
-      downButtons[currSlide].classList.add("hidden")
-      resultScore[currSlide+1].classList.remove("hidden")
-      countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
-      setTimeout(function() {
-        vsFlip();
+      if(currSlide < maxSlide){
+        // console.log(movie[currSlide].title,movie[currSlide].rating)
+        // console.log(movie[currSlide+1].title,movie[currSlide+1].rating)
+        const word = document.createElement("h1");
+        backCircle.innerText= "";
+        word.innerText = "O";
+        backCircle.style.backgroundColor = "green";
+        backCircle.style.color = "white";
+        backCircle.appendChild(word);
+        upButtons[currSlide].classList.add("hidden")
+        downButtons[currSlide].classList.add("hidden")
+        resultScore[currSlide+1].classList.remove("hidden")
+        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
         setTimeout(function() {
-        nextMove();
-        writeScore();
-      }, 1300);
-      }, 3900)
+          vsFlip();
+          setTimeout(function() {
+            nextMove();
+            writeScore();
+          }, 1300);
+        }, 3900)
+      }
+      else{
+        const lastForm = document.getElementById("full-score-form");
+        const word = document.createElement("h1");
+        backCircle.innerText= "";
+        word.innerText = "O";
+        backCircle.style.backgroundColor = "green";
+        backCircle.style.color = "white";
+        backCircle.appendChild(word);
+        upButtons[currSlide].classList.add("hidden")
+        downButtons[currSlide].classList.add("hidden")
+        resultScore[currSlide+1].classList.remove("hidden")
+        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+        setTimeout(function() {
+          vsFlip();
+          setTimeout(() => {
+            lastForm.submit();
+          }, 1100);
+        }, 3900)
+      }
     }
     else if(movie[currSlide].rating < movie[currSlide+1].rating){
       const word = document.createElement("h1");

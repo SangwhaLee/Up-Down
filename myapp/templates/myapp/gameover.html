@@ -1,9 +1,28 @@
 {% extends 'base.html' %}
 {% block content %}
-  <p>당신은 죽다!</p>
-  <p>score: {{ score }} </p>
-  <p>당신을 위한 추천 영화 : {{ movie.title }}</p>
+<div class="after-game">
+  <h1 style="font-family: 'East Sea Dokdo', cursive;font-size: 300%;color: darkorange;margin-bottom: 1%;">당신의 점수는</h1>
+  <h1 class="your-score">{{ score }}점!</h1>
+  <p id="result-words"></p>
+  <h3>당신을 위한 추천 영화 : {{ movie.title }}</h3>
   <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ movie.link }}">영화의 네이버 페이지로</a>
   <p>popularuty {{ movie.popularity }} </p>
   <p>인기 리뷰: {{ review }}</p>
+</div>
 {% endblock content %}
+
+{% block script %}
+  <script>
+    const score = {{ score }};
+    const words = document.getElementById("result-words");
+    if(score < 10){
+      words.innerText = "네? 장난치시는 거죠?"
+    }
+    else if(score>=10 && score < 20){
+      words.innerText = "아쉽지만, 아직 갈길이 머네요... 힘내세요"
+    }
+    else{
+      words.innerText = "조금만 더 갔으면 됐는데 너무 아쉽네요!"
+    }
+  </script>
+{% endblock script %}
