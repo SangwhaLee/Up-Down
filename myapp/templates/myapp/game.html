@@ -43,12 +43,23 @@
   </div>
   {% endif %}
   {% endfor %}
+  <div class="best-score score">
+    <h3>최고 점수</h3>
+    <h2 id="best-score">0</h2>
+  </div>
+  <div class="now-score score">
+    <h3>현재 점수</h3>
+    <h2 id="now-score">0</h2>
+  </div>  
   </div>
   <div id="coin" class="versus-circle">
     <div class="side vs-front">
       <h1 class="versus-word">VS</h1>
     </div>
     <div class="side vs-back"></div>
+  </div>
+  <div class="loading">
+    <img src="../../../static/image/loading.gif" alt="">
   </div>
   
 
@@ -114,6 +125,19 @@
   // answer-form의 array
   const answerForms = document.querySelectorAll("#answer-form")
 
+  // 해당 기기에서의 최고 점수
+  const bestScore = document.getElementById("best-score")
+  // 게임에서의 현재 점수
+  const nowScore = document.getElementById("now-score")
+  // 로컬 스토리지에 최고 점수를 넣기 위한 key값
+  const SCORE_KEY = "bestScore"
+
+  // 점수를 화면에 드러내기 위한 함수
+  const writeScore = () => {
+    nowScore.innerHTML = currSlide;
+    bestScore.innerHTML = localStorage.getItem(SCORE_KEY);
+  }
+
   function putBackgroundImg() {
     for(let i=0;i<=slideItems.length;i++){
       //console.log(sItems[i])
@@ -148,6 +172,7 @@
         vsFlip();
         setTimeout(function() {
         nextMove();
+        writeScore();
       }, 1300);
       }, 3900)
     }
@@ -162,6 +187,7 @@
       downButtons[currSlide].classList.add("hidden")
       resultScore[currSlide+1].classList.remove("hidden")
       countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+      saveBestScore(currSlide);
       setTimeout(function() {
         vsFlip();
         setTimeout(() => {
@@ -192,6 +218,7 @@
         vsFlip();
         setTimeout(function() {
         nextMove();
+        writeScore();
       }, 1300);
       }, 3900)
     }
@@ -206,6 +233,7 @@
       downButtons[currSlide].classList.add("hidden")
       resultScore[currSlide+1].classList.remove("hidden")
       countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+      saveBestScore(currSlide);
       setTimeout(function() {
         vsFlip();
         setTimeout(() => {
@@ -286,7 +314,23 @@
     }, 50);
   }
 
- putBackgroundImg();
+  function saveBestScore(finalScore) {
+    if(localStorage.getItem(SCORE_KEY)===null){
+      localStorage.setItem(SCORE_KEY, currSlide);
+    }
+    else if(finalScore > parseInt(localStorage.getItem(SCORE_KEY))){
+      localStorage.setItem(SCORE_KEY, currSlide);
+    }
+  }
+
+  // 이미지가 로딩 될 때 단 순히 공백으로 납두면 좋지 않기 떄문에 loading으로 덮어놓는다.
+  window.onload = function() {
+    const loader = document.querySelector(".loading");
+    loader.classList.add("hidden");
+  }
+
+  writeScore();
+  putBackgroundImg();
 
  </script>
 {% endblock script %}

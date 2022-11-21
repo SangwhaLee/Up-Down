@@ -63,34 +63,6 @@ body {
   
 }
 
-.slide_button {
-  /* layout */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* position */
-  position: absolute;
-  /* 버튼이 중앙에 위치하게 하기위해 계산 */
-  top: calc(50% - 16px);
-
-  /* size */
-  width: 32px;
-  height: 32px;
-
-  /* style */
-  border-radius: 100%;
-  background-color: #cccc;
-  cursor: pointer;
-}
-
-.slide_prev_button {
-  left: 10px;
-}
-.slide_next_button {
-  right: 10px;
-}
-
 /* 각 슬라이드가 변경되는 것을 시각적으로 확인하기 쉽도록 각 슬라이드별 색상 적용 */
 /* .item {
   background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mEf7JUktBcr229QSXeEN6TbV6I2.jpg");
@@ -142,16 +114,24 @@ li {
   transition: left 0.15s;
 }
 
+#answer-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .answer-btn {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 1px 1px black;
   position: relative;
-  width: 7rem;
+  width: 8.5rem;
   height: 3rem;
   border: solid 4px white;
   background-color: transparent;
   color: white;
   border-radius: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 200%;
+  margin-top: 1.3rem;
 }
 
 .up_btn {
@@ -166,13 +146,15 @@ li {
 
 .up_btn:hover {
   background-color: white;
-  color: black;
+  color: lightgreen;
+  border: solid 4px lightgreen;
   transition: 0.7s;
 }
 
 .down_btn:hover {
   background-color: white;
-  color: black;
+  border: solid 4px rgb(253, 179, 41);
+  color: rgb(253, 179, 41);
   transition: 0.7s;
 }
 
@@ -275,4 +257,36 @@ li {
 
 .versus-word {
   align-self: center;
+  text-shadow: 1px 1px black;
+}
+
+.score {
+  font-family: 'Noto Sans KR', sans-serif;
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.best-score {
+  left: 1%;
+  top: 0.7%;
+}
+
+.now-score {
+  right: 1%;
+  top: 0.7%;
+}
+
+.loading {
+  background-image: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9000;
 }
