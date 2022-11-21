@@ -1,7 +1,19 @@
 {% extends 'base.html' %}
 {% block content %}
-  <h1> 스테이지를 모두 클리어 하셨습니다. </h1>
-  <p>{{ movie.title }}</p>
-  <p>{{ movie.link }}</p>
-  <p>{{ review }}</p>
+<div class="after-game">
+  <h1 style="font-family: 'East Sea Dokdo', cursive;font-size: 300%;color: darkorange;margin-bottom: 1%;">당신의 점수는</h1>
+  <h1 class="your-score">만점!!!</h1>
+  <p id="result-words2">당신은 영화의 신인가요?</p>
+  <h3>당신을 위한 추천 영화 : {{ movie.title }}</h3>
+  <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ movie.link }}">영화의 네이버 페이지로</a>
+  <p>popularuty {{ movie.popularity }} </p>
+  <p>인기 리뷰: {{ review }}</p>
+</div>
 {% endblock content %}
+
+{% block script %}
+  <script>
+    const score = {{ score }};
+    const words2 = document.getElementById("result-words2");
+  </script>
+{% endblock script %}
