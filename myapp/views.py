@@ -5,15 +5,44 @@ from .models import movie
 import requests
 from bs4 import BeautifulSoup
 
-moviedata = list(movie.objects.all())
-
+moviedata = list(movie.objects.all()) #moviedata 뽑아오기
 
 def index(request):
     return render(request,'myapp/index.html')
 
 def game(request):    
-    randomdata = random.sample(moviedata,30)
-    print(randomdata)
+    #randomdata = random.sample(moviedata,30)
+    #30개를 난이도별로 뽑기
+    #처음엔 평점 2점차 이상, 그다음 1~2점차, 그다음 1점차 이내를 총 10개씩 30개 뽑는다.
+    
+    first_movie = random.sample(moviedata,1)[0] #맨 처음 영화는 랜덤으로 출력
+    #추후에 범위를 지정할 수도 있음(6~8점대)
+    randomdata = [first_movie]
+
+    current_movie = first_movie #current movie를 기준으로 다음 영화를 순차적으로 뽑아줌.
+    for i in range(10): # 1단계, 2점차 이상의 영화들 출력
+        currating = current_movie.userRating
+        templist = list(filter(lambda x: abs(currating-x.userRating) > 2 and currating-x.userRating!=0, moviedata))
+        current_movie = random.sample(templist,1)[0]
+        randomdata.append(current_movie)
+
+    for i in range(10): # 2단계, 1~2점차의 영화들 출력
+        currating = current_movie.userRating
+        templist = list(filter(lambda x: 1<= abs(currating-x.userRating) <= 2 and currating-x.userRating!=0, moviedata))
+        current_movie = random.sample(templist,1)[0]
+        randomdata.append(current_movie)
+
+    for i in range(10): # 3단계, 1점차 미만의 영화들 출력
+        currating = current_movie.userRating
+        templist = list(filter(lambda x: abs(currating-x.userRating) <= 1 and currating-x.userRating!=0, moviedata))
+        current_movie = random.sample(templist,1)[0]
+        randomdata.append(current_movie)
+
+    print(len(randomdata))
+    
+    for i in range(30):
+        print((randomdata[i+1].userRating)-(randomdata[i].userRating))
+        
 
     context = {   
         'randomdata': randomdata

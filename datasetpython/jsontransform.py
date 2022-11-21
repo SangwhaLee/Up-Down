@@ -5,7 +5,7 @@ import os
 
 print(os.listdir(os.getcwd()))
 
-file_path = 'c:/Users/학습용/Desktop/final-pjt/datasetpython/prototype.json'
+file_path = './datasetpython/prototype.json'
 with open(file_path,'r', encoding='UTF-8') as file:
     datas = json.load(file)
 
@@ -15,6 +15,7 @@ dataset = []
 noreview = []
 
 for i in range(len(datas)):
+    datas[i]['userRating'] = float(datas[i]['userRating'])
     naverkey = datas[i]['link'] # 리뷰 없는 독립영화 데이터 걸러내기 위함
     # 미리 beautifulsoup를 사용해 데이터를 뽑아보고 점검
     # 

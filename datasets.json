@@ -5,7 +5,7 @@
         "fields": {
             "title": "명량",
             "year": 2014,
-            "userRating": "8.44",
+            "userRating": 8.44,
             "link": "93756",
             "poster_path": "https://image.tmdb.org/t/p/original//4VR2gDn7dYOEfJPfDpVRPEHgqeo.jpg",
             "popularity": 17.785
@@ -17,7 +17,7 @@
         "fields": {
             "title": "극한직업",
             "year": 2019,
-            "userRating": "8.51",
+            "userRating": 8.51,
             "link": "167651",
             "poster_path": "https://image.tmdb.org/t/p/original//jbHNkNydiZstlqhhBSvG19lm4NL.jpg",
             "popularity": 13.509
@@ -29,7 +29,7 @@
         "fields": {
             "title": "신과함께-죄와 벌",
             "year": 2017,
-            "userRating": "7.83",
+            "userRating": 7.83,
             "link": "85579",
             "poster_path": "https://image.tmdb.org/t/p/original//5j2YVF7VouLG0Ze96SEsj4DnVQM.jpg",
             "popularity": 280.566
@@ -41,7 +41,7 @@
         "fields": {
             "title": "국제시장",
             "year": 2014,
-            "userRating": "9.02",
+            "userRating": 9.02,
             "link": "102875",
             "poster_path": "https://image.tmdb.org/t/p/original//tVL7M48c8koFx8djSvCazfEOhUe.jpg",
             "popularity": 7.498
@@ -53,7 +53,7 @@
         "fields": {
             "title": "어벤져스: 엔드게임",
             "year": 2019,
-            "userRating": "9.38",
+            "userRating": 9.38,
             "link": "136900",
             "poster_path": "https://image.tmdb.org/t/p/original//z7ilT5rNN9kDo8JZmgyhM6ej2xv.jpg",
             "popularity": 219.41
@@ -65,7 +65,7 @@
         "fields": {
             "title": "겨울왕국 2",
             "year": 2019,
-            "userRating": "8.69",
+            "userRating": 8.69,
             "link": "136873",
             "poster_path": "https://image.tmdb.org/t/p/original//lVcwSnzhSMWYXUQzyMilCztSE6I.jpg",
             "popularity": 138.524
@@ -77,7 +77,7 @@
         "fields": {
             "title": "아바타",
             "year": 2009,
-            "userRating": "9.08",
+            "userRating": 9.08,
             "link": "62266",
             "poster_path": "https://image.tmdb.org/t/p/original//zygmx5abXeDpr3fWYX4jlXFZ1wh.jpg",
             "popularity": 592.407
@@ -89,7 +89,7 @@
         "fields": {
             "title": "베테랑",
             "year": 2015,
-            "userRating": "9.01",
+            "userRating": 9.01,
             "link": "115977",
             "poster_path": "https://image.tmdb.org/t/p/original//vPFqA1KxYaVJg6foIuRIawGaH5d.jpg",
             "popularity": 12.58
@@ -101,7 +101,7 @@
         "fields": {
             "title": "괴물",
             "year": 2006,
-            "userRating": "4.35",
+            "userRating": 4.35,
             "link": "56172",
             "poster_path": "https://image.tmdb.org/t/p/original//nTsG4qicFEf8spFEaXf64Batb7N.jpg",
             "popularity": 24.826
@@ -113,7 +113,7 @@
         "fields": {
             "title": "도둑들",
             "year": 2012,
-            "userRating": "7.65",
+            "userRating": 7.65,
             "link": "78726",
             "poster_path": "https://image.tmdb.org/t/p/original//ujIHEzt2EEboVzjQoWZBMYdAt1v.jpg",
             "popularity": 12.312
@@ -125,7 +125,7 @@
         "fields": {
             "title": "7번방의 선물",
             "year": 2013,
-            "userRating": "8.83",
+            "userRating": 8.83,
             "link": "94775",
             "poster_path": "https://image.tmdb.org/t/p/original//c0ukVbk8pGVa7dTY0C40y5mNp4s.jpg",
             "popularity": 19.057
@@ -137,7 +137,7 @@
         "fields": {
             "title": "암살",
             "year": 2015,
-            "userRating": "8.98",
+            "userRating": 8.98,
             "link": "121048",
             "poster_path": "https://image.tmdb.org/t/p/original//2gAym5Oig2NM7k6iu0DwXlxYaGY.jpg",
             "popularity": 18.483
@@ -149,7 +149,7 @@
         "fields": {
             "title": "범죄도시 2",
             "year": 2022,
-            "userRating": "9.32",
+            "userRating": 9.32,
             "link": "192608",
             "poster_path": "https://image.tmdb.org/t/p/original//wxNUnSzuMgsT8DFkZjX9GtfOKJX.jpg",
             "popularity": 177.344
@@ -161,7 +161,7 @@
         "fields": {
             "title": "알라딘",
             "year": 2019,
-            "userRating": "9.38",
+            "userRating": 9.38,
             "link": "163788",
             "poster_path": "https://image.tmdb.org/t/p/original//hvoi0h5hX7cKjatXvbc3gYqT1Xw.jpg",
             "popularity": 79.566
@@ -173,7 +173,7 @@
         "fields": {
             "title": "광해, 왕이 된 남자",
             "year": 2012,
-            "userRating": "9.25",
+            "userRating": 9.25,
             "link": "83893",
             "poster_path": "https://image.tmdb.org/t/p/original//6Pg5AwsJUqeGanGOWcaljQXGe5g.jpg",
             "popularity": 9.305
@@ -185,7 +185,7 @@
         "fields": {
             "title": "왕의 남자",
             "year": 2005,
-            "userRating": "9.04",
+            "userRating": 9.04,
             "link": "39894",
             "poster_path": "https://image.tmdb.org/t/p/original//A8TIGujNG7vDbpFXP1HGe8SNf1Z.jpg",
             "popularity": 5.712
@@ -197,7 +197,7 @@
         "fields": {
             "title": "신과함께-인과 연",
             "year": 2018,
-            "userRating": "7.70",
+            "userRating": 7.7,
             "link": "167697",
             "poster_path": "https://image.tmdb.org/t/p/original//2ETx0U2Q5gUHtPJZiQ3hakTqyaR.jpg",
             "popularity": 230.547
@@ -209,7 +209,7 @@
         "fields": {
             "title": "택시운전사",
             "year": 2017,
-            "userRating": "9.03",
+            "userRating": 9.03,
             "link": "146469",
             "poster_path": "https://image.tmdb.org/t/p/original//pCdx7X5JLaSJZLNVtpryGSdjvvB.jpg",
             "popularity": 15.688
@@ -221,7 +221,7 @@
         "fields": {
             "title": "태극기 휘날리며",
             "year": 2004,
-            "userRating": "9.22",
+            "userRating": 9.22,
             "link": "36666",
             "poster_path": "https://image.tmdb.org/t/p/original//9ZfNS44SZQd13EVUSu0VwEo7y18.jpg",
             "popularity": 39.97
@@ -233,7 +233,7 @@
         "fields": {
             "title": "부산행",
             "year": 2016,
-            "userRating": "8.00",
+            "userRating": 8.0,
             "link": "130966",
             "poster_path": "https://image.tmdb.org/t/p/original//nCrh5EQYiYXEIFNrfb4ISm7TOOo.jpg",
             "popularity": 98.53
@@ -245,7 +245,7 @@
         "fields": {
             "title": "해운대",
             "year": 2009,
-            "userRating": "7.44",
+            "userRating": 7.44,
             "link": "45321",
             "poster_path": "https://image.tmdb.org/t/p/original//b8oI2Gx12Wf51HqkRnKrCuzP5g7.jpg",
             "popularity": 21.215
@@ -257,7 +257,7 @@
         "fields": {
             "title": "변호인",
             "year": 2013,
-            "userRating": "9.00",
+            "userRating": 9.0,
             "link": "101901",
             "poster_path": "https://image.tmdb.org/t/p/original//5tm4Rv24NYdGpuWzA6aF5h1qm0E.jpg",
             "popularity": 7.253
@@ -269,7 +269,7 @@
         "fields": {
             "title": "어벤져스: 인피니티 워",
             "year": 2018,
-            "userRating": "8.97",
+            "userRating": 8.97,
             "link": "136315",
             "poster_path": "https://image.tmdb.org/t/p/original//kmP6viwzcEkZeoi1LaVcQemcvZh.jpg",
             "popularity": 352.705
@@ -281,7 +281,7 @@
         "fields": {
             "title": "실미도",
             "year": 2003,
-            "userRating": "8.38",
+            "userRating": 8.38,
             "link": "34501",
             "poster_path": "https://image.tmdb.org/t/p/original//kE04WevpYUPphWlrTt4Ulz0AalX.jpg",
             "popularity": 8.963
@@ -293,7 +293,7 @@
         "fields": {
             "title": "어벤져스: 에이지 오브 울트론",
             "year": 2015,
-            "userRating": "8.32",
+            "userRating": 8.32,
             "link": "98438",
             "poster_path": "https://image.tmdb.org/t/p/original//sTUiA9zY6O4qFlmRC69nG6dngTh.jpg",
             "popularity": 158.662
@@ -305,7 +305,7 @@
         "fields": {
             "title": "기생충",
             "year": 2019,
-            "userRating": "8.49",
+            "userRating": 8.49,
             "link": "161967",
             "poster_path": "https://image.tmdb.org/t/p/original//jjHccoFjbqlfr4VGLVLT7yek0Xn.jpg",
             "popularity": 66.783
@@ -317,7 +317,7 @@
         "fields": {
             "title": "인터스텔라",
             "year": 2014,
-            "userRating": "9.11",
+            "userRating": 9.11,
             "link": "45290",
             "poster_path": "https://image.tmdb.org/t/p/original//zDNAeWU0PxKolEX1D8Vn1qWhGjH.jpg",
             "popularity": 203.13
@@ -329,7 +329,7 @@
         "fields": {
             "title": "보헤미안 랩소디",
             "year": 2018,
-            "userRating": "9.42",
+            "userRating": 9.42,
             "link": "156464",
             "poster_path": "https://image.tmdb.org/t/p/original//z0lKvIIJGzTBIa22aC0ZhxBxf23.jpg",
             "popularity": 64.839
@@ -341,7 +341,7 @@
         "fields": {
             "title": "검사외전",
             "year": 2016,
-            "userRating": "7.94",
+            "userRating": 7.94,
             "link": "130903",
             "poster_path": "https://image.tmdb.org/t/p/original//mhX0CHQXrwJ6WirIF8G2TqESqdE.jpg",
             "popularity": 8.994
@@ -353,7 +353,7 @@
         "fields": {
             "title": "엑시트",
             "year": 2019,
-            "userRating": "8.31",
+            "userRating": 8.31,
             "link": "174903",
             "poster_path": "https://image.tmdb.org/t/p/original//a3QQOKBvE1zkTm1pmiaUvKJHmak.jpg",
             "popularity": 21.541
@@ -365,7 +365,7 @@
         "fields": {
             "title": "설국열차",
             "year": 2013,
-            "userRating": "7.98",
+            "userRating": 7.98,
             "link": "62328",
             "poster_path": "https://image.tmdb.org/t/p/original//pRZMtKQpP3fH84YXs02yytUk4ee.jpg",
             "popularity": 36.079
@@ -377,7 +377,7 @@
         "fields": {
             "title": "관상",
             "year": 2013,
-            "userRating": "8.02",
+            "userRating": 8.02,
             "link": "93728",
             "poster_path": "https://image.tmdb.org/t/p/original//jtq0Xul1v50s9gvEmbBFk7Tlsa1.jpg",
             "popularity": 6.319
@@ -389,7 +389,7 @@
         "fields": {
             "title": "아이언맨 3",
             "year": 2013,
-            "userRating": "8.86",
+            "userRating": 8.86,
             "link": "70254",
             "poster_path": "https://image.tmdb.org/t/p/original//pGMfidaVkjMVHXNIl7yippnipFT.jpg",
             "popularity": 81.902
@@ -401,7 +401,7 @@
         "fields": {
             "title": "캡틴 아메리카: 시빌 워",
             "year": 2016,
-            "userRating": "8.67",
+            "userRating": 8.67,
             "link": "122527",
             "poster_path": "https://image.tmdb.org/t/p/original//vaMRzME3Dt73robEjOtDw4SPJGA.jpg",
             "popularity": 113.289
@@ -413,7 +413,7 @@
         "fields": {
             "title": "해적: 바다로 간 산적",
             "year": 2014,
-            "userRating": "8.28",
+            "userRating": 8.28,
             "link": "102817",
             "poster_path": "https://image.tmdb.org/t/p/original//yMydhXOFTKPxxFBJiBMKv2JM7sl.jpg",
             "popularity": 10.478
@@ -425,7 +425,7 @@
         "fields": {
             "title": "수상한 그녀",
             "year": 2014,
-            "userRating": "9.01",
+            "userRating": 9.01,
             "link": "107924",
             "poster_path": "https://image.tmdb.org/t/p/original//o6faVmHd1fS0wZBX674TMJmZipJ.jpg",
             "popularity": 11.449
@@ -437,7 +437,7 @@
         "fields": {
             "title": "국가대표",
             "year": 2009,
-            "userRating": "9.13",
+            "userRating": 9.13,
             "link": "47385",
             "poster_path": "https://image.tmdb.org/t/p/original//r9cB8pw7K8Hi3ZejIineIuTyvrJ.jpg",
             "popularity": 3.735
@@ -449,7 +449,7 @@
         "fields": {
             "title": "백두산",
             "year": 2019,
-            "userRating": "5.74",
+            "userRating": 5.74,
             "link": "187940",
             "poster_path": "https://image.tmdb.org/t/p/original//1n5q3XpEhCe7TnGHzsHs5pwVT8O.jpg",
             "popularity": 59.702
@@ -461,7 +461,7 @@
         "fields": {
             "title": "과속스캔들",
             "year": 2008,
-            "userRating": "9.20",
+            "userRating": 9.2,
             "link": "51143",
             "poster_path": "https://image.tmdb.org/t/p/original//oP0EH6AISSygEzbWPoNRRml1tUq.jpg",
             "popularity": 9.454
@@ -473,7 +473,7 @@
         "fields": {
             "title": "탑건: 매버릭",
             "year": 2022,
-            "userRating": "9.76",
+            "userRating": 9.76,
             "link": "81888",
             "poster_path": "https://image.tmdb.org/t/p/original//jeqXUwNilvNqNXqAHsdwm5pEfae.jpg",
             "popularity": 761.054
@@ -485,7 +485,7 @@
         "fields": {
             "title": "스파이더맨: 파 프롬 홈",
             "year": 2019,
-            "userRating": "8.33",
+            "userRating": 8.33,
             "link": "173123",
             "poster_path": "https://image.tmdb.org/t/p/original//742vR63T1AcXzYwHypQpzZd89vh.jpg",
             "popularity": 98.989
@@ -497,7 +497,7 @@
         "fields": {
             "title": "웰컴 투 동막골",
             "year": 2005,
-            "userRating": "8.89",
+            "userRating": 8.89,
             "link": "39405",
             "poster_path": "https://image.tmdb.org/t/p/original//uIkZzrwrA3gubrvnxpAtnA5BO2t.jpg",
             "popularity": 8.802
@@ -509,7 +509,7 @@
         "fields": {
             "title": "공조",
             "year": 2017,
-            "userRating": "8.26",
+            "userRating": 8.26,
             "link": "142384",
             "poster_path": "https://image.tmdb.org/t/p/original//61ZXVq9I2nzC9kcgTga7DYPegeG.jpg",
             "popularity": 13.592
@@ -521,7 +521,7 @@
         "fields": {
             "title": "트랜스포머 3",
             "year": 2011,
-            "userRating": "7.06",
+            "userRating": 7.06,
             "link": "70241",
             "poster_path": "https://image.tmdb.org/t/p/original//wVwFn3I4DPH377ygzN4maXUc4SK.jpg",
             "popularity": 21.108
@@ -533,7 +533,7 @@
         "fields": {
             "title": "히말라야",
             "year": 2015,
-            "userRating": "7.99",
+            "userRating": 7.99,
             "link": "100647",
             "poster_path": "https://image.tmdb.org/t/p/original//z6OWGaPZqpS4Ws5nhgB3MpVlWjr.jpg",
             "popularity": 3.639
@@ -545,7 +545,7 @@
         "fields": {
             "title": "미션임파서블:고스트프로토콜",
             "year": 2011,
-            "userRating": "8.74",
+            "userRating": 8.74,
             "link": "53372",
             "poster_path": "https://image.tmdb.org/t/p/original//tGlxfCFBl0dQZW6QPwH1Jq0fsSY.jpg",
             "popularity": 60.466
@@ -557,7 +557,7 @@
         "fields": {
             "title": "스파이더맨: 노 웨이 홈",
             "year": 2021,
-            "userRating": "8.77",
+            "userRating": 8.77,
             "link": "208077",
             "poster_path": "https://image.tmdb.org/t/p/original//voddFVdjUoAtfoZZp2RUmuZILDI.jpg",
             "popularity": 710.628
@@ -569,7 +569,7 @@
         "fields": {
             "title": "트랜스포머: 패자의 역습",
             "year": 2009,
-            "userRating": "6.62",
+            "userRating": 6.62,
             "link": "77276",
             "poster_path": "https://image.tmdb.org/t/p/original//8KjAaZk5RFqtThSMqxQPGtwJsH7.jpg",
             "popularity": 26.757
@@ -581,7 +581,7 @@
         "fields": {
             "title": "밀정",
             "year": 2016,
-            "userRating": "8.45",
+            "userRating": 8.45,
             "link": "137952",
             "poster_path": "https://image.tmdb.org/t/p/original//3OqkOFlXENLeIMLVBclGejpsaWd.jpg",
             "popularity": 10.727
@@ -593,7 +593,7 @@
         "fields": {
             "title": "최종병기 활",
             "year": 2011,
-            "userRating": "7.86",
+            "userRating": 7.86,
             "link": "83084",
             "poster_path": "https://image.tmdb.org/t/p/original//cFt6SOJZH3ywiP2l6saryXCv8Jl.jpg",
             "popularity": 28.06
@@ -605,7 +605,7 @@
         "fields": {
             "title": "트랜스포머",
             "year": 2007,
-            "userRating": "8.85",
+            "userRating": 8.85,
             "link": "61521",
             "poster_path": "https://image.tmdb.org/t/p/original//1Z4banoiWSexFBHCOjziHGFIIGN.jpg",
             "popularity": 15.409
@@ -617,7 +617,7 @@
         "fields": {
             "title": "써니",
             "year": 2011,
-            "userRating": "9.12",
+            "userRating": 9.12,
             "link": "76016",
             "poster_path": "https://image.tmdb.org/t/p/original//39fhpu9WfpvaEfE6UhuxaS93wOe.jpg",
             "popularity": 7.033
@@ -629,7 +629,7 @@
         "fields": {
             "title": "화려한 휴가",
             "year": 2007,
-            "userRating": "7.54",
+            "userRating": 7.54,
             "link": "58018",
             "poster_path": "https://image.tmdb.org/t/p/original//18GIeoDKcmB6eAf4Kng2VoCjbqp.jpg",
             "popularity": 3.569
@@ -641,7 +641,7 @@
         "fields": {
             "title": "한산: 용의 출현",
             "year": 2022,
-            "userRating": "8.75",
+            "userRating": 8.75,
             "link": "194196",
             "poster_path": "https://image.tmdb.org/t/p/original//iDechwq1Of0gkvfWHSjdPbA4qQq.jpg",
             "popularity": 107.997
@@ -653,7 +653,7 @@
         "fields": {
             "title": 1987,
             "year": 2017,
-            "userRating": "9.23",
+            "userRating": 9.23,
             "link": "158191",
             "poster_path": "https://image.tmdb.org/t/p/original//2ZH1Kj8NhMabTOucP9juxT03Y4Y.jpg",
             "popularity": 14.869
@@ -665,7 +665,7 @@
         "fields": {
             "title": "베를린",
             "year": 2013,
-            "userRating": "7.84",
+            "userRating": 7.84,
             "link": "89218",
             "poster_path": "https://image.tmdb.org/t/p/original//jRcjCpvpZbhtcztNT7xzwq7XcfD.jpg",
             "popularity": 8.506
@@ -677,7 +677,7 @@
         "fields": {
             "title": "마스터",
             "year": 2016,
-            "userRating": "8.11",
+            "userRating": 8.11,
             "link": "145162",
             "poster_path": "https://image.tmdb.org/t/p/original//ebJHlPpLKi4giADhtLhYoV3hV6Q.jpg",
             "popularity": 8.126
@@ -689,7 +689,7 @@
         "fields": {
             "title": "터널",
             "year": 2016,
-            "userRating": "7.66",
+            "userRating": 7.66,
             "link": "153973",
             "poster_path": "https://image.tmdb.org/t/p/original//3NdzKTigenok3nTZcSZjUw7WhVa.jpg",
             "popularity": 16.892
@@ -701,7 +701,7 @@
         "fields": {
             "title": "어벤져스",
             "year": 2012,
-            "userRating": "8.80",
+            "userRating": 8.8,
             "link": "72363",
             "poster_path": "https://image.tmdb.org/t/p/original//1uHRkB2Q00Y4i7I7KNd0jGi4OmY.jpg",
             "popularity": 183.825
@@ -713,7 +713,7 @@
         "fields": {
             "title": "내부자들",
             "year": 2015,
-            "userRating": "9.00",
+            "userRating": 9.0,
             "link": "121788",
             "poster_path": "https://image.tmdb.org/t/p/original//AvMbd9rvH6cpbhXc1YTQsdc9bAh.jpg",
             "popularity": 8.11
@@ -725,7 +725,7 @@
         "fields": {
             "title": "인천상륙작전",
             "year": 2016,
-            "userRating": "8.04",
+            "userRating": 8.04,
             "link": "142822",
             "poster_path": "https://image.tmdb.org/t/p/original//d1aCJ4Ty8pcuZF0YwCIsF1uFw2A.jpg",
             "popularity": 16.457
@@ -737,7 +737,7 @@
         "fields": {
             "title": "럭키",
             "year": 2016,
-            "userRating": "8.46",
+            "userRating": 8.46,
             "link": "140695",
             "poster_path": "https://image.tmdb.org/t/p/original//nesOkYBHXlqCJu1gMNlO6pVQYEt.jpg",
             "popularity": 9.514
@@ -749,7 +749,7 @@
         "fields": {
             "title": "은밀하게 위대하게",
             "year": 2013,
-            "userRating": "7.12",
+            "userRating": 7.12,
             "link": "92575",
             "poster_path": "https://image.tmdb.org/t/p/original//ut4YgWO7DvlvKrrYIEDcLjrTpO6.jpg",
             "popularity": 13.183
@@ -761,7 +761,7 @@
         "fields": {
             "title": "범죄도시",
             "year": 2017,
-            "userRating": "9.15",
+            "userRating": 9.15,
             "link": "161242",
             "poster_path": "https://image.tmdb.org/t/p/original//A5MIbqxuQfQRtzGxg5UUTAxHfsM.jpg",
             "popularity": 33.736
@@ -773,7 +773,7 @@
         "fields": {
             "title": "타짜",
             "year": 2006,
-            "userRating": "9.21",
+            "userRating": 9.21,
             "link": "57723",
             "poster_path": "https://image.tmdb.org/t/p/original//qjCW5nggBaOFy2WhVraE4iSBzP3.jpg",
             "popularity": 4.657
@@ -785,7 +785,7 @@
         "fields": {
             "title": "좋은 놈, 나쁜 놈, 이상한 놈",
             "year": 2008,
-            "userRating": "7.74",
+            "userRating": 7.74,
             "link": "65674",
             "poster_path": "https://image.tmdb.org/t/p/original//inPPsMpQBKfDORKqemLZn8kQDTp.jpg",
             "popularity": 13.338
@@ -797,7 +797,7 @@
         "fields": {
             "title": "늑대소년",
             "year": 2012,
-            "userRating": "8.66",
+            "userRating": 8.66,
             "link": "88253",
             "poster_path": "https://image.tmdb.org/t/p/original//4aQ3yPJCNILHR9SrtBjMmCvn3nG.jpg",
             "popularity": 33.268
@@ -809,7 +809,7 @@
         "fields": {
             "title": "미녀는 괴로워",
             "year": 2006,
-            "userRating": "8.79",
+            "userRating": 8.79,
             "link": "39157",
             "poster_path": "https://image.tmdb.org/t/p/original//hXadaSx1LpT7Hv5dkGWD0SX7z7R.jpg",
             "popularity": 14.325
@@ -821,7 +821,7 @@
         "fields": {
             "title": "군함도",
             "year": 2017,
-            "userRating": "5.30",
+            "userRating": 5.3,
             "link": "146506",
             "poster_path": "https://image.tmdb.org/t/p/original//a4ek39MeLAwbKqmy7XPsz3zQlZE.jpg",
             "popularity": 24.843
@@ -833,7 +833,7 @@
         "fields": {
             "title": "미션 임파서블: 폴아웃",
             "year": 2018,
-            "userRating": "9.12",
+            "userRating": 9.12,
             "link": "154222",
             "poster_path": "https://image.tmdb.org/t/p/original//tKAlw88sEjU5bntbAfdfWcmRx6S.jpg",
             "popularity": 55.112
@@ -845,7 +845,7 @@
         "fields": {
             "title": "다크 나이트 라이즈",
             "year": 2012,
-            "userRating": "9.03",
+            "userRating": 9.03,
             "link": "72054",
             "poster_path": "https://image.tmdb.org/t/p/original//stbZZs3WMPr9rvAT92Qd8gXCUfx.jpg",
             "popularity": 81.497
@@ -857,7 +857,7 @@
         "fields": {
             "title": "아저씨",
             "year": 2010,
-            "userRating": "9.25",
+            "userRating": 9.25,
             "link": "71509",
             "poster_path": "https://image.tmdb.org/t/p/original//14QbjXp8m3LN9l1U4SoBWy441kr.jpg",
             "popularity": 39.989
@@ -869,7 +869,7 @@
         "fields": {
             "title": "사도",
             "year": 2015,
-            "userRating": "8.30",
+            "userRating": 8.3,
             "link": "121922",
             "poster_path": "https://image.tmdb.org/t/p/original//pIK6udUnww0tLE0yxhO6B6ZcaIV.jpg",
             "popularity": 7.574
@@ -881,7 +881,7 @@
         "fields": {
             "title": "전우치",
             "year": 2009,
-            "userRating": "8.21",
+            "userRating": 8.21,
             "link": "48227",
             "poster_path": "https://image.tmdb.org/t/p/original//48QvXMsVeNlEEL55jUixVnX09KS.jpg",
             "popularity": 17.033
@@ -893,7 +893,7 @@
         "fields": {
             "title": "킹스맨 : 시크릿 에이전트",
             "year": 2015,
-            "userRating": "8.82",
+            "userRating": 8.82,
             "link": "114249",
             "poster_path": "https://image.tmdb.org/t/p/original//9trg6xOTadyHOkl5rN5nlLjx4L8.jpg",
             "popularity": 88.758
@@ -905,7 +905,7 @@
         "fields": {
             "title": "미션 임파서블: 로그네이션",
             "year": 2015,
-            "userRating": "8.75",
+            "userRating": 8.75,
             "link": "95541",
             "poster_path": "https://image.tmdb.org/t/p/original//wqHiuRRkjJ8vyjKOm0IjHhyzISy.jpg",
             "popularity": 44.297
@@ -917,7 +917,7 @@
         "fields": {
             "title": "투사부일체",
             "year": 2006,
-            "userRating": "5.64",
+            "userRating": 5.64,
             "link": "41450",
             "poster_path": "https://image.tmdb.org/t/p/original//rBnZFKZ4zsC7cB75IytqoZ05tyI.jpg",
             "popularity": 3.947
@@ -929,7 +929,7 @@
         "fields": {
             "title": "연평해전",
             "year": 2015,
-            "userRating": "9.02",
+            "userRating": 9.02,
             "link": "102272",
             "poster_path": "https://image.tmdb.org/t/p/original//eiK75tIcn8JBi1QnqwBL0CcJtbO.jpg",
             "popularity": 6.75
@@ -941,7 +941,7 @@
         "fields": {
             "title": "반지의 제왕 : 왕의 귀환",
             "year": 2003,
-            "userRating": "9.38",
+            "userRating": 9.38,
             "link": "31796",
             "poster_path": "https://image.tmdb.org/t/p/original//tAXXuEAKLk2mOEIJzwajJQEnVZu.jpg",
             "popularity": 112.816
@@ -953,7 +953,7 @@
         "fields": {
             "title": "인셉션",
             "year": 2010,
-            "userRating": "9.24",
+            "userRating": 9.24,
             "link": "52515",
             "poster_path": "https://image.tmdb.org/t/p/original//jSm8mzp7sucgL8NwINIoAmx4dS5.jpg",
             "popularity": 92.205
@@ -965,7 +965,7 @@
         "fields": {
             "title": "레미제라블",
             "year": 2012,
-            "userRating": "5.33",
+            "userRating": 5.33,
             "link": "97070",
             "poster_path": "https://image.tmdb.org/t/p/original//oIFhwuAZHlD8HUfThtC3FLiCvj4.jpg",
             "popularity": 21.281
@@ -977,7 +977,7 @@
         "fields": {
             "title": "닥터 스트레인지: 대혼돈의 멀티버스",
             "year": 2022,
-            "userRating": "7.22",
+            "userRating": 7.22,
             "link": "182016",
             "poster_path": "https://image.tmdb.org/t/p/original//vL5ktZauR0fZMDOHKjakb1idhuU.jpg",
             "popularity": 529.11
@@ -989,7 +989,7 @@
         "fields": {
             "title": "쉬리",
             "year": 1999,
-            "userRating": "8.89",
+            "userRating": 8.89,
             "link": "19500",
             "poster_path": "https://image.tmdb.org/t/p/original//qkyD0R4petExAKgKIJWNLGNNp0n.jpg",
             "popularity": 9.62
@@ -1001,7 +1001,7 @@
         "fields": {
             "title": "캡틴 마블",
             "year": 2019,
-            "userRating": "6.75",
+            "userRating": 6.75,
             "link": "132623",
             "poster_path": "https://image.tmdb.org/t/p/original//2JO8X8aT97BwxMMGr9ChrCl4xGQ.jpg",
             "popularity": 80.887
@@ -1013,7 +1013,7 @@
         "fields": {
             "title": "미션 임파서블 3",
             "year": 2006,
-            "userRating": "8.83",
+            "userRating": 8.83,
             "link": "43153",
             "poster_path": "https://image.tmdb.org/t/p/original//oFCEne3jjBc3Gx7xhAZic3Vdpn6.jpg",
             "popularity": 32.719
@@ -1025,7 +1025,7 @@
         "fields": {
             "title": "쥬라기 월드: 폴른 킹덤",
             "year": 2018,
-            "userRating": "8.00",
+            "userRating": 8.0,
             "link": "154285",
             "poster_path": "https://image.tmdb.org/t/p/original//xR2VgpNxElFOJBul0q7ULiT0ayF.jpg",
             "popularity": 72.447
@@ -1037,7 +1037,7 @@
         "fields": {
             "title": "청년경찰",
             "year": 2017,
-            "userRating": "8.27",
+            "userRating": 8.27,
             "link": "153652",
             "poster_path": "https://image.tmdb.org/t/p/original//q80MQrVj8NivteUXd3PHbVsaeAY.jpg",
             "popularity": 11.327
@@ -1049,7 +1049,7 @@
         "fields": {
             "title": "숨바꼭질",
             "year": 2013,
-            "userRating": "6.94",
+            "userRating": 6.94,
             "link": "106270",
             "poster_path": "https://image.tmdb.org/t/p/original//x34kHTmHDj2ZJleo3Q2u578wBsZ.jpg",
             "popularity": 6.926
@@ -1061,7 +1061,7 @@
         "fields": {
             "title": "덕혜옹주",
             "year": 2016,
-            "userRating": "8.35",
+            "userRating": 8.35,
             "link": "94767",
             "poster_path": "https://image.tmdb.org/t/p/original//x2O5VWZwP5aYByrw6OaHhnvxBMr.jpg",
             "popularity": 16.1
@@ -1073,7 +1073,7 @@
         "fields": {
             "title": "더 테러 라이브",
             "year": 2013,
-            "userRating": "8.30",
+            "userRating": 8.3,
             "link": "99794",
             "poster_path": "https://image.tmdb.org/t/p/original//xNbw86fuv5HMtZ3MLlwfdIeUAE5.jpg",
             "popularity": 8.501
@@ -1085,7 +1085,7 @@
         "fields": {
             "title": "쥬라기 월드",
             "year": 2015,
-            "userRating": "7.89",
+            "userRating": 7.89,
             "link": "67786",
             "poster_path": "https://image.tmdb.org/t/p/original//79ZYT0xRBzXN7DviSL2goTu49FZ.jpg",
             "popularity": 79.821
@@ -1097,7 +1097,7 @@
         "fields": {
             "title": "감시자들",
             "year": 2013,
-            "userRating": "7.76",
+            "userRating": 7.76,
             "link": "98146",
             "poster_path": "https://image.tmdb.org/t/p/original//2iZbCv0XJGaPwZTTF7atEosAxRR.jpg",
             "popularity": 20.446
@@ -1109,7 +1109,7 @@
         "fields": {
             "title": "의형제",
             "year": 2010,
-            "userRating": "8.87",
+            "userRating": 8.87,
             "link": "52548",
             "poster_path": "https://image.tmdb.org/t/p/original//mgHYCmfmFnnKCbrR42hZTNbeq4n.jpg",
             "popularity": 7.48
@@ -1121,7 +1121,7 @@
         "fields": {
             "title": 2012,
             "year": 2009,
-            "userRating": "7.60",
+            "userRating": 7.6,
             "link": "49727",
             "poster_path": "https://image.tmdb.org/t/p/original//kdyhLTaforuBk0CjnACiMXuj7zd.jpg",
             "popularity": 92.125
@@ -1133,7 +1133,7 @@
         "fields": {
             "title": "앤트맨과 와스프",
             "year": 2018,
-            "userRating": "8.62",
+            "userRating": 8.62,
             "link": "144330",
             "poster_path": "https://image.tmdb.org/t/p/original//3E6b73EeYqY7PGJNJWjR9AANXVw.jpg",
             "popularity": 54.023
@@ -1145,7 +1145,7 @@
         "fields": {
             "title": "닥터 스트레인지",
             "year": 2016,
-            "userRating": "8.72",
+            "userRating": 8.72,
             "link": "125459",
             "poster_path": "https://image.tmdb.org/t/p/original//xA7ic72L0mejJX1SYMU38F7wwiF.jpg",
             "popularity": 95.952
@@ -1157,7 +1157,7 @@
         "fields": {
             "title": "검은 사제들",
             "year": 2015,
-            "userRating": "8.33",
+            "userRating": 8.33,
             "link": "120157",
             "poster_path": "https://image.tmdb.org/t/p/original//3zYZ5hZUNHwgObdqbDYlS8l24FE.jpg",
             "popularity": 6.47
@@ -1169,7 +1169,7 @@
         "fields": {
             "title": "안시성",
             "year": 2018,
-            "userRating": "7.99",
+            "userRating": 7.99,
             "link": "163533",
             "poster_path": "https://image.tmdb.org/t/p/original//buZA2PJAIHxDBby6vYGgvcYpaxH.jpg",
             "popularity": 17.94
@@ -1181,7 +1181,7 @@
         "fields": {
             "title": "블랙 팬서",
             "year": 2018,
-            "userRating": "7.51",
+            "userRating": 7.51,
             "link": "137326",
             "poster_path": "https://image.tmdb.org/t/p/original//iRkknrX0rRxZHSL79W2Rax0EFsL.jpg",
             "popularity": 608.726
@@ -1193,7 +1193,7 @@
         "fields": {
             "title": "더 킹",
             "year": 2017,
-            "userRating": "8.09",
+            "userRating": 8.09,
             "link": "144314",
             "poster_path": "https://image.tmdb.org/t/p/original//mNC4JtrcGxuWoU6yK5d6rCUI1an.jpg",
             "popularity": 6.398
@@ -1205,7 +1205,7 @@
         "fields": {
             "title": "완득이",
             "year": 2011,
-            "userRating": "8.80",
+            "userRating": 8.8,
             "link": "80866",
             "poster_path": "https://image.tmdb.org/t/p/original//f9ycej2SvjdAgIrVCi5u4JudnhP.jpg",
             "popularity": 3.989
@@ -1217,7 +1217,7 @@
         "fields": {
             "title": "트랜스포머: 사라진 시대",
             "year": 2014,
-            "userRating": "6.58",
+            "userRating": 6.58,
             "link": "100691",
             "poster_path": "https://image.tmdb.org/t/p/original//zPbiUwVSToxgQHMAbuzint09fHf.jpg",
             "popularity": 86.463
@@ -1229,7 +1229,7 @@
         "fields": {
             "title": "완벽한 타인",
             "year": 2018,
-            "userRating": "8.61",
+            "userRating": 8.61,
             "link": "167638",
             "poster_path": "https://image.tmdb.org/t/p/original//9lhxidWwP7iIyw1Zax9gUtdFZXT.jpg",
             "popularity": 3.196
@@ -1241,7 +1241,7 @@
         "fields": {
             "title": "살인의 추억",
             "year": 2003,
-            "userRating": "9.41",
+            "userRating": 9.41,
             "link": "35901",
             "poster_path": "https://image.tmdb.org/t/p/original//sujAihJHmNMfeMNQ004KYIPvrGA.jpg",
             "popularity": 26.527
@@ -1253,7 +1253,7 @@
         "fields": {
             "title": "조커",
             "year": 2019,
-            "userRating": "8.66",
+            "userRating": 8.66,
             "link": "167613",
             "poster_path": "https://image.tmdb.org/t/p/original//wrCwH6WOvXQvVuqcKNUrLDCDxdw.jpg",
             "popularity": 106.574
@@ -1265,7 +1265,7 @@
         "fields": {
             "title": "월드 워 Z",
             "year": 2013,
-            "userRating": "8.24",
+            "userRating": 8.24,
             "link": "51777",
             "poster_path": "https://image.tmdb.org/t/p/original//m7XV4mnSGh6esBZwQyLlfEtRMiB.jpg",
             "popularity": 119.211
@@ -1277,7 +1277,7 @@
         "fields": {
             "title": "타워",
             "year": 2012,
-            "userRating": "7.29",
+            "userRating": 7.29,
             "link": "98705",
             "poster_path": "https://image.tmdb.org/t/p/original//3CgvLrylM3RmjRmZXyb6B4AXtj2.jpg",
             "popularity": 11.813
@@ -1289,7 +1289,7 @@
         "fields": {
             "title": "말아톤",
             "year": 2005,
-            "userRating": "9.24",
+            "userRating": 9.24,
             "link": "39436",
             "poster_path": "https://image.tmdb.org/t/p/original//acR9ItVZ1vgWClcCUiYtSFdvkkD.jpg",
             "popularity": 3.489
@@ -1301,7 +1301,7 @@
         "fields": {
             "title": "미녀와 야수",
             "year": 2017,
-            "userRating": "8.78",
+            "userRating": 8.78,
             "link": "136872",
             "poster_path": "https://image.tmdb.org/t/p/original//tzYsKo6wGoBrP51eL9wDzfDP6Vx.jpg",
             "popularity": 80.056
@@ -1313,7 +1313,7 @@
         "fields": {
             "title": "추격자",
             "year": 2008,
-            "userRating": "9.09",
+            "userRating": 9.09,
             "link": "68695",
             "poster_path": "https://image.tmdb.org/t/p/original//4bWVILPrb7gaqwA2j6xIcg4Ak3D.jpg",
             "popularity": 15.273
@@ -1325,7 +1325,7 @@
         "fields": {
             "title": "독전",
             "year": 2018,
-            "userRating": "7.53",
+            "userRating": 7.53,
             "link": "158178",
             "poster_path": "https://image.tmdb.org/t/p/original//dOVLy8K0hBFsxW2whcuTDPWrdlZ.jpg",
             "popularity": 10.851
@@ -1337,7 +1337,7 @@
         "fields": {
             "title": "쿵푸팬더 2",
             "year": 2011,
-            "userRating": "8.71",
+            "userRating": 8.71,
             "link": "73411",
             "poster_path": "https://image.tmdb.org/t/p/original//bPocc0TkmgENeBcreGSq3nNiEB7.jpg",
             "popularity": 64.847
@@ -1349,7 +1349,7 @@
         "fields": {
             "title": "아쿠아맨",
             "year": 2018,
-            "userRating": "8.36",
+            "userRating": 8.36,
             "link": "151153",
             "poster_path": "https://image.tmdb.org/t/p/original//5tetypC0S7BwpBk1ZG36wExvNYj.jpg",
             "popularity": 69.592
@@ -1361,7 +1361,7 @@
         "fields": {
             "title": "공작",
             "year": 2018,
-            "userRating": "6.84",
+            "userRating": 6.84,
             "link": "153687",
             "poster_path": "https://image.tmdb.org/t/p/original//uTiYfP9ESTHl1tHw2VJzqdxEtvF.jpg",
             "popularity": 9.634
@@ -1373,7 +1373,7 @@
         "fields": {
             "title": "인사이드 아웃",
             "year": 2015,
-            "userRating": "9.09",
+            "userRating": 9.09,
             "link": "115622",
             "poster_path": "https://image.tmdb.org/t/p/original//qVdrpBY920kKikUmPm89wig60Kd.jpg",
             "popularity": 174.018
@@ -1385,7 +1385,7 @@
         "fields": {
             "title": "킹스맨: 골든 서클",
             "year": 2017,
-            "userRating": "8.36",
+            "userRating": 8.36,
             "link": "149747",
             "poster_path": "https://image.tmdb.org/t/p/original//rn7A2OipBl2560Nq3sUXPnFfhhu.jpg",
             "popularity": 69.04
@@ -1397,7 +1397,7 @@
         "fields": {
             "title": "동갑내기 과외하기",
             "year": 2003,
-            "userRating": "7.88",
+            "userRating": 7.88,
             "link": "35938",
             "poster_path": "https://image.tmdb.org/t/p/original//9MerPDkd32Xc8tw7pEhizPqSqzX.jpg",
             "popularity": 7.923
@@ -1409,7 +1409,7 @@
         "fields": {
             "title": "스파이더맨 3",
             "year": 2007,
-            "userRating": "7.46",
+            "userRating": 7.46,
             "link": "43157",
             "poster_path": "https://image.tmdb.org/t/p/original//tbPLMa0cZ4bUnyCYD0loAJeoz2H.jpg",
             "popularity": 74.296
@@ -1421,7 +1421,7 @@
         "fields": {
             "title": "바람과 함께 사라지다",
             "year": 2012,
-            "userRating": "7.59",
+            "userRating": 7.59,
             "link": "86888",
             "poster_path": "https://image.tmdb.org/t/p/original//udgtiu6Ke8Y1o0aSIxxad1GqqY6.jpg",
             "popularity": 3.09
@@ -1433,7 +1433,7 @@
         "fields": {
             "title": "마션",
             "year": 2015,
-            "userRating": "8.43",
+            "userRating": 8.43,
             "link": "129049",
             "poster_path": "https://image.tmdb.org/t/p/original//uH8q40cjMAjrRHyPJMbQwAIJATb.jpg",
             "popularity": 55.084
@@ -1445,7 +1445,7 @@
         "fields": {
             "title": "토르: 라그나로크",
             "year": 2017,
-            "userRating": "8.85",
+            "userRating": 8.85,
             "link": "134898",
             "poster_path": "https://image.tmdb.org/t/p/original//jwswXltzpGaKZCtz1CiDjXHQYAs.jpg",
             "popularity": 107.924
@@ -1457,7 +1457,7 @@
         "fields": {
             "title": "어메이징 스파이더맨",
             "year": 2012,
-            "userRating": "7.77",
+            "userRating": 7.77,
             "link": "66823",
             "poster_path": "https://image.tmdb.org/t/p/original//egsgKNPmMahQgNhmmYxiMVbLPrC.jpg",
             "popularity": 105.271
@@ -1469,7 +1469,7 @@
         "fields": {
             "title": "님아, 그 강을 건너지 마오",
             "year": 2014,
-            "userRating": "9.24",
+            "userRating": 9.24,
             "link": "130013",
             "poster_path": "https://image.tmdb.org/t/p/original//iOZvpm5CmhDOWMzwDrBw2XdTPu8.jpg",
             "popularity": 1.49
@@ -1481,7 +1481,7 @@
         "fields": {
             "title": "봉오동 전투",
             "year": 2019,
-            "userRating": "7.97",
+            "userRating": 7.97,
             "link": "178526",
             "poster_path": "https://image.tmdb.org/t/p/original//4ownGujuWMvBoVDJa9kX4Pb1X80.jpg",
             "popularity": 13.638
@@ -1493,7 +1493,7 @@
         "fields": {
             "title": "조선명탐정 : 각시투구꽃의 비밀",
             "year": 2011,
-            "userRating": "8.12",
+            "userRating": 8.12,
             "link": "76080",
             "poster_path": "https://image.tmdb.org/t/p/original//dY2gXsV1fbZXXto74tBfMQpA355.jpg",
             "popularity": 3.996
@@ -1505,7 +1505,7 @@
         "fields": {
             "title": "군도: 민란의 시대",
             "year": 2014,
-            "userRating": "6.94",
+            "userRating": 6.94,
             "link": "99752",
             "poster_path": "https://image.tmdb.org/t/p/original//dGEHXP4j8CNvPWJybdKv2YPhlWB.jpg",
             "popularity": 9.481
@@ -1517,7 +1517,7 @@
         "fields": {
             "title": "남산의 부장들",
             "year": 2020,
-            "userRating": "7.47",
+            "userRating": 7.47,
             "link": "176306",
             "poster_path": "https://image.tmdb.org/t/p/original//eUMI51eeUxpS6wDNJoPEncAI9q5.jpg",
             "popularity": 8.324
@@ -1529,7 +1529,7 @@
         "fields": {
             "title": "라이온 킹",
             "year": 2019,
-            "userRating": "8.27",
+            "userRating": 8.27,
             "link": "169637",
             "poster_path": "https://image.tmdb.org/t/p/original//mOR24P4tXgcT3cjzPs7Ca0wog7X.jpg",
             "popularity": 104.279
@@ -1541,7 +1541,7 @@
         "fields": {
             "title": "범죄와의 전쟁: 나쁜놈들 전성시대",
             "year": 2012,
-            "userRating": "8.66",
+            "userRating": 8.66,
             "link": "82540",
             "poster_path": "https://image.tmdb.org/t/p/original//4tJYmvn7VgDsrAYHgB3qebVWTut.jpg",
             "popularity": 12.32
@@ -1553,7 +1553,7 @@
         "fields": {
             "title": "주토피아",
             "year": 2016,
-            "userRating": "9.36",
+            "userRating": 9.36,
             "link": "130850",
             "poster_path": "https://image.tmdb.org/t/p/original//fZcab1yiKXsjx3S8D4KRHZsnMGC.jpg",
             "popularity": 251.212
@@ -1565,7 +1565,7 @@
         "fields": {
             "title": "엣지 오브 투모로우",
             "year": 2014,
-            "userRating": "8.96",
+            "userRating": 8.96,
             "link": "90589",
             "poster_path": "https://image.tmdb.org/t/p/original//pvcYnXHvtUB8cFf5edSo9Vnq8GZ.jpg",
             "popularity": 54.387
@@ -1577,7 +1577,7 @@
         "fields": {
             "title": "신세계",
             "year": 2013,
-            "userRating": "8.94",
+            "userRating": 8.94,
             "link": "91031",
             "poster_path": "https://image.tmdb.org/t/p/original//yiDQaLGF6hXVdiKodfdurUcgxWV.jpg",
             "popularity": 11.075
@@ -1589,7 +1589,7 @@
         "fields": {
             "title": "쿵푸 팬더",
             "year": 2008,
-            "userRating": "9.02",
+            "userRating": 9.02,
             "link": "62262",
             "poster_path": "https://image.tmdb.org/t/p/original//c3Dzd3A3QE0LkKb5HMOHTzs2Fyg.jpg",
             "popularity": 85.186
@@ -1601,7 +1601,7 @@
         "fields": {
             "title": "신비한 동물사전",
             "year": 2016,
-            "userRating": "8.18",
+            "userRating": 8.18,
             "link": "115642",
             "poster_path": "https://image.tmdb.org/t/p/original//1HHH1YR2UL5JLkrsbO6gfcg0gna.jpg",
             "popularity": 69.151
@@ -1613,7 +1613,7 @@
         "fields": {
             "title": "도가니",
             "year": 2011,
-            "userRating": "9.27",
+            "userRating": 9.27,
             "link": "75413",
             "poster_path": "https://image.tmdb.org/t/p/original//p6VHOM2GuMe5MJXagoIZLy4UGXg.jpg",
             "popularity": 19.665
@@ -1625,7 +1625,7 @@
         "fields": {
             "title": "내 아내의 모든 것",
             "year": 2012,
-            "userRating": "8.59",
+            "userRating": 8.59,
             "link": "89606",
             "poster_path": "https://image.tmdb.org/t/p/original//mNS9UU8sAhBaffVVU9vPNs4MxvY.jpg",
             "popularity": 6.393
@@ -1637,7 +1637,7 @@
         "fields": {
             "title": "판도라",
             "year": 2016,
-            "userRating": "8.20",
+            "userRating": 8.2,
             "link": "132933",
             "poster_path": "https://image.tmdb.org/t/p/original//a1OakqMoPYvSCBFPc6F8nhI2qu.jpg",
             "popularity": 22.388
@@ -1649,7 +1649,7 @@
         "fields": {
             "title": "나쁜 녀석들: 더 무비",
             "year": 2019,
-            "userRating": "6.42",
+            "userRating": 6.42,
             "link": "177909",
             "poster_path": "https://image.tmdb.org/t/p/original//m8jIFKcZK8MiEf79O8f3BrI5IUz.jpg",
             "popularity": 14.64
@@ -1661,7 +1661,7 @@
         "fields": {
             "title": "연가시",
             "year": 2012,
-            "userRating": "7.16",
+            "userRating": 7.16,
             "link": "88225",
             "poster_path": "https://image.tmdb.org/t/p/original//xslL2LAldqXNs2k6ym8GTmWABqd.jpg",
             "popularity": 9.243
@@ -1673,7 +1673,7 @@
         "fields": {
             "title": "아이언맨 2",
             "year": 2010,
-            "userRating": "7.37",
+            "userRating": 7.37,
             "link": "49008",
             "poster_path": "https://image.tmdb.org/t/p/original//7rUFYRfYV6c4yXiKBvKWOCRjimc.jpg",
             "popularity": 181.686
@@ -1685,7 +1685,7 @@
         "fields": {
             "title": "강철비",
             "year": 2017,
-            "userRating": "8.33",
+            "userRating": 8.33,
             "link": "155665",
             "poster_path": "https://image.tmdb.org/t/p/original//pC3Mcz2TPuXIkTrd8bolUgBm9GV.jpg",
             "popularity": 9.694
@@ -1697,7 +1697,7 @@
         "fields": {
             "title": "다만 악에서 구하소서",
             "year": 2020,
-            "userRating": "7.61",
+            "userRating": 7.61,
             "link": "189069",
             "poster_path": "https://image.tmdb.org/t/p/original//xYnL0kA0V7aDvg8wupmWQbdgb9a.jpg",
             "popularity": 9.652
@@ -1709,7 +1709,7 @@
         "fields": {
             "title": "헌트",
             "year": 2022,
-            "userRating": "8.37",
+            "userRating": 8.37,
             "link": "195758",
             "poster_path": "https://image.tmdb.org/t/p/original//zI0rMYcSUx16pHnsegWExPf1kDF.jpg",
             "popularity": 16.415
@@ -1721,7 +1721,7 @@
         "fields": {
             "title": "아이언맨",
             "year": 2008,
-            "userRating": "8.93",
+            "userRating": 8.93,
             "link": "44885",
             "poster_path": "https://image.tmdb.org/t/p/original//318YNPBDdt4VU1nsJDdImGc8Gek.jpg",
             "popularity": 105.459
@@ -1733,7 +1733,7 @@
         "fields": {
             "title": "엑스맨: 데이즈 오브 퓨처 패스트",
             "year": 2014,
-            "userRating": "8.89",
+            "userRating": 8.89,
             "link": "99714",
             "poster_path": "https://image.tmdb.org/t/p/original//zm5zanw86TX2T7qJNTKilL3x3S8.jpg",
             "popularity": 68.156
@@ -1745,7 +1745,7 @@
         "fields": {
             "title": "강철중: 공공의 적 1-1",
             "year": 2008,
-            "userRating": "8.53",
+            "userRating": 8.53,
             "link": "68217",
             "poster_path": "https://image.tmdb.org/t/p/original//aBoBQRGUuCCX4bixhUSDueAprhX.jpg",
             "popularity": 4.269
@@ -1757,7 +1757,7 @@
         "fields": {
             "title": "아가씨",
             "year": 2016,
-            "userRating": "7.16",
+            "userRating": 7.16,
             "link": "123519",
             "poster_path": "https://image.tmdb.org/t/p/original//aoLarnDg8SmuIzax6mp0nAQ6bcV.jpg",
             "popularity": 43.202
@@ -1769,7 +1769,7 @@
         "fields": {
             "title": "킹콩",
             "year": 2005,
-            "userRating": "8.97",
+            "userRating": 8.97,
             "link": "38097",
             "poster_path": "https://image.tmdb.org/t/p/original//fpYQjW9w0GlZxVS2fe3m7tDixzU.jpg",
             "popularity": 44.945
@@ -1781,7 +1781,7 @@
         "fields": {
             "title": "어메이징 스파이더맨 2",
             "year": 2014,
-            "userRating": "7.77",
+            "userRating": 7.77,
             "link": "94187",
             "poster_path": "https://image.tmdb.org/t/p/original//qcK4RLIQc2UxdYaaj7jFJwmxBkP.jpg",
             "popularity": 94.184
@@ -1793,7 +1793,7 @@
         "fields": {
             "title": "용의자",
             "year": 2013,
-            "userRating": "8.39",
+            "userRating": 8.39,
             "link": "93028",
             "poster_path": "https://image.tmdb.org/t/p/original//mDGQPbOBWMAFe0vAcXxo0mnMC14.jpg",
             "popularity": 7.841
@@ -1805,7 +1805,7 @@
         "fields": {
             "title": "건축학개론",
             "year": 2012,
-            "userRating": "8.68",
+            "userRating": 8.68,
             "link": "88426",
             "poster_path": "https://image.tmdb.org/t/p/original//6ChBkMt5fwYPtKvbtq8irLfuKHc.jpg",
             "popularity": 11.097
@@ -1817,7 +1817,7 @@
         "fields": {
             "title": "태풍",
             "year": 2005,
-            "userRating": "6.12",
+            "userRating": 6.12,
             "link": "39625",
             "poster_path": "https://image.tmdb.org/t/p/original//mQwFlSJgBRIcbu8StqnBlPWdaPx.jpg",
             "popularity": 5.778
@@ -1829,7 +1829,7 @@
         "fields": {
             "title": "미이라 3:황제의 무덤",
             "year": 2008,
-            "userRating": "5.65",
+            "userRating": 5.65,
             "link": "66569",
             "poster_path": "https://image.tmdb.org/t/p/original//6ZnbNShjP8Syaq3nZmoSJOOvxZs.jpg",
             "popularity": 37.875
@@ -1841,7 +1841,7 @@
         "fields": {
             "title": "7급 공무원",
             "year": 2009,
-            "userRating": "8.28",
+            "userRating": 8.28,
             "link": "51082",
             "poster_path": "https://image.tmdb.org/t/p/original//78Vin0vhu8HJKJCQIPSuynpceun.jpg",
             "popularity": 8.832
@@ -1853,7 +1853,7 @@
         "fields": {
             "title": "다크 나이트",
             "year": 2008,
-            "userRating": "9.34",
+            "userRating": 9.34,
             "link": "62586",
             "poster_path": "https://image.tmdb.org/t/p/original//f6dNinWX8rBM79JXKcShkfSh2oA.jpg",
             "popularity": 79.96
@@ -1865,7 +1865,7 @@
         "fields": {
             "title": "색즉시공",
             "year": 2002,
-            "userRating": "7.34",
+            "userRating": 7.34,
             "link": "35778",
             "poster_path": "https://image.tmdb.org/t/p/original//eRCd4nqD3i4tAzIVeyd1zTNiRPD.jpg",
             "popularity": 29.179
@@ -1877,7 +1877,7 @@
         "fields": {
             "title": "댄싱퀸",
             "year": 2012,
-            "userRating": "8.87",
+            "userRating": 8.87,
             "link": "83268",
             "poster_path": "https://image.tmdb.org/t/p/original//t0TmIy5LfKvU6qDoBXPTvvQm4oM.jpg",
             "popularity": 2.7
@@ -1889,7 +1889,7 @@
         "fields": {
             "title": "우리 생애 최고의 순간",
             "year": 2008,
-            "userRating": "8.57",
+            "userRating": 8.57,
             "link": "65991",
             "poster_path": "https://image.tmdb.org/t/p/original//lnS3epvuzuUeYXOTZ0xb3pDZvPx.jpg",
             "popularity": 2.099
@@ -1901,7 +1901,7 @@
         "fields": {
             "title": "꾼",
             "year": 2017,
-            "userRating": "7.63",
+            "userRating": 7.63,
             "link": "152385",
             "poster_path": "https://image.tmdb.org/t/p/original//gsNBN2EGfC9Ghpu7igloiIuzrCA.jpg",
             "popularity": 5.478
@@ -1913,7 +1913,7 @@
         "fields": {
             "title": "혹성탈출: 반격의 서막",
             "year": 2014,
-            "userRating": "8.54",
+            "userRating": 8.54,
             "link": "99740",
             "poster_path": "https://image.tmdb.org/t/p/original//39kIGCP0mvRc9IZC1oJuIaJOaAb.jpg",
             "popularity": 81.464
@@ -1925,7 +1925,7 @@
         "fields": {
             "title": "해리포터와 비밀의 방",
             "year": 2002,
-            "userRating": "8.90",
+            "userRating": 8.9,
             "link": "33930",
             "poster_path": "https://image.tmdb.org/t/p/original//sfs4U6XpiKFngbbSzrpZbkM1ySI.jpg",
             "popularity": 273.846
@@ -1937,7 +1937,7 @@
         "fields": {
             "title": "쿵푸팬더3",
             "year": 2016,
-            "userRating": "8.63",
+            "userRating": 8.63,
             "link": "97692",
             "poster_path": "https://image.tmdb.org/t/p/original//vMaqgPgMhO1XvwzoEAurUKVQJNV.jpg",
             "popularity": 64.042
@@ -1949,7 +1949,7 @@
         "fields": {
             "title": "캡틴 아메리카: 윈터 솔져",
             "year": 2014,
-            "userRating": "8.93",
+            "userRating": 8.93,
             "link": "96327",
             "poster_path": "https://image.tmdb.org/t/p/original//zcSTD8KeGeGDwlrZTq23RN4B6sP.jpg",
             "popularity": 52.134
@@ -1961,7 +1961,7 @@
         "fields": {
             "title": "공공의 적 2",
             "year": 2005,
-            "userRating": "7.48",
+            "userRating": 7.48,
             "link": "39482",
             "poster_path": "https://image.tmdb.org/t/p/original//tIo8sfUGB3YzuXCZcHNGVAaabGG.jpg",
             "popularity": 2.994
@@ -1973,7 +1973,7 @@
         "fields": {
             "title": "박수건달",
             "year": 2013,
-            "userRating": "8.12",
+            "userRating": 8.12,
             "link": "91073",
             "poster_path": "https://image.tmdb.org/t/p/original//9NfnFEzUvayN9fEK0DixKr3ipEh.jpg",
             "popularity": 2.313
@@ -1985,7 +1985,7 @@
         "fields": {
             "title": "베놈",
             "year": 2018,
-            "userRating": "7.91",
+            "userRating": 7.91,
             "link": "119428",
             "poster_path": "https://image.tmdb.org/t/p/original//x4ojC59pYfPlAP4mmy2LSkCCuK2.jpg",
             "popularity": 94.462
@@ -1997,7 +1997,7 @@
         "fields": {
             "title": "한반도",
             "year": 2006,
-            "userRating": "6.36",
+            "userRating": 6.36,
             "link": "41705",
             "poster_path": "https://image.tmdb.org/t/p/original//evt7raNXRTNobsq4gXmbRAYwNyV.jpg",
             "popularity": 2.758
@@ -2009,7 +2009,7 @@
         "fields": {
             "title": "조선명탐정 : 사라진 놉의 딸",
             "year": 2015,
-            "userRating": "7.68",
+            "userRating": 7.68,
             "link": "123596",
             "poster_path": "https://image.tmdb.org/t/p/original//92J1XLRn2TVBJT1KosWvSlOMmqi.jpg",
             "popularity": 4.073
@@ -2021,7 +2021,7 @@
         "fields": {
             "title": "트로이",
             "year": 2004,
-            "userRating": "8.65",
+            "userRating": 8.65,
             "link": "37742",
             "poster_path": "https://image.tmdb.org/t/p/original//1TsdNMKodmOKyo4xPacxq7opo3p.jpg",
             "popularity": 53.473
@@ -2033,7 +2033,7 @@
         "fields": {
             "title": "역린",
             "year": 2014,
-            "userRating": "7.10",
+            "userRating": 7.1,
             "link": "108225",
             "poster_path": "https://image.tmdb.org/t/p/original//yez6mPmyiqs8Vqk2Bbghbmh8cRG.jpg",
             "popularity": 4.486
@@ -2045,7 +2045,7 @@
         "fields": {
             "title": "남한산성",
             "year": 2017,
-            "userRating": "8.11",
+            "userRating": 8.11,
             "link": "150637",
             "poster_path": "https://image.tmdb.org/t/p/original//iqvpNbgNuEnZfuuOsAIQWjdnLSZ.jpg",
             "popularity": 9.362
@@ -2057,7 +2057,7 @@
         "fields": {
             "title": "매드 맥스: 분노의 도로",
             "year": 2015,
-            "userRating": "8.81",
+            "userRating": 8.81,
             "link": "77768",
             "poster_path": "https://image.tmdb.org/t/p/original//cadVm6gKYYukmPysHGCwrawUHHa.jpg",
             "popularity": 81.193
@@ -2069,7 +2069,7 @@
         "fields": {
             "title": "반도",
             "year": 2020,
-            "userRating": "5.62",
+            "userRating": 5.62,
             "link": "185917",
             "poster_path": "https://image.tmdb.org/t/p/original//gqRUcdZ7gBrC89PbqYWgJ0XCH7E.jpg",
             "popularity": 57.749
@@ -2081,7 +2081,7 @@
         "fields": {
             "title": "암수살인",
             "year": 2018,
-            "userRating": "8.33",
+            "userRating": 8.33,
             "link": "167105",
             "poster_path": "https://image.tmdb.org/t/p/original//j2DhCOOfTv3xCLELreArzea9tRJ.jpg",
             "popularity": 6.169
@@ -2093,7 +2093,7 @@
         "fields": {
             "title": "데드풀 2",
             "year": 2018,
-            "userRating": "8.69",
+            "userRating": 8.69,
             "link": "149236",
             "poster_path": "https://image.tmdb.org/t/p/original//kDiOsE2FqZC26ScZDGdkkmlhZGJ.jpg",
             "popularity": 131.297
@@ -2105,7 +2105,7 @@
         "fields": {
             "title": "쌍화점",
             "year": 2008,
-            "userRating": "7.27",
+            "userRating": 7.27,
             "link": "45232",
             "poster_path": "https://image.tmdb.org/t/p/original//vu9PrY7MEmDInys0w92cYCDI8XJ.jpg",
             "popularity": 19.174
@@ -2117,7 +2117,7 @@
         "fields": {
             "title": "국가부도의 날",
             "year": 2018,
-            "userRating": "8.12",
+            "userRating": 8.12,
             "link": "164192",
             "poster_path": "https://image.tmdb.org/t/p/original//mJ6RDkZwBl94gcNSOsEm66ZYn91.jpg",
             "popularity": 7.134
@@ -2129,7 +2129,7 @@
         "fields": {
             "title": "신기전",
             "year": 2008,
-            "userRating": "8.28",
+            "userRating": 8.28,
             "link": "63824",
             "poster_path": "https://image.tmdb.org/t/p/original//71FIhikXNfH0fQ8UqV2dC0XKsNO.jpg",
             "popularity": 3.139
@@ -2141,7 +2141,7 @@
         "fields": {
             "title": "미이라",
             "year": 2017,
-            "userRating": "7.24",
+            "userRating": 7.24,
             "link": "120160",
             "poster_path": "https://image.tmdb.org/t/p/original//9mXyFgO5D53RsiG605W6deeBheS.jpg",
             "popularity": 35.191
@@ -2153,7 +2153,7 @@
         "fields": {
             "title": "82년생 김지영",
             "year": 2019,
-            "userRating": "6.67",
+            "userRating": 6.67,
             "link": "179482",
             "poster_path": "https://image.tmdb.org/t/p/original//ygVOfJil1E7Wx4QbzOWjwcH67az.jpg",
             "popularity": 15.645
@@ -2165,7 +2165,7 @@
         "fields": {
             "title": "분노의 질주: 더 익스트림",
             "year": 2017,
-            "userRating": "8.96",
+            "userRating": 8.96,
             "link": "140731",
             "poster_path": "https://image.tmdb.org/t/p/original//h7tvYU9kN4pKjCIzUhf6PLNhQHT.jpg",
             "popularity": 125.64
@@ -2177,7 +2177,7 @@
         "fields": {
             "title": "친절한 금자씨",
             "year": 2005,
-            "userRating": "7.55",
+            "userRating": 7.55,
             "link": "38766",
             "poster_path": "https://image.tmdb.org/t/p/original//1fYoUubJE9vqNgYxuC8HBkJHXI2.jpg",
             "popularity": 16.536
@@ -2189,7 +2189,7 @@
         "fields": {
             "title": "해리 포터와 불의 잔",
             "year": 2005,
-            "userRating": "8.04",
+            "userRating": 8.04,
             "link": "37883",
             "poster_path": "https://image.tmdb.org/t/p/original//h6BhNwNXg0IEbs2PoWfCX9QEvgl.jpg",
             "popularity": 281.867
@@ -2201,7 +2201,7 @@
         "fields": {
             "title": "모가디슈",
             "year": 2021,
-            "userRating": "8.34",
+            "userRating": 8.34,
             "link": "192150",
             "poster_path": "https://image.tmdb.org/t/p/original//oeu5TgAd0MrHplBIvCFpt9AIEBm.jpg",
             "popularity": 25.65
@@ -2213,7 +2213,7 @@
         "fields": {
             "title": "인턴",
             "year": 2015,
-            "userRating": "9.02",
+            "userRating": 9.02,
             "link": "118917",
             "poster_path": "https://image.tmdb.org/t/p/original//gCmXCNfK1WU1CFjZjvfo3gBhiEa.jpg",
             "popularity": 38.713
@@ -2225,7 +2225,7 @@
         "fields": {
             "title": "라라랜드",
             "year": 2016,
-            "userRating": "8.63",
+            "userRating": 8.63,
             "link": "134963",
             "poster_path": "https://image.tmdb.org/t/p/original//6v4g6yW01uTmbxqwg75iEkMkrNP.jpg",
             "popularity": 33.718
@@ -2237,7 +2237,7 @@
         "fields": {
             "title": "귀향",
             "year": 2016,
-            "userRating": "6.00",
+            "userRating": 6.0,
             "link": "144300",
             "poster_path": "https://image.tmdb.org/t/p/original//9ZZkrDtEG7yroF6PJ0PwiGw7KfT.jpg",
             "popularity": 4.285
@@ -2249,7 +2249,7 @@
         "fields": {
             "title": "리얼 스틸",
             "year": 2011,
-            "userRating": "9.06",
+            "userRating": 9.06,
             "link": "76460",
             "poster_path": "https://image.tmdb.org/t/p/original//lbN080kn6nzq978jqsdgxci9llR.jpg",
             "popularity": 129.058
@@ -2261,7 +2261,7 @@
         "fields": {
             "title": "신의 한 수",
             "year": 2014,
-            "userRating": "8.02",
+            "userRating": 8.02,
             "link": "107373",
             "poster_path": "https://image.tmdb.org/t/p/original//rMmgTYSKOVM9bfObzFR4g5FOL8w.jpg",
             "popularity": 6.418
@@ -2273,7 +2273,7 @@
         "fields": {
             "title": "해리 포터와 불사조 기사단",
             "year": 2007,
-            "userRating": "7.04",
+            "userRating": 7.04,
             "link": "57095",
             "poster_path": "https://image.tmdb.org/t/p/original//LcI8YBTxxsVVfxyJPkTM4nsFS6.jpg",
             "popularity": 221.698
@@ -2285,7 +2285,7 @@
         "fields": {
             "title": "끝까지 간다",
             "year": 2014,
-            "userRating": "9.03",
+            "userRating": 9.03,
             "link": "109778",
             "poster_path": "https://image.tmdb.org/t/p/original//2MCy07o0FHQYjigKim5bHF78267.jpg",
             "popularity": 14.237
@@ -2297,7 +2297,7 @@
         "fields": {
             "title": "스파이",
             "year": 2013,
-            "userRating": "6.94",
+            "userRating": 6.94,
             "link": "82080",
             "poster_path": "https://image.tmdb.org/t/p/original//fvCU7Uscg5EZuR7G260vzGviXgF.jpg",
             "popularity": 4.369
@@ -2309,7 +2309,7 @@
         "fields": {
             "title": "그것만이 내 세상",
             "year": 2018,
-            "userRating": "8.96",
+            "userRating": 8.96,
             "link": "158180",
             "poster_path": "https://image.tmdb.org/t/p/original//sK9nfItvaOutyiSXOlcZ1lMO6yf.jpg",
             "popularity": 4.114
@@ -2321,7 +2321,7 @@
         "fields": {
             "title": "이끼",
             "year": 2010,
-            "userRating": "7.12",
+            "userRating": 7.12,
             "link": "52326",
             "poster_path": "https://image.tmdb.org/t/p/original//1pxG0oRPbS9CWlkJY0r8vhdlhEV.jpg",
             "popularity": 4.676
@@ -2333,7 +2333,7 @@
         "fields": {
             "title": "토이 스토리 4",
             "year": 2019,
-            "userRating": "9.02",
+            "userRating": 9.02,
             "link": "101966",
             "poster_path": "https://image.tmdb.org/t/p/original//9P8IX4UyH3QFLL4MV6GZyuOB7Ue.jpg",
             "popularity": 113.638
@@ -2345,7 +2345,7 @@
         "fields": {
             "title": "어바웃 타임",
             "year": 2013,
-            "userRating": "9.20",
+            "userRating": 9.2,
             "link": "92075",
             "poster_path": "https://image.tmdb.org/t/p/original//cLfuuK1Y5FjX1xXDrrEa9ppnKuy.jpg",
             "popularity": 31.867
@@ -2357,7 +2357,7 @@
         "fields": {
             "title": "돈",
             "year": 2019,
-            "userRating": "7.42",
+            "userRating": 7.42,
             "link": "163608",
             "poster_path": "https://image.tmdb.org/t/p/original//4aW4qAmWEmQjN3wWT9spMhjvM2B.jpg",
             "popularity": 3.525
@@ -2369,7 +2369,7 @@
         "fields": {
             "title": "포화속으로",
             "year": 2010,
-            "userRating": "8.23",
+            "userRating": 8.23,
             "link": "51386",
             "poster_path": "https://image.tmdb.org/t/p/original//zNFGbVBgBxOkz8pcYw61PVbS1a8.jpg",
             "popularity": 10.174
@@ -2381,7 +2381,7 @@
         "fields": {
             "title": "맨 인 블랙 3",
             "year": 2012,
-            "userRating": "8.19",
+            "userRating": 8.19,
             "link": "75173",
             "poster_path": "https://image.tmdb.org/t/p/original//1cmJsxjV6CaWUE3Faxpk0sIHvRd.jpg",
             "popularity": 55.517
@@ -2393,7 +2393,7 @@
         "fields": {
             "title": "악인전",
             "year": 2019,
-            "userRating": "7.87",
+            "userRating": 7.87,
             "link": "177967",
             "poster_path": "https://image.tmdb.org/t/p/original//az4OVqXbFVaHoZlktcm7oCm0LZo.jpg",
             "popularity": 67.023
@@ -2405,7 +2405,7 @@
         "fields": {
             "title": "다빈치 코드",
             "year": 2006,
-            "userRating": "7.40",
+            "userRating": 7.4,
             "link": "40041",
             "poster_path": "https://image.tmdb.org/t/p/original//52cjQg88xZNx8JKU7GpbIf19mL1.jpg",
             "popularity": 29.092
@@ -2417,7 +2417,7 @@
         "fields": {
             "title": "슈퍼배드 3",
             "year": 2017,
-            "userRating": "8.69",
+            "userRating": 8.69,
             "link": "132626",
             "poster_path": "https://image.tmdb.org/t/p/original//uADk1QKz6wkzcaJJOuSHgxlxkWO.jpg",
             "popularity": 54.31
@@ -2429,7 +2429,7 @@
         "fields": {
             "title": "데드풀",
             "year": 2016,
-            "userRating": "8.21",
+            "userRating": 8.21,
             "link": "75426",
             "poster_path": "https://image.tmdb.org/t/p/original//bzpAD4rd40zZYoh6Lqzrz1O1xh4.jpg",
             "popularity": 147.485
@@ -2441,7 +2441,7 @@
         "fields": {
             "title": "시동",
             "year": 2019,
-            "userRating": "7.57",
+            "userRating": 7.57,
             "link": "183876",
             "poster_path": "https://image.tmdb.org/t/p/original//mEvrvob06K2ceqn3AvWfYiSWulh.jpg",
             "popularity": 7.803
@@ -2453,7 +2453,7 @@
         "fields": {
             "title": "아이 캔 스피크",
             "year": 2017,
-            "userRating": "9.38",
+            "userRating": 9.38,
             "link": "161850",
             "poster_path": "https://image.tmdb.org/t/p/original//mGrQx2zffkconsCrxeZ1sHkCBjb.jpg",
             "popularity": 5.646
@@ -2465,7 +2465,7 @@
         "fields": {
             "title": "스타워즈: 깨어난 포스",
             "year": 2015,
-            "userRating": "7.74",
+            "userRating": 7.74,
             "link": "100072",
             "poster_path": "https://image.tmdb.org/t/p/original//qmzc2xck6ZiJG4faxhGiDSX48Ck.jpg",
             "popularity": 55.425
@@ -2477,7 +2477,7 @@
         "fields": {
             "title": "올드보이",
             "year": 2003,
-            "userRating": "9.04",
+            "userRating": 9.04,
             "link": "36944",
             "poster_path": "https://image.tmdb.org/t/p/original//xpa9ybm6tYGna5LseqSXvKpSSJn.jpg",
             "popularity": 30.971
@@ -2489,7 +2489,7 @@
         "fields": {
             "title": "분노의 질주: 더 세븐",
             "year": 2015,
-            "userRating": "9.13",
+            "userRating": 9.13,
             "link": "109905",
             "poster_path": "https://image.tmdb.org/t/p/original//cuQdgDYANbKA46e4va2fz6fODkc.jpg",
             "popularity": 105.638
@@ -2501,7 +2501,7 @@
         "fields": {
             "title": "터미네이터 제니시스",
             "year": 2015,
-            "userRating": "7.70",
+            "userRating": 7.7,
             "link": "69956",
             "poster_path": "https://image.tmdb.org/t/p/original//bzcw6IyAbX3DbXrzPXx7ZgLXalr.jpg",
             "popularity": 95.797
@@ -2513,7 +2513,7 @@
         "fields": {
             "title": "그래비티",
             "year": 2013,
-            "userRating": "8.31",
+            "userRating": 8.31,
             "link": "47370",
             "poster_path": "https://image.tmdb.org/t/p/original//u8ffl7CRAS12KA8eQEtkLuHg8Fm.jpg",
             "popularity": 21.729
@@ -2525,7 +2525,7 @@
         "fields": {
             "title": "우주전쟁",
             "year": 2005,
-            "userRating": "7.29",
+            "userRating": 7.29,
             "link": "39786",
             "poster_path": "https://image.tmdb.org/t/p/original//f4JdjFJmyc76L5tjjdCOIQuzCZo.jpg",
             "popularity": 37.515
@@ -2537,7 +2537,7 @@
         "fields": {
             "title": "마녀",
             "year": 2018,
-            "userRating": "8.22",
+            "userRating": 8.22,
             "link": "175322",
             "poster_path": "https://image.tmdb.org/t/p/original//979reU4oeyHuqQn8D8zHrmUUq6P.jpg",
             "popularity": 29.978
@@ -2549,7 +2549,7 @@
         "fields": {
             "title": "탐정: 리턴즈",
             "year": 2018,
-            "userRating": "8.40",
+            "userRating": 8.4,
             "link": "159892",
             "poster_path": "https://image.tmdb.org/t/p/original//w5adIY4ITTbVoK6oXRWD11zZygn.jpg",
             "popularity": 2.369
@@ -2561,7 +2561,7 @@
         "fields": {
             "title": "어린 신부",
             "year": 2004,
-            "userRating": "7.84",
+            "userRating": 7.84,
             "link": "37926",
             "poster_path": "https://image.tmdb.org/t/p/original//hUgPWAyJ3GOoIVctVJJ6yqyaIpW.jpg",
             "popularity": 9.141
@@ -2573,7 +2573,7 @@
         "fields": {
             "title": "오! 브라더스",
             "year": 2003,
-            "userRating": "8.23",
+            "userRating": 8.23,
             "link": "36720",
             "poster_path": "https://image.tmdb.org/t/p/original//dpJeyJfcdxOsVbUKih8Gl0Xiepw.jpg",
             "popularity": 1.059
@@ -2585,7 +2585,7 @@
         "fields": {
             "title": "장화, 홍련",
             "year": 2003,
-            "userRating": "8.78",
+            "userRating": 8.78,
             "link": "36732",
             "poster_path": "https://image.tmdb.org/t/p/original//aPUxyX8mfxMEgOvbzPyNhNkdfN.jpg",
             "popularity": 54.889
@@ -2597,7 +2597,7 @@
         "fields": {
             "title": "그놈 목소리",
             "year": 2007,
-            "userRating": "7.47",
+            "userRating": 7.47,
             "link": "61698",
             "poster_path": "https://image.tmdb.org/t/p/original//qoUpk1rsekYnGLz3fxMqBbAGmEy.jpg",
             "popularity": 4.681
@@ -2609,7 +2609,7 @@
         "fields": {
             "title": "우리들의 행복한 시간",
             "year": 2006,
-            "userRating": "8.70",
+            "userRating": 8.7,
             "link": "54411",
             "poster_path": "https://image.tmdb.org/t/p/original//pq0IVXJOuIGHC0AqCkqiMazevNb.jpg",
             "popularity": 6.353
@@ -2621,7 +2621,7 @@
         "fields": {
             "title": "캐리비안의 해적: 낯선 조류",
             "year": 2011,
-            "userRating": "8.08",
+            "userRating": 8.08,
             "link": "51443",
             "poster_path": "https://image.tmdb.org/t/p/original//osJVVjkHmoO5WoJfbBsImYrKWIb.jpg",
             "popularity": 151.767
@@ -2633,7 +2633,7 @@
         "fields": {
             "title": "퀵",
             "year": 2011,
-            "userRating": "7.85",
+            "userRating": 7.85,
             "link": "75355",
             "poster_path": "https://image.tmdb.org/t/p/original//bnPd7UzSW8ZM0Aca5XI9woAl8IB.jpg",
             "popularity": 4.658
@@ -2645,7 +2645,7 @@
         "fields": {
             "title": "감기",
             "year": 2013,
-            "userRating": "10.00",
+            "userRating": 10.0,
             "link": "117113",
             "poster_path": "https://image.tmdb.org/t/p/original//7fQlPXebfjEqjysW3rv4RyNplih.jpg",
             "popularity": 45.521
@@ -2657,7 +2657,7 @@
         "fields": {
             "title": "말죽거리 잔혹사",
             "year": 2004,
-            "userRating": "8.80",
+            "userRating": 8.8,
             "link": "37245",
             "poster_path": "https://image.tmdb.org/t/p/original//9h0Pos3Ydu1TkO9vtFOs45osdLB.jpg",
             "popularity": 8.46
@@ -2669,7 +2669,7 @@
         "fields": {
             "title": "광복절 특사",
             "year": 2002,
-            "userRating": "7.96",
+            "userRating": 7.96,
             "link": "35099",
             "poster_path": "https://image.tmdb.org/t/p/original//9Buy2oDijzXaRd8QtsnxnQgXbtZ.jpg",
             "popularity": 0.636
@@ -2681,7 +2681,7 @@
         "fields": {
             "title": "나우 유 씨 미 2",
             "year": 2016,
-            "userRating": "8.31",
+            "userRating": 8.31,
             "link": "113344",
             "poster_path": "https://image.tmdb.org/t/p/original//7Q6HhzkuV6kXQzKDUttoPZY1b5k.jpg",
             "popularity": 47.781
@@ -2693,7 +2693,7 @@
         "fields": {
             "title": "마파도",
             "year": 2005,
-            "userRating": "7.25",
+            "userRating": 7.25,
             "link": "39422",
             "poster_path": "https://image.tmdb.org/t/p/original//mlB0n9zom3qlK7TWxgoWqltohH2.jpg",
             "popularity": 2.358
@@ -2705,7 +2705,7 @@
         "fields": {
             "title": "하모니",
             "year": 2010,
-            "userRating": "9.05",
+            "userRating": 9.05,
             "link": "53034",
             "poster_path": "https://image.tmdb.org/t/p/original//l39HNGO5VNUnP4U2lIvyMywmm6P.jpg",
             "popularity": 2.642
@@ -2717,7 +2717,7 @@
         "fields": {
             "title": "거북이 달린다",
             "year": 2009,
-            "userRating": "8.43",
+            "userRating": 8.43,
             "link": "49483",
             "poster_path": "https://image.tmdb.org/t/p/original//vmJIjLDdjF2GwOiSyopJ34iVy6R.jpg",
             "popularity": 4.266
@@ -2729,7 +2729,7 @@
         "fields": {
             "title": "너는 내 운명",
             "year": 2005,
-            "userRating": "9.08",
+            "userRating": 9.08,
             "link": "39654",
             "poster_path": "https://image.tmdb.org/t/p/original//b172pdqkGFx68KFfLj2A0eukFGa.jpg",
             "popularity": 3.513
@@ -2741,7 +2741,7 @@
         "fields": {
             "title": "이터널스",
             "year": 2021,
-            "userRating": "5.36",
+            "userRating": 5.36,
             "link": "184311",
             "poster_path": "https://image.tmdb.org/t/p/original//aNtAP8ZzUMdnCPoqYgVOcgI0Eh4.jpg",
             "popularity": 203.36
@@ -2753,7 +2753,7 @@
         "fields": {
             "title": "캐리비안의 해적: 죽은 자는 말이 없다",
             "year": 2017,
-            "userRating": "8.29",
+            "userRating": 8.29,
             "link": "82473",
             "poster_path": "https://image.tmdb.org/t/p/original//arcIFL50IPQT7JDG2SD6tzcOlRL.jpg",
             "popularity": 90.598
@@ -2765,7 +2765,7 @@
         "fields": {
             "title": "스물",
             "year": 2015,
-            "userRating": "7.59",
+            "userRating": 7.59,
             "link": "123277",
             "poster_path": "https://image.tmdb.org/t/p/original//hzKynyDi7NwG5Yxn3JC9eNWM9Io.jpg",
             "popularity": 7.026
@@ -2777,7 +2777,7 @@
         "fields": {
             "title": "토르: 다크 월드",
             "year": 2013,
-            "userRating": "8.35",
+            "userRating": 8.35,
             "link": "95873",
             "poster_path": "https://image.tmdb.org/t/p/original//aKnEwByCjXHpRoyOlSwYfmr9d5D.jpg",
             "popularity": 93.732
@@ -2789,7 +2789,7 @@
         "fields": {
             "title": "식객",
             "year": 2007,
-            "userRating": "8.48",
+            "userRating": 8.48,
             "link": "62167",
             "poster_path": "https://image.tmdb.org/t/p/original//wGpNUB0IsvrhHBALTjJzapMePfP.jpg",
             "popularity": 2.997
@@ -2801,7 +2801,7 @@
         "fields": {
             "title": "방자전",
             "year": 2010,
-            "userRating": "7.43",
+            "userRating": 7.43,
             "link": "45919",
             "poster_path": "https://image.tmdb.org/t/p/original//QsXaA6s0TTM8TP28Jx4QXgaY1I.jpg",
             "popularity": 8.534
@@ -2813,7 +2813,7 @@
         "fields": {
             "title": "인크레더블 2",
             "year": 2018,
-            "userRating": "9.22",
+            "userRating": 9.22,
             "link": "136990",
             "poster_path": "https://image.tmdb.org/t/p/original//qGmgOmeN8AQX5LwrAVaatwWffDs.jpg",
             "popularity": 79.861
@@ -2825,7 +2825,7 @@
         "fields": {
             "title": "하울의 움직이는 성",
             "year": 2004,
-            "userRating": "9.10",
+            "userRating": 9.1,
             "link": "39640",
             "poster_path": "https://image.tmdb.org/t/p/original//xiz6TiSduvR1U3VLfWVlBEdT9fO.jpg",
             "popularity": 126.638
@@ -2837,7 +2837,7 @@
         "fields": {
             "title": "오싹한 연애",
             "year": 2011,
-            "userRating": "8.54",
+            "userRating": 8.54,
             "link": "78851",
             "poster_path": "https://image.tmdb.org/t/p/original//82oKzNzDyLKGPwfvOXQ401NRS6e.jpg",
             "popularity": 9.903
@@ -2849,7 +2849,7 @@
         "fields": {
             "title": "레드: 더 레전드",
             "year": 2013,
-            "userRating": "8.02",
+            "userRating": 8.02,
             "link": "95503",
             "poster_path": "https://image.tmdb.org/t/p/original//wczX76Iewc7WSpl1YFZkQFlAOCC.jpg",
             "popularity": 36.97
@@ -2861,7 +2861,7 @@
         "fields": {
             "title": "해리 포터와 혼혈 왕자",
             "year": 2009,
-            "userRating": "6.98",
+            "userRating": 6.98,
             "link": "67900",
             "poster_path": "https://image.tmdb.org/t/p/original//fHfnrfpQXt91XN4XBh9DMDFuYdq.jpg",
             "popularity": 274.472
@@ -2873,7 +2873,7 @@
         "fields": {
             "title": "드래곤 길들이기 2",
             "year": 2014,
-            "userRating": "8.92",
+            "userRating": 8.92,
             "link": "76020",
             "poster_path": "https://image.tmdb.org/t/p/original//kSP4QmHMLnbySksUb2O9sGkoEQM.jpg",
             "popularity": 84.995
@@ -2885,7 +2885,7 @@
         "fields": {
             "title": "형",
             "year": 2016,
-            "userRating": "8.37",
+            "userRating": 8.37,
             "link": "142803",
             "poster_path": "https://image.tmdb.org/t/p/original//3cumlfgwUWdbxke9s19bqWEDYcs.jpg",
             "popularity": 10.931
@@ -2897,7 +2897,7 @@
         "fields": {
             "title": "황금 나침반",
             "year": 2007,
-            "userRating": "6.26",
+            "userRating": 6.26,
             "link": "61427",
             "poster_path": "https://image.tmdb.org/t/p/original//7hFWN1mmF3dofvvijd7GpUFOIGa.jpg",
             "popularity": 26.131
@@ -2909,7 +2909,7 @@
         "fields": {
             "title": "친구 2",
             "year": 2013,
-            "userRating": "6.20",
+            "userRating": 6.2,
             "link": "103271",
             "poster_path": "https://image.tmdb.org/t/p/original//iCSPty01oOUDt3kVMhFFGJGMM1R.jpg",
             "popularity": 2.927
@@ -2921,7 +2921,7 @@
         "fields": {
             "title": "26년",
             "year": 2012,
-            "userRating": "6.42",
+            "userRating": 6.42,
             "link": "47384",
             "poster_path": "https://image.tmdb.org/t/p/original//ljo7aXcGIdYZm90MppokHKreYTT.jpg",
             "popularity": 7.087
@@ -2933,7 +2933,7 @@
         "fields": {
             "title": "워낭소리",
             "year": 2009,
-            "userRating": "8.67",
+            "userRating": 8.67,
             "link": "50869",
             "poster_path": "https://image.tmdb.org/t/p/original//75ZU5M4TYIO835873M4pUzTdAT1.jpg",
             "popularity": 0.802
@@ -2945,7 +2945,7 @@
         "fields": {
             "title": "블랙 위도우",
             "year": 2021,
-            "userRating": "8.46",
+            "userRating": 8.46,
             "link": "184318",
             "poster_path": "https://image.tmdb.org/t/p/original//oPMAUqhwQf9mLCU5xEGPv33lAJO.jpg",
             "popularity": 161.525
@@ -2957,7 +2957,7 @@
         "fields": {
             "title": "서치",
             "year": 2018,
-            "userRating": "8.93",
+            "userRating": 8.93,
             "link": "172425",
             "poster_path": "https://image.tmdb.org/t/p/original//7TgR6Ipwnvu8AjxAm2gPpaqediA.jpg",
             "popularity": 19.91
@@ -2969,7 +2969,7 @@
         "fields": {
             "title": "고지전",
             "year": 2011,
-            "userRating": "8.69",
+            "userRating": 8.69,
             "link": "74315",
             "poster_path": "https://image.tmdb.org/t/p/original//sHAef4ts9Y5EREhs9UlOPEga4h3.jpg",
             "popularity": 10.15
@@ -2981,7 +2981,7 @@
         "fields": {
             "title": "엑스맨: 아포칼립스",
             "year": 2016,
-            "userRating": "8.19",
+            "userRating": 8.19,
             "link": "119430",
             "poster_path": "https://image.tmdb.org/t/p/original//4MaTkqk4LKccDYKh7AjV220CVgW.jpg",
             "popularity": 83.994
@@ -2993,7 +2993,7 @@
         "fields": {
             "title": "프리즌",
             "year": 2017,
-            "userRating": "7.57",
+            "userRating": 7.57,
             "link": "146517",
             "poster_path": "https://image.tmdb.org/t/p/original//3DdfSeK5lsN2te3c359ewac0cBB.jpg",
             "popularity": 9.333
@@ -3005,7 +3005,7 @@
         "fields": {
             "title": 300,
             "year": 2007,
-            "userRating": "8.08",
+            "userRating": 8.08,
             "link": "58072",
             "poster_path": "https://image.tmdb.org/t/p/original//rmJE35EYnJZIp8ObAK3lkiwwjfi.jpg",
             "popularity": 42.275
@@ -3017,7 +3017,7 @@
         "fields": {
             "title": "가장 보통의 연애",
             "year": 2019,
-            "userRating": "7.73",
+            "userRating": 7.73,
             "link": "182205",
             "poster_path": "https://image.tmdb.org/t/p/original//dgzWcjIr47ezx9wwji7yf2RCOTp.jpg",
             "popularity": 7.693
@@ -3029,7 +3029,7 @@
         "fields": {
             "title": "솔트",
             "year": 2010,
-            "userRating": "10.00",
+            "userRating": 10.0,
             "link": "70504",
             "poster_path": "https://image.tmdb.org/t/p/original//vJXpWSrGs1k7WHGMlqVWdaN55WU.jpg",
             "popularity": 44.364
@@ -3041,7 +3041,7 @@
         "fields": {
             "title": "헬로우 고스트",
             "year": 2010,
-            "userRating": "8.88",
+            "userRating": 8.88,
             "link": "75401",
             "poster_path": "https://image.tmdb.org/t/p/original//q1BhsAuwL21Ad3fC2HaSRc06JWI.jpg",
             "popularity": 8.569
@@ -3053,7 +3053,7 @@
         "fields": {
             "title": "귀신이 산다",
             "year": 2004,
-            "userRating": "6.94",
+            "userRating": 6.94,
             "link": "38254",
             "poster_path": "https://image.tmdb.org/t/p/original//aUxZM5G7bwmWs1d3UZugVxnC9sc.jpg",
             "popularity": 3.639
@@ -3065,7 +3065,7 @@
         "fields": {
             "title": "원티드",
             "year": 2008,
-            "userRating": "9.27",
+            "userRating": 9.27,
             "link": "47194",
             "poster_path": "https://image.tmdb.org/t/p/original//1Vd0kVGqXxghMJoUHLgXi13p3XT.jpg",
             "popularity": 26.808
@@ -3077,7 +3077,7 @@
         "fields": {
             "title": "말모이",
             "year": 2019,
-            "userRating": "9.14",
+            "userRating": 9.14,
             "link": "167699",
             "poster_path": "https://image.tmdb.org/t/p/original//bGFA0TYEjzsK2YL8IcodOIeCrhO.jpg",
             "popularity": 2.742
@@ -3089,7 +3089,7 @@
         "fields": {
             "title": "극비수사",
             "year": 2015,
-            "userRating": "8.09",
+            "userRating": 8.09,
             "link": "122120",
             "poster_path": "https://image.tmdb.org/t/p/original//4AnGVH4fu6HVYMBe1QiIOCuu75j.jpg",
             "popularity": 2.223
@@ -3101,7 +3101,7 @@
         "fields": {
             "title": "표적",
             "year": 2014,
-            "userRating": "7.47",
+            "userRating": 7.47,
             "link": "106547",
             "poster_path": "https://image.tmdb.org/t/p/original//hljukhGDRHeGMdQ7KcKzobgxJlR.jpg",
             "popularity": 11.848
@@ -3113,7 +3113,7 @@
         "fields": {
             "title": "앤트맨",
             "year": 2015,
-            "userRating": "8.62",
+            "userRating": 8.62,
             "link": "92064",
             "poster_path": "https://image.tmdb.org/t/p/original//3EFdR4QG1bJ7sxH7E1EhZF1LNZ0.jpg",
             "popularity": 68.511
@@ -3125,7 +3125,7 @@
         "fields": {
             "title": "쥬라기 월드: 도미니언",
             "year": 2022,
-            "userRating": "6.14",
+            "userRating": 6.14,
             "link": "191646",
             "poster_path": "https://image.tmdb.org/t/p/original//odxdUZWZ7fBfy3ZRj063wuJnZvo.jpg",
             "popularity": 700.845
@@ -3137,7 +3137,7 @@
         "fields": {
             "title": "호빗: 다섯 군대 전투",
             "year": 2014,
-            "userRating": "8.50",
+            "userRating": 8.5,
             "link": "97816",
             "poster_path": "https://image.tmdb.org/t/p/original//tLNTaP5kcH2FDQNxGu4EkOCpMjr.jpg",
             "popularity": 166.1
@@ -3149,7 +3149,7 @@
         "fields": {
             "title": "너의 결혼식",
             "year": 2018,
-            "userRating": "8.42",
+            "userRating": 8.42,
             "link": "140652",
             "poster_path": "https://image.tmdb.org/t/p/original//smo4Wt1keoMSr3buHHLMbMrcrG7.jpg",
             "popularity": 16.734
@@ -3161,7 +3161,7 @@
         "fields": {
             "title": "호빗: 뜻밖의 여정",
             "year": 2012,
-            "userRating": "8.43",
+            "userRating": 8.43,
             "link": "68073",
             "poster_path": "https://image.tmdb.org/t/p/original//vtsequVUU3W2NVfWObXkq31VIgN.jpg",
             "popularity": 102.048
@@ -3173,7 +3173,7 @@
         "fields": {
             "title": "메이즈 러너",
             "year": 2014,
-            "userRating": "8.30",
+            "userRating": 8.3,
             "link": "105015",
             "poster_path": "https://image.tmdb.org/t/p/original//bL0bBepUCLFcCj2ATFD40FbyDEl.jpg",
             "popularity": 172.148
@@ -3185,7 +3185,7 @@
         "fields": {
             "title": "덩케르크",
             "year": 2017,
-            "userRating": "8.30",
+            "userRating": 8.3,
             "link": "146480",
             "poster_path": "https://image.tmdb.org/t/p/original//r8GRroYelxUID8dOxcyeNKKol6W.jpg",
             "popularity": 35.451
@@ -3197,7 +3197,7 @@
         "fields": {
             "title": "혹성탈출: 진화의 시작",
             "year": 2011,
-            "userRating": "8.77",
+            "userRating": 8.77,
             "link": "80629",
             "poster_path": "https://image.tmdb.org/t/p/original//ik3cempRee837ETSXUYCGpDyzN7.jpg",
             "popularity": 51.703
@@ -3209,7 +3209,7 @@
         "fields": {
             "title": "황산벌",
             "year": 2003,
-            "userRating": "7.60",
+            "userRating": 7.6,
             "link": "35624",
             "poster_path": "https://image.tmdb.org/t/p/original//hArVdbGEW6V4oskTTV9DvPjOEEX.jpg",
             "popularity": 0.915
@@ -3221,7 +3221,7 @@
         "fields": {
             "title": "부당거래",
             "year": 2010,
-            "userRating": "8.71",
+            "userRating": 8.71,
             "link": "52747",
             "poster_path": "https://image.tmdb.org/t/p/original//8pzZhhiHaeo0vI9oNWhDvWmkNKz.jpg",
             "popularity": 7.87
@@ -3233,7 +3233,7 @@
         "fields": {
             "title": "1번가의 기적",
             "year": 2007,
-            "userRating": "8.21",
+            "userRating": 8.21,
             "link": "61103",
             "poster_path": "https://image.tmdb.org/t/p/original//2ZpmCHj7FAzvjByp5ea0CHayzNh.jpg",
             "popularity": 3.458
@@ -3245,7 +3245,7 @@
         "fields": {
             "title": "메이즈 러너: 스코치 트라이얼",
             "year": 2015,
-            "userRating": "8.07",
+            "userRating": 8.07,
             "link": "129408",
             "poster_path": "https://image.tmdb.org/t/p/original//frtwTyCkcRWXMzIry5uLaGG1fvj.jpg",
             "popularity": 86.308
@@ -3257,7 +3257,7 @@
         "fields": {
             "title": "가디언즈 오브 갤럭시 VOL. 2",
             "year": 2017,
-            "userRating": "8.95",
+            "userRating": 8.95,
             "link": "127398",
             "poster_path": "https://image.tmdb.org/t/p/original//uDuwGhQgffd5GQ695oUfy5oZGqP.jpg",
             "popularity": 89.456
@@ -3269,7 +3269,7 @@
         "fields": {
             "title": "시라노; 연애조작단",
             "year": 2010,
-            "userRating": "8.73",
+            "userRating": 8.73,
             "link": "73318",
             "poster_path": "https://image.tmdb.org/t/p/original//g3gpHLUuQLGI9gRmfraSQCN1TYk.jpg",
             "popularity": 3.953
@@ -3281,7 +3281,7 @@
         "fields": {
             "title": "내가 살인범이다",
             "year": 2012,
-            "userRating": "8.48",
+            "userRating": 8.48,
             "link": "78790",
             "poster_path": "https://image.tmdb.org/t/p/original//rwNEKnmhrUcneVnmkR4jjcwXRyE.jpg",
             "popularity": 10.526
@@ -3293,7 +3293,7 @@
         "fields": {
             "title": "핸콕",
             "year": 2008,
-            "userRating": "7.36",
+            "userRating": 7.36,
             "link": "68944",
             "poster_path": "https://image.tmdb.org/t/p/original//vcBWFmZjiuO6CRRKL2l9lpiJ4Vs.jpg",
             "popularity": 94.017
@@ -3305,7 +3305,7 @@
         "fields": {
             "title": "나우 유 씨 미 : 마술사기단",
             "year": 2013,
-            "userRating": "8.05",
+            "userRating": 8.05,
             "link": "92011",
             "poster_path": "https://image.tmdb.org/t/p/original//mX3ozgAvhonMzawKFlxjvP605Sm.jpg",
             "popularity": 55.675
@@ -3317,7 +3317,7 @@
         "fields": {
             "title": "미스 페레그린과 이상한 아이들의 집",
             "year": 2016,
-            "userRating": "8.46",
+            "userRating": 8.46,
             "link": "129383",
             "poster_path": "https://image.tmdb.org/t/p/original//j3VfU751qbvzxyYMfHL2vigqdYf.jpg",
             "popularity": 56.494
@@ -3329,7 +3329,7 @@
         "fields": {
             "title": "토르: 러브 앤 썬더",
             "year": 2022,
-            "userRating": "6.39",
+            "userRating": 6.39,
             "link": "187347",
             "poster_path": "https://image.tmdb.org/t/p/original//un8ZDtx2SMwNwXRYy65aItnNjab.jpg",
             "popularity": 845.188
@@ -3341,7 +3341,7 @@
         "fields": {
             "title": "소원",
             "year": 2013,
-            "userRating": "9.34",
+            "userRating": 9.34,
             "link": "103535",
             "poster_path": "https://image.tmdb.org/t/p/original//PZlNvDwKwHeHUsXnd6SEDXWZNn.jpg",
             "popularity": 28.141
@@ -3353,7 +3353,7 @@
         "fields": {
             "title": "타이탄",
             "year": 2010,
-            "userRating": "6.36",
+            "userRating": 6.36,
             "link": "54640",
             "poster_path": "https://image.tmdb.org/t/p/original//vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
             "popularity": 69.382
@@ -3365,7 +3365,7 @@
         "fields": {
             "title": "곤지암",
             "year": 2018,
-            "userRating": "6.39",
+            "userRating": 6.39,
             "link": "172454",
             "poster_path": "https://image.tmdb.org/t/p/original//sCLqWiJxp2rq2wuvuv8N2KvaNhB.jpg",
             "popularity": 25.646
@@ -3377,7 +3377,7 @@
         "fields": {
             "title": "살인자의 기억법",
             "year": 2017,
-            "userRating": "7.70",
+            "userRating": 7.7,
             "link": "137890",
             "poster_path": "https://image.tmdb.org/t/p/original//wZsBxVlonVjztIBVbquw6uDgYHW.jpg",
             "popularity": 11.381
@@ -3389,7 +3389,7 @@
         "fields": {
             "title": "후궁 : 제왕의 첩",
             "year": 2012,
-            "userRating": "6.96",
+            "userRating": 6.96,
             "link": "89361",
             "poster_path": "https://image.tmdb.org/t/p/original//k5Ss8UVOhqgJFUXmeoBv9HwCqZA.jpg",
             "popularity": 19.691
@@ -3401,7 +3401,7 @@
         "fields": {
             "title": "탐정 : 더 비기닝",
             "year": 2015,
-            "userRating": "8.46",
+            "userRating": 8.46,
             "link": "124201",
             "poster_path": "https://image.tmdb.org/t/p/original//2pWtfE7FiA64FPBvomkNpobKITx.jpg",
             "popularity": 2.46
@@ -3413,7 +3413,7 @@
         "fields": {
             "title": "미니언즈",
             "year": 2015,
-            "userRating": "7.95",
+            "userRating": 7.95,
             "link": "113351",
             "poster_path": "https://image.tmdb.org/t/p/original//bkWrtIS7vscRvK074BWn6WHuwuf.jpg",
             "popularity": 44.429
@@ -3425,7 +3425,7 @@
         "fields": {
             "title": "트랜스포머: 최후의 기사",
             "year": 2017,
-            "userRating": "6.27",
+            "userRating": 6.27,
             "link": "123630",
             "poster_path": "https://image.tmdb.org/t/p/original//bLmjP7lUSrwcaID8VnZmrKLETyn.jpg",
             "popularity": 73.92
@@ -3437,7 +3437,7 @@
         "fields": {
             "title": "제이슨 본",
             "year": 2016,
-            "userRating": "8.40",
+            "userRating": 8.4,
             "link": "144968",
             "poster_path": "https://image.tmdb.org/t/p/original//4NycGeXVHkuRSVCTm2wdHr7Miy3.jpg",
             "popularity": 28.103
@@ -3449,7 +3449,7 @@
         "fields": {
             "title": "드래곤 길들이기",
             "year": 2010,
-            "userRating": "9.33",
+            "userRating": 9.33,
             "link": "70457",
             "poster_path": "https://image.tmdb.org/t/p/original//5JtTkNwOeztwfCPv965e9bZi6G3.jpg",
             "popularity": 65.569
@@ -3461,7 +3461,7 @@
         "fields": {
             "title": "지금 만나러 갑니다",
             "year": 2018,
-            "userRating": "8.75",
+            "userRating": 8.75,
             "link": "168298",
             "poster_path": "https://image.tmdb.org/t/p/original//c7zp4eeoWKLhUadgEv3SWa0lbFl.jpg",
             "popularity": 17.122
@@ -3473,7 +3473,7 @@
         "fields": {
             "title": "도리를 찾아서",
             "year": 2016,
-            "userRating": "8.53",
+            "userRating": 8.53,
             "link": "97629",
             "poster_path": "https://image.tmdb.org/t/p/original//5t9p6Z2RCLPZlWgBnD31YrJXaCz.jpg",
             "popularity": 45.839
@@ -3485,7 +3485,7 @@
         "fields": {
             "title": "위험한 상견례",
             "year": 2011,
-            "userRating": "7.65",
+            "userRating": 7.65,
             "link": "77125",
             "poster_path": "https://image.tmdb.org/t/p/original//g2nn7v8EIXE2uGpuxlBhS0etjj.jpg",
             "popularity": 1.49
@@ -3497,7 +3497,7 @@
         "fields": {
             "title": "아수라",
             "year": 2016,
-            "userRating": "7.00",
+            "userRating": 7.0,
             "link": "44913",
             "poster_path": "https://image.tmdb.org/t/p/original//8RyhWS3erZysYaOOgBrv335hn2x.jpg",
             "popularity": 5.498
@@ -3509,7 +3509,7 @@
         "fields": {
             "title": "보안관",
             "year": 2017,
-            "userRating": "7.90",
+            "userRating": 7.9,
             "link": "146524",
             "poster_path": "https://image.tmdb.org/t/p/original//afPj6Sw24akge6B9dvwXtjiw5J3.jpg",
             "popularity": 1.554
@@ -3521,7 +3521,7 @@
         "fields": {
             "title": "굿모닝 프레지던트",
             "year": 2009,
-            "userRating": "6.70",
+            "userRating": 6.7,
             "link": "52375",
             "poster_path": "https://image.tmdb.org/t/p/original//kqaoPtQiVb31eZBFgPoSGW1qWYd.jpg",
             "popularity": 1.733
@@ -3533,7 +3533,7 @@
         "fields": {
             "title": "음란서생",
             "year": 2006,
-            "userRating": "7.01",
+            "userRating": 7.01,
             "link": "43547",
             "poster_path": "https://image.tmdb.org/t/p/original//dvyx9tQ8XnUvjuT4Jp4XnPjVHlS.jpg",
             "popularity": 4.236
@@ -3545,7 +3545,7 @@
         "fields": {
             "title": "내 머리 속의 지우개",
             "year": 2004,
-            "userRating": "8.85",
+            "userRating": 8.85,
             "link": "38662",
             "poster_path": "https://image.tmdb.org/t/p/original//b2xMaKGJtjVCdgo1hUincajrAGL.jpg",
             "popularity": 14.779
@@ -3557,7 +3557,7 @@
         "fields": {
             "title": "기술자들",
             "year": 2014,
-            "userRating": "7.09",
+            "userRating": 7.09,
             "link": "117790",
             "poster_path": "https://image.tmdb.org/t/p/original//tcGkh7ot6qfj99i9VdiJSzymkmI.jpg",
             "popularity": 7.369
@@ -3569,7 +3569,7 @@
         "fields": {
             "title": "퍼시픽 림",
             "year": 2013,
-            "userRating": "7.68",
+            "userRating": 7.68,
             "link": "86867",
             "poster_path": "https://image.tmdb.org/t/p/original//BWJhHHqeW5oCRvqLXF5twAFAga.jpg",
             "popularity": 96.297
@@ -3581,7 +3581,7 @@
         "fields": {
             "title": "정글북",
             "year": 2016,
-            "userRating": "8.45",
+            "userRating": 8.45,
             "link": "122489",
             "poster_path": "https://image.tmdb.org/t/p/original//nbBL9BEUBJ67zAlpfwsUCf6BXYt.jpg",
             "popularity": 0.967
@@ -3593,7 +3593,7 @@
         "fields": {
             "title": "증인",
             "year": 2019,
-            "userRating": "9.10",
+            "userRating": 9.1,
             "link": "177374",
             "poster_path": "https://image.tmdb.org/t/p/original//hmce0JRznzhwlIeHZctLZnxTwA8.jpg",
             "popularity": 13.128
@@ -3605,7 +3605,7 @@
         "fields": {
             "title": "엑스맨: 퍼스트 클래스",
             "year": 2011,
-            "userRating": "9.05",
+            "userRating": 9.05,
             "link": "76347",
             "poster_path": "https://image.tmdb.org/t/p/original//644Dl5TOvx4YZnxznNoiVEnUoDJ.jpg",
             "popularity": 2.266
@@ -3617,7 +3617,7 @@
         "fields": {
             "title": "내 생애 가장 아름다운 일주일",
             "year": 2005,
-            "userRating": "8.67",
+            "userRating": 8.67,
             "link": "39818",
             "poster_path": "https://image.tmdb.org/t/p/original//b7q5jOj90WDCGixEhuYtumSQmOq.jpg",
             "popularity": 3.318
@@ -3629,7 +3629,7 @@
         "fields": {
             "title": "해리포터와 아즈카반의 죄수",
             "year": 2004,
-            "userRating": "8.75",
+            "userRating": 8.75,
             "link": "35546",
             "poster_path": "https://image.tmdb.org/t/p/original//anwNl1xbzXoj5Ax1nVw3WoDzHlw.jpg",
             "popularity": 240.786
@@ -3641,7 +3641,7 @@
         "fields": {
             "title": "목격자",
             "year": 2018,
-            "userRating": "4.75",
+            "userRating": 4.75,
             "link": "169015",
             "poster_path": "https://image.tmdb.org/t/p/original//g19rot2PyNKuldAD1IrMic1lYua.jpg",
             "popularity": 4.929
@@ -3653,7 +3653,7 @@
         "fields": {
             "title": "패션 오브 크라이스트",
             "year": 2004,
-            "userRating": "8.64",
+            "userRating": 8.64,
             "link": "38197",
             "poster_path": "https://image.tmdb.org/t/p/original//hNnh0cwtv5iQ1ErTSZXMbo1Q2Rl.jpg",
             "popularity": 72.488
@@ -3665,7 +3665,7 @@
         "fields": {
             "title": "마이펫의 이중생활",
             "year": 2016,
-            "userRating": "8.57",
+            "userRating": 8.57,
             "link": "134980",
             "poster_path": "https://image.tmdb.org/t/p/original//sQZUkEZZLRExn75YBvReuo68i9f.jpg",
             "popularity": 21.489
@@ -3677,7 +3677,7 @@
         "fields": {
             "title": "조작된 도시",
             "year": 2017,
-            "userRating": "8.06",
+            "userRating": 8.06,
             "link": "127382",
             "poster_path": "https://image.tmdb.org/t/p/original//v2TRu7tQ8LKHOwfusckYjHvXiya.jpg",
             "popularity": 16.503
@@ -3689,7 +3689,7 @@
         "fields": {
             "title": "공동경비구역 JSA",
             "year": 2000,
-            "userRating": "9.30",
+            "userRating": 9.3,
             "link": "15899",
             "poster_path": "https://image.tmdb.org/t/p/original//pESYuD1uwtPhHheEyVQGcsp7qYT.jpg",
             "popularity": 14.841
@@ -3701,7 +3701,7 @@
         "fields": {
             "title": "블랙머니",
             "year": 2019,
-            "userRating": "8.41",
+            "userRating": 8.41,
             "link": "189053",
             "poster_path": "https://image.tmdb.org/t/p/original//y4gCnKpDSvkDXzdN45WCIK52tgJ.jpg",
             "popularity": 2.563
@@ -3713,7 +3713,7 @@
         "fields": {
             "title": "우리 형",
             "year": 2004,
-            "userRating": "8.40",
+            "userRating": 8.4,
             "link": "38384",
             "poster_path": "https://image.tmdb.org/t/p/original//6iX1nfAYCLd4ntl7nBmZXWOp8rp.jpg",
             "popularity": 3.087
@@ -3725,7 +3725,7 @@
         "fields": {
             "title": "반창꼬",
             "year": 2012,
-            "userRating": "8.58",
+            "userRating": 8.58,
             "link": "91045",
             "poster_path": "https://image.tmdb.org/t/p/original//vWfHD0ddfGsV6sv5QnGKY01OZJ.jpg",
             "popularity": 8.496
@@ -3737,7 +3737,7 @@
         "fields": {
             "title": "박수칠 때 떠나라",
             "year": 2005,
-            "userRating": "7.77",
+            "userRating": 7.77,
             "link": "41363",
             "poster_path": "https://image.tmdb.org/t/p/original//fvz9O0jZ7g94YcRgZl6qauaTxaW.jpg",
             "popularity": 2.769
@@ -3749,7 +3749,7 @@
         "fields": {
             "title": "선생 김봉두",
             "year": 2003,
-            "userRating": "9.01",
+            "userRating": 9.01,
             "link": "36727",
             "poster_path": "https://image.tmdb.org/t/p/original//dKCMFSnUsYE6AM0yrUkzOeYn8Kj.jpg",
             "popularity": 2.84
@@ -3761,7 +3761,7 @@
         "fields": {
             "title": "보스 베이비",
             "year": 2017,
-            "userRating": "8.68",
+            "userRating": 8.68,
             "link": "129094",
             "poster_path": "https://image.tmdb.org/t/p/original//oh9s6RxoeX1Tr4wL1gQFbeH5X1r.jpg",
             "popularity": 22.781
@@ -3773,7 +3773,7 @@
         "fields": {
             "title": "조선명탐정: 흡혈괴마의 비밀",
             "year": 2018,
-            "userRating": "6.64",
+            "userRating": 6.64,
             "link": "165748",
             "poster_path": "https://image.tmdb.org/t/p/original//ptsksFFZYHoWiQNLypvXEgWdcR7.jpg",
             "popularity": 3.556
@@ -3785,7 +3785,7 @@
         "fields": {
             "title": "화차",
             "year": 2012,
-            "userRating": "7.67",
+            "userRating": 7.67,
             "link": "98103",
             "poster_path": "https://image.tmdb.org/t/p/original//9g1D5a5aSsZNnCLfiAcR73nvsPv.jpg",
             "popularity": 5.081
@@ -3797,7 +3797,7 @@
         "fields": {
             "title": "이웃사람",
             "year": 2012,
-            "userRating": "7.52",
+            "userRating": 7.52,
             "link": "93090",
             "poster_path": "https://image.tmdb.org/t/p/original//xVvKWcqiHFMT5EcllYyTOUu95gu.jpg",
             "popularity": 5.461
@@ -3809,7 +3809,7 @@
         "fields": {
             "title": "광식이 동생 광태",
             "year": 2005,
-            "userRating": "7.82",
+            "userRating": 7.82,
             "link": "40134",
             "poster_path": "https://image.tmdb.org/t/p/original//7xRJ3G1PdmL5okNRozrNfwxSvfp.jpg",
             "popularity": 2.592
@@ -3821,7 +3821,7 @@
         "fields": {
             "title": "재심",
             "year": 2017,
-            "userRating": "8.52",
+            "userRating": 8.52,
             "link": "149512",
             "poster_path": "https://image.tmdb.org/t/p/original//gLYQmD6U3uLMp28rRFMhgDsNM6d.jpg",
             "popularity": 5.808
@@ -3833,7 +3833,7 @@
         "fields": {
             "title": "신비한 동물들과 그린델왈드의 범죄",
             "year": 2018,
-            "userRating": "6.16",
+            "userRating": 6.16,
             "link": "154255",
             "poster_path": "https://image.tmdb.org/t/p/original//6Ik5hJ6gOYvc5F1DdKQaAwamsKd.jpg",
             "popularity": 44.1
@@ -3845,7 +3845,7 @@
         "fields": {
             "title": "터미네이터: 다크 페이트",
             "year": 2019,
-            "userRating": "8.42",
+            "userRating": 8.42,
             "link": "167605",
             "poster_path": "https://image.tmdb.org/t/p/original//nIoDNiWWOtCFdJRi89aFI98cdj0.jpg",
             "popularity": 65.841
@@ -3857,7 +3857,7 @@
         "fields": {
             "title": "히트맨",
             "year": 2020,
-            "userRating": "6.77",
+            "userRating": 6.77,
             "link": "185838",
             "poster_path": "https://image.tmdb.org/t/p/original//aL1xLhr9fAVrcyGvUKDmz64zYme.jpg",
             "popularity": 15.029
@@ -3869,7 +3869,7 @@
         "fields": {
             "title": "사바하",
             "year": 2019,
-            "userRating": "7.35",
+            "userRating": 7.35,
             "link": "167099",
             "poster_path": "https://image.tmdb.org/t/p/original//9NvqPjMwjQ2hGwSEXcZ1VZ4mqVS.jpg",
             "popularity": 10.894
@@ -3881,7 +3881,7 @@
         "fields": {
             "title": "화이: 괴물을 삼킨 아이",
             "year": 2013,
-            "userRating": "7.84",
+            "userRating": 7.84,
             "link": "98467",
             "poster_path": "https://image.tmdb.org/t/p/original//qHdD1bP4UmkPtehxFrtdsH7LI2C.jpg",
             "popularity": 9.113
@@ -3893,7 +3893,7 @@
         "fields": {
             "title": "의뢰인",
             "year": 2011,
-            "userRating": "8.07",
+            "userRating": 8.07,
             "link": "75395",
             "poster_path": "https://image.tmdb.org/t/p/original//iGWRZ3HpqVgtQQy6NBF2qNiYzks.jpg",
             "popularity": 3.542
@@ -3905,7 +3905,7 @@
         "fields": {
             "title": "테이큰",
             "year": 2008,
-            "userRating": "9.22",
+            "userRating": 9.22,
             "link": "47152",
             "poster_path": "https://image.tmdb.org/t/p/original//xc25zeg7Bt19207jJnIzyykfHH1.jpg",
             "popularity": 72.829
@@ -3917,7 +3917,7 @@
         "fields": {
             "title": "007 스카이폴",
             "year": 2012,
-            "userRating": "7.91",
+            "userRating": 7.91,
             "link": "70994",
             "poster_path": "https://image.tmdb.org/t/p/original//oHkZwUYpfrAnkKcJh3BdPYsBSPX.jpg",
             "popularity": 59.187
@@ -3929,7 +3929,7 @@
         "fields": {
             "title": "스파이더맨 2",
             "year": 2004,
-            "userRating": "8.81",
+            "userRating": 8.81,
             "link": "35071",
             "poster_path": "https://image.tmdb.org/t/p/original//hHrdrG8aRkLlrQaAJZjKhaweJNa.jpg",
             "popularity": 28.984
@@ -3941,7 +3941,7 @@
         "fields": {
             "title": "블라인드",
             "year": 2011,
-            "userRating": "8.08",
+            "userRating": 8.08,
             "link": "79557",
             "poster_path": "https://image.tmdb.org/t/p/original//7isYrfyaeEC6rRRLaKgPKQjYPzx.jpg",
             "popularity": 6.819
@@ -3953,7 +3953,7 @@
         "fields": {
             "title": "박열",
             "year": 2017,
-            "userRating": "8.12",
+            "userRating": 8.12,
             "link": "155716",
             "poster_path": "https://image.tmdb.org/t/p/original//1fjBtHc5tERLVZGWsSiwvUVLErk.jpg",
             "popularity": 3.056
@@ -3965,7 +3965,7 @@
         "fields": {
             "title": "맨발의 기봉이",
             "year": 2006,
-            "userRating": "7.26",
+            "userRating": 7.26,
             "link": "55677",
             "poster_path": "https://image.tmdb.org/t/p/original//9578nctu2yYWHXjUEZ9EKwGv4QR.jpg",
             "popularity": 1.859
@@ -3977,7 +3977,7 @@
         "fields": {
             "title": "바람의 파이터",
             "year": 2004,
-            "userRating": "8.17",
+            "userRating": 8.17,
             "link": "33837",
             "poster_path": "https://image.tmdb.org/t/p/original//dz0Rnu1F8LB75D54EgJSzYwuW2r.jpg",
             "popularity": 7.685
@@ -3989,7 +3989,7 @@
         "fields": {
             "title": "작업의 정석",
             "year": 2005,
-            "userRating": "6.55",
+            "userRating": 6.55,
             "link": "39652",
             "poster_path": "https://image.tmdb.org/t/p/original//6Uh7FIgyzBvcM3G9m9TIMMEmmdi.jpg",
             "popularity": 4.029
@@ -4001,7 +4001,7 @@
         "fields": {
             "title": "미인도",
             "year": 2008,
-            "userRating": "6.36",
+            "userRating": 6.36,
             "link": "49525",
             "poster_path": "https://image.tmdb.org/t/p/original//f1rFQ86oYyoTuOCI7ZmIsvJiDU2.jpg",
             "popularity": 7.373
@@ -4013,7 +4013,7 @@
         "fields": {
             "title": "라스트 갓파더",
             "year": 2010,
-            "userRating": "6.24",
+            "userRating": 6.24,
             "link": "47531",
             "poster_path": "https://image.tmdb.org/t/p/original//xIjcOfwk9Y2tXgO0T1R6b3Gb7AG.jpg",
             "popularity": 1.825
@@ -4025,7 +4025,7 @@
         "fields": {
             "title": "주유소 습격사건",
             "year": 1999,
-            "userRating": "8.31",
+            "userRating": 8.31,
             "link": "25970",
             "poster_path": "https://image.tmdb.org/t/p/original//jbFevA5CswyY6L35sVENh76WkOg.jpg",
             "popularity": 6.145
@@ -4037,7 +4037,7 @@
         "fields": {
             "title": "테이큰 2",
             "year": 2012,
-            "userRating": "7.00",
+            "userRating": 7.0,
             "link": "91510",
             "poster_path": "https://image.tmdb.org/t/p/original//5ITLRqXjsHsXlzsjQrTUtvbTdig.jpg",
             "popularity": 74.549
@@ -4049,7 +4049,7 @@
         "fields": {
             "title": "하녀",
             "year": 2010,
-            "userRating": "9.38",
+            "userRating": 9.38,
             "link": "53895",
             "poster_path": "https://image.tmdb.org/t/p/original//7I7XfYRRCbozifGdECM1xdSz5g3.jpg",
             "popularity": 11.644
@@ -4061,7 +4061,7 @@
         "fields": {
             "title": "메이즈 러너: 데스 큐어",
             "year": 2018,
-            "userRating": "7.85",
+            "userRating": 7.85,
             "link": "149248",
             "poster_path": "https://image.tmdb.org/t/p/original//xTOZbj6y3sTa83YH1dx82Ev7VlA.jpg",
             "popularity": 87.764
@@ -4073,7 +4073,7 @@
         "fields": {
             "title": "맘마미아!2",
             "year": 2018,
-            "userRating": "8.97",
+            "userRating": 8.97,
             "link": "164115",
             "poster_path": "https://image.tmdb.org/t/p/original//kOtJnv1plVPLTO6JadPv3WrWanF.jpg",
             "popularity": 17.476
@@ -4085,7 +4085,7 @@
         "fields": {
             "title": "분노의 질주: 더 얼티메이트",
             "year": 2021,
-            "userRating": "7.31",
+            "userRating": 7.31,
             "link": "189150",
             "poster_path": "https://image.tmdb.org/t/p/original//tVkqaX34vKpprUn5As1kJeYPunr.jpg",
             "popularity": 185.671
@@ -4097,7 +4097,7 @@
         "fields": {
             "title": "달콤, 살벌한 연인",
             "year": 2006,
-            "userRating": "8.38",
+            "userRating": 8.38,
             "link": "55405",
             "poster_path": "https://image.tmdb.org/t/p/original//qYFoLxfmjs3sOlOJ2Z8uO6E8bIj.jpg",
             "popularity": 1.616
@@ -4109,7 +4109,7 @@
         "fields": {
             "title": "호빗: 스마우그의 폐허",
             "year": 2013,
-            "userRating": "8.49",
+            "userRating": 8.49,
             "link": "74566",
             "poster_path": "https://image.tmdb.org/t/p/original//jhnHkvYSi9AlwDcYLlv193LiOPG.jpg",
             "popularity": 96.088
@@ -4121,7 +4121,7 @@
         "fields": {
             "title": "혈의 누",
             "year": 2005,
-            "userRating": "7.98",
+            "userRating": 7.98,
             "link": "40033",
             "poster_path": "https://image.tmdb.org/t/p/original//ksfC2LQ8qRxjFhcvAvFTji439O2.jpg",
             "popularity": 4.119
@@ -4133,7 +4133,7 @@
         "fields": {
             "title": "컨저링",
             "year": 2013,
-            "userRating": "7.86",
+            "userRating": 7.86,
             "link": "92823",
             "poster_path": "https://image.tmdb.org/t/p/original//pWpTToZ32bG09PaZ1rvYG5mpOyV.jpg",
             "popularity": 145.104
@@ -4145,7 +4145,7 @@
         "fields": {
             "title": "슈렉 포에버",
             "year": 2010,
-            "userRating": "8.03",
+            "userRating": 8.03,
             "link": "69940",
             "poster_path": "https://image.tmdb.org/t/p/original//t3FNCqPBgRK9jYTzLGWptIdpD3O.jpg",
             "popularity": 92.286
@@ -4157,7 +4157,7 @@
         "fields": {
             "title": "극락도 살인사건",
             "year": 2007,
-            "userRating": "6.95",
+            "userRating": 6.95,
             "link": "47421",
             "poster_path": "https://image.tmdb.org/t/p/original//6CdLfvh5zqooo3zwf5GM5CsSFqe.jpg",
             "popularity": 4.321
@@ -4169,7 +4169,7 @@
         "fields": {
             "title": "이글 아이",
             "year": 2008,
-            "userRating": "7.97",
+            "userRating": 7.97,
             "link": "45292",
             "poster_path": "https://image.tmdb.org/t/p/original//lCpNunIyrUQHK4kXzG0FUWPhK3B.jpg",
             "popularity": 19.389
@@ -4181,7 +4181,7 @@
         "fields": {
             "title": "배트맨 대 슈퍼맨: 저스티스의 시작",
             "year": 2016,
-            "userRating": "6.86",
+            "userRating": 6.86,
             "link": "109960",
             "poster_path": "https://image.tmdb.org/t/p/original//nfdgwCossZkIEEaQ4iR80mX2iR3.jpg",
             "popularity": 88.111
@@ -4193,7 +4193,7 @@
         "fields": {
             "title": "레디 플레이어 원",
             "year": 2018,
-            "userRating": "8.53",
+            "userRating": 8.53,
             "link": "136898",
             "poster_path": "https://image.tmdb.org/t/p/original//lr3cE3j39N1UmqKk7GucK5mZIEE.jpg",
             "popularity": 93.019
@@ -4205,7 +4205,7 @@
         "fields": {
             "title": "위대한 유산",
             "year": 2003,
-            "userRating": "7.82",
+            "userRating": 7.82,
             "link": "36825",
             "poster_path": "https://image.tmdb.org/t/p/original//iMX5CEx74VOEzf1RkXgiCiFkN24.jpg",
             "popularity": 1.953
@@ -4217,7 +4217,7 @@
         "fields": {
             "title": "7광구",
             "year": 2011,
-            "userRating": "3.34",
+            "userRating": 3.34,
             "link": "48246",
             "poster_path": "https://image.tmdb.org/t/p/original//9Xq6vOiNqURWhZXfRRlIUL8Qjdo.jpg",
             "popularity": 5.592
@@ -4229,7 +4229,7 @@
         "fields": {
             "title": "배틀쉽",
             "year": 2012,
-            "userRating": "7.41",
+            "userRating": 7.41,
             "link": "77128",
             "poster_path": "https://image.tmdb.org/t/p/original//cCRyYGjtUJLPYYKeaiYdHBmCMy2.jpg",
             "popularity": 41.801
@@ -4241,7 +4241,7 @@
         "fields": {
             "title": "박쥐",
             "year": 2009,
-            "userRating": "8.86",
+            "userRating": 8.86,
             "link": "55123",
             "poster_path": "https://image.tmdb.org/t/p/original//2I18GAALWplcv60v7c3HmdzjMGW.jpg",
             "popularity": 29.828
@@ -4253,7 +4253,7 @@
         "fields": {
             "title": "타짜: 원 아이드 잭",
             "year": 2019,
-            "userRating": "5.37",
+            "userRating": 5.37,
             "link": "96951",
             "poster_path": "https://image.tmdb.org/t/p/original//aebY0aGAP7Od5qs3k6PXEVIMwYD.jpg",
             "popularity": 2.454
@@ -4265,7 +4265,7 @@
         "fields": {
             "title": "어거스트 러쉬",
             "year": 2007,
-            "userRating": "9.01",
+            "userRating": 9.01,
             "link": "66158",
             "poster_path": "https://image.tmdb.org/t/p/original//A2LgbVmfaKo1T7gkbm6zWDeegBZ.jpg",
             "popularity": 24.175
@@ -4277,7 +4277,7 @@
         "fields": {
             "title": "나는 전설이다",
             "year": 2007,
-            "userRating": "7.76",
+            "userRating": 7.76,
             "link": "64191",
             "poster_path": "https://image.tmdb.org/t/p/original//yvaDfiS0DzsHDWBjlqxo6CPgDVJ.jpg",
             "popularity": 60.694
@@ -4289,7 +4289,7 @@
         "fields": {
             "title": "포세이돈",
             "year": 2006,
-            "userRating": "7.28",
+            "userRating": 7.28,
             "link": "52552",
             "poster_path": "https://image.tmdb.org/t/p/original//8ZqnGhatowlRui0h7GzBk1sYMVE.jpg",
             "popularity": 24.107
@@ -4301,7 +4301,7 @@
         "fields": {
             "title": "셜록 홈즈",
             "year": 2009,
-            "userRating": "8.19",
+            "userRating": 8.19,
             "link": "51132",
             "poster_path": "https://image.tmdb.org/t/p/original//57lDlyrA7tWDyscroixKSJRerFU.jpg",
             "popularity": 51.873
@@ -4313,7 +4313,7 @@
         "fields": {
             "title": "싱글즈",
             "year": 2003,
-            "userRating": "8.16",
+            "userRating": 8.16,
             "link": "36415",
             "poster_path": "https://image.tmdb.org/t/p/original//txaTpprn5MzXnxvsEBARpjPJ7DO.jpg",
             "popularity": 4.183
@@ -4325,7 +4325,7 @@
         "fields": {
             "title": "마당을 나온 암탉",
             "year": 2011,
-            "userRating": "8.88",
+            "userRating": 8.88,
             "link": "41585",
             "poster_path": "https://image.tmdb.org/t/p/original//ajme3UcWIfw0eYxmliKh5FBbdvR.jpg",
             "popularity": 9.579
@@ -4337,7 +4337,7 @@
         "fields": {
             "title": "007 퀀텀 오브 솔러스",
             "year": 2008,
-            "userRating": "7.10",
+            "userRating": 7.1,
             "link": "65610",
             "poster_path": "https://image.tmdb.org/t/p/original//2YKYWVQEImMyWzMdqbNFOHFq1JY.jpg",
             "popularity": 26.251
@@ -4349,7 +4349,7 @@
         "fields": {
             "title": "내 여자친구를 소개합니다",
             "year": 2004,
-            "userRating": "6.41",
+            "userRating": 6.41,
             "link": "37397",
             "poster_path": "https://image.tmdb.org/t/p/original//vpO3NTGEDb1fmdDp7uH8appJyAn.jpg",
             "popularity": 14.756
@@ -4361,7 +4361,7 @@
         "fields": {
             "title": "댄서의 순정",
             "year": 2005,
-            "userRating": "7.83",
+            "userRating": 7.83,
             "link": "39378",
             "poster_path": "https://image.tmdb.org/t/p/original//i4lInYOz8ZaZcXOizW8JnaJwywF.jpg",
             "popularity": 3.142
@@ -4373,7 +4373,7 @@
         "fields": {
             "title": "싱크홀",
             "year": 2021,
-            "userRating": "6.36",
+            "userRating": 6.36,
             "link": "188472",
             "poster_path": "https://image.tmdb.org/t/p/original//l71a3Mh4PbOZwbIOlcsi3QcezK5.jpg",
             "popularity": 42.814
@@ -4385,7 +4385,7 @@
         "fields": {
             "title": "악의 연대기",
             "year": 2015,
-            "userRating": "7.59",
+            "userRating": 7.59,
             "link": "122535",
             "poster_path": "https://image.tmdb.org/t/p/original//mJHksZ2WVKsiElz0gzaHdszkM9k.jpg",
             "popularity": 5.357
@@ -4397,7 +4397,7 @@
         "fields": {
             "title": "강남 1970",
             "year": 2015,
-            "userRating": "7.16",
+            "userRating": 7.16,
             "link": "103760",
             "poster_path": "https://image.tmdb.org/t/p/original//fMqPvxSasMuG8HLqGAxz6gbiPYW.jpg",
             "popularity": 7.899
@@ -4409,7 +4409,7 @@
         "fields": {
             "title": "바르게 살자",
             "year": 2007,
-            "userRating": "8.08",
+            "userRating": 8.08,
             "link": "65540",
             "poster_path": "https://image.tmdb.org/t/p/original//wmf3ehKxSqBJ14GUh4tLU9yjvqe.jpg",
             "popularity": 5.688
@@ -4421,7 +4421,7 @@
         "fields": {
             "title": "늑대의 유혹",
             "year": 2004,
-            "userRating": "7.73",
+            "userRating": 7.73,
             "link": "37919",
             "poster_path": "https://image.tmdb.org/t/p/original//1V1WgPfpfA5TUzr5YjcDy0rgfLz.jpg",
             "popularity": 3.539
@@ -4433,7 +4433,7 @@
         "fields": {
             "title": "이상한 나라의 앨리스",
             "year": 2010,
-            "userRating": "7.56",
+            "userRating": 7.56,
             "link": "50163",
             "poster_path": "https://image.tmdb.org/t/p/original//9PZfYjgz6FeATs3V99FD509KWJf.jpg",
             "popularity": 85.895
@@ -4445,7 +4445,7 @@
         "fields": {
             "title": "맨 오브 스틸",
             "year": 2013,
-            "userRating": "7.93",
+            "userRating": 7.93,
             "link": "68196",
             "poster_path": "https://image.tmdb.org/t/p/original//8Qx9fp2lZJU4v67jks6MmOMBCQg.jpg",
             "popularity": 81.647
@@ -4457,7 +4457,7 @@
         "fields": {
             "title": "로건",
             "year": 2017,
-            "userRating": "9.08",
+            "userRating": 9.08,
             "link": "117787",
             "poster_path": "https://image.tmdb.org/t/p/original//tE6tvHXlAZ8hqM4k9ZvtWtBk4pc.jpg",
             "popularity": 69.858
@@ -4469,7 +4469,7 @@
         "fields": {
             "title": "황해",
             "year": 2010,
-            "userRating": "7.94",
+            "userRating": 7.94,
             "link": "69986",
             "poster_path": "https://image.tmdb.org/t/p/original//nuZvoEcYkIIQLMIMbQ72dmlyDJD.jpg",
             "popularity": 10.421
@@ -4481,7 +4481,7 @@
         "fields": {
             "title": "원더 우먼",
             "year": 2017,
-            "userRating": "7.69",
+            "userRating": 7.69,
             "link": "125473",
             "poster_path": "https://image.tmdb.org/t/p/original//oZGYR75RaSLQ8XdJIVerYnOdhFx.jpg",
             "popularity": 60.425
@@ -4493,7 +4493,7 @@
         "fields": {
             "title": "초능력자",
             "year": 2010,
-            "userRating": "6.71",
+            "userRating": 6.71,
             "link": "73344",
             "poster_path": "https://image.tmdb.org/t/p/original//yXnGO8s2aWyYenZVMbuco1W5cQk.jpg",
             "popularity": 6.203
@@ -4505,7 +4505,7 @@
         "fields": {
             "title": "내 사랑 내 곁에",
             "year": 2009,
-            "userRating": "7.04",
+            "userRating": 7.04,
             "link": "51076",
             "poster_path": "https://image.tmdb.org/t/p/original//jZjejBfoblAbUJoiE6N8l4hlUkS.jpg",
             "popularity": 2.153
@@ -4517,7 +4517,7 @@
         "fields": {
             "title": "신의 한 수: 귀수편",
             "year": 2019,
-            "userRating": "7.77",
+            "userRating": 7.77,
             "link": "179159",
             "poster_path": "https://image.tmdb.org/t/p/original//205K07RJ2e7cscv794tGPRTU8uR.jpg",
             "popularity": 5.537
@@ -4529,7 +4529,7 @@
         "fields": {
             "title": "마이 웨이",
             "year": 2011,
-            "userRating": "7.20",
+            "userRating": 7.2,
             "link": "71628",
             "poster_path": "https://image.tmdb.org/t/p/original//iMtEu7346RUV26OMwoqOPHrKERe.jpg",
             "popularity": 16.241
@@ -4541,7 +4541,7 @@
         "fields": {
             "title": "나의 사랑 나의 신부",
             "year": 2014,
-            "userRating": "7.96",
+            "userRating": 7.96,
             "link": "113312",
             "poster_path": "https://image.tmdb.org/t/p/original//pgP4bzPtRUCACT2MndYpYe6DD9R.jpg",
             "popularity": 6.828
@@ -4553,7 +4553,7 @@
         "fields": {
             "title": "겟 아웃",
             "year": 2017,
-            "userRating": "8.30",
+            "userRating": 8.3,
             "link": "156083",
             "poster_path": "https://image.tmdb.org/t/p/original//ajHgWxJENrSoysd2ZD7cJliKSoF.jpg",
             "popularity": 55.429
@@ -4565,7 +4565,7 @@
         "fields": {
             "title": "범죄의 재구성",
             "year": 2004,
-            "userRating": "8.79",
+            "userRating": 8.79,
             "link": "37853",
             "poster_path": "https://image.tmdb.org/t/p/original//EO7XXbPhCFQ8ndCraIQj80hajY.jpg",
             "popularity": 1.658
@@ -4577,7 +4577,7 @@
         "fields": {
             "title": "베놈 2: 렛 데어 비 카니지",
             "year": 2021,
-            "userRating": "6.02",
+            "userRating": 6.02,
             "link": "187323",
             "poster_path": "https://image.tmdb.org/t/p/original//1Lh9LER4xRQ3INFFi2dfS2hpRwv.jpg",
             "popularity": 283.295
@@ -4589,7 +4589,7 @@
         "fields": {
             "title": "세븐 데이즈",
             "year": 2007,
-            "userRating": "9.05",
+            "userRating": 9.05,
             "link": "60753",
             "poster_path": "https://image.tmdb.org/t/p/original//21EN8reaMiQctJeRDQ5QPoyx39c.jpg",
             "popularity": 4.13
@@ -4601,7 +4601,7 @@
         "fields": {
             "title": "굿바이 싱글",
             "year": 2016,
-            "userRating": "8.10",
+            "userRating": 8.1,
             "link": "139700",
             "poster_path": "https://image.tmdb.org/t/p/original//sIXM127k6yGyzlm4rrEw4vvicZQ.jpg",
             "popularity": 2.778
@@ -4613,7 +4613,7 @@
         "fields": {
             "title": "이클립스",
             "year": 2010,
-            "userRating": "7.36",
+            "userRating": 7.36,
             "link": "71499",
             "poster_path": "https://image.tmdb.org/t/p/original//9FiYRPWcGsKJZRVyuev6Tn6kBiV.jpg",
             "popularity": 149.909
@@ -4625,7 +4625,7 @@
         "fields": {
             "title": "사생결단",
             "year": 2006,
-            "userRating": "7.44",
+            "userRating": 7.44,
             "link": "43537",
             "poster_path": "https://image.tmdb.org/t/p/original//hsxx2rRLYoqlrBdze94OIQW1bAU.jpg",
             "popularity": 3.807
@@ -4637,7 +4637,7 @@
         "fields": {
             "title": "몽타주",
             "year": 2013,
-            "userRating": "8.56",
+            "userRating": 8.56,
             "link": "96911",
             "poster_path": "https://image.tmdb.org/t/p/original//4c7F7FpIP4N2KCyUDZ6okREKLkq.jpg",
             "popularity": 6.807
@@ -4649,7 +4649,7 @@
         "fields": {
             "title": "명당",
             "year": 2018,
-            "userRating": "7.07",
+            "userRating": 7.07,
             "link": "162981",
             "poster_path": "https://image.tmdb.org/t/p/original//fpFucJQ5eGlSE0v4PaZ2TOijxO5.jpg",
             "popularity": 1.535
@@ -4661,7 +4661,7 @@
         "fields": {
             "title": "논스톱",
             "year": 2014,
-            "userRating": "8.61",
+            "userRating": 8.61,
             "link": "98484",
             "poster_path": "https://image.tmdb.org/t/p/original//9xlCzaRJ0wj9nUlF5ovsKOFCxTL.jpg",
             "popularity": 17.375
@@ -4673,7 +4673,7 @@
         "fields": {
             "title": "쩨쩨한 로맨스",
             "year": 2010,
-            "userRating": "8.52",
+            "userRating": 8.52,
             "link": "75724",
             "poster_path": "https://image.tmdb.org/t/p/original//kbtem4Zbreg0PExMcfMH37MsrOh.jpg",
             "popularity": 3.265
@@ -4685,7 +4685,7 @@
         "fields": {
             "title": "인투 더 스톰",
             "year": 2014,
-            "userRating": "8.24",
+            "userRating": 8.24,
             "link": "100990",
             "poster_path": "https://image.tmdb.org/t/p/original//d7arE8i7uBiueoOqnqC53cFiR01.jpg",
             "popularity": 32.96
@@ -4697,7 +4697,7 @@
         "fields": {
             "title": "청춘만화",
             "year": 2006,
-            "userRating": "6.21",
+            "userRating": 6.21,
             "link": "43368",
             "poster_path": "https://image.tmdb.org/t/p/original//uPWQ8uWZ5qj28aMbsWkDGhkNi0Y.jpg",
             "popularity": 2.179
@@ -4709,7 +4709,7 @@
         "fields": {
             "title": "눈에는 눈 이에는 이",
             "year": 2008,
-            "userRating": "7.89",
+            "userRating": 7.89,
             "link": "67785",
             "poster_path": "https://image.tmdb.org/t/p/original//vfbPkFvTfNWZjoTKOLXfnSNI8wQ.jpg",
             "popularity": 3.404
@@ -4721,7 +4721,7 @@
         "fields": {
             "title": "비상선언",
             "year": 2022,
-            "userRating": "6.48",
+            "userRating": 6.48,
             "link": "184519",
             "poster_path": "https://image.tmdb.org/t/p/original//uqd0w7sevlyBgcIAX1qg8LjsHFM.jpg",
             "popularity": 112.041
@@ -4733,7 +4733,7 @@
         "fields": {
             "title": "뷰티 인사이드",
             "year": 2015,
-            "userRating": "7.79",
+            "userRating": 7.79,
             "link": "129050",
             "poster_path": "https://image.tmdb.org/t/p/original//am6EX9djPcPeQMMBwn2mUfckeDF.jpg",
             "popularity": 13.749
@@ -4745,7 +4745,7 @@
         "fields": {
             "title": "본 얼티메이텀",
             "year": 2007,
-            "userRating": "9.25",
+            "userRating": 9.25,
             "link": "59075",
             "poster_path": "https://image.tmdb.org/t/p/original//5C3p4UUNxcFRykRBTiQzB5xveeg.jpg",
             "popularity": 30.978
@@ -4757,7 +4757,7 @@
         "fields": {
             "title": "혹성탈출: 종의 전쟁",
             "year": 2017,
-            "userRating": "7.93",
+            "userRating": 7.93,
             "link": "143394",
             "poster_path": "https://image.tmdb.org/t/p/original//c07zzytpPKVjXlEbSiMZFAfxQAa.jpg",
             "popularity": 52.289
@@ -4769,7 +4769,7 @@
         "fields": {
             "title": "봉이 김선달",
             "year": 2016,
-            "userRating": "7.72",
+            "userRating": 7.72,
             "link": "134895",
             "poster_path": "https://image.tmdb.org/t/p/original//aPHsUgFypY3ctnseXoLag9W0ASS.jpg",
             "popularity": 4.732
@@ -4781,7 +4781,7 @@
         "fields": {
             "title": "비열한 거리",
             "year": 2006,
-            "userRating": "8.80",
+            "userRating": 8.8,
             "link": "50932",
             "poster_path": "https://image.tmdb.org/t/p/original//pUwY1vftUyxJvae8bHq861o114T.jpg",
             "popularity": 7.705
@@ -4793,7 +4793,7 @@
         "fields": {
             "title": "노아",
             "year": 2014,
-            "userRating": "2.33",
+            "userRating": 2.33,
             "link": "113935",
             "poster_path": "https://image.tmdb.org/t/p/original//AbBuZzg2CirxLQ9dD546lU91H7H.jpg",
             "popularity": 30.846
@@ -4805,7 +4805,7 @@
         "fields": {
             "title": "오페라의 유령",
             "year": 2004,
-            "userRating": "8.74",
+            "userRating": 8.74,
             "link": "39369",
             "poster_path": "https://image.tmdb.org/t/p/original//wxaH0icfmOgk5ziO53dxAoZQtYt.jpg",
             "popularity": 19.253
@@ -4817,7 +4817,7 @@
         "fields": {
             "title": "페르시아의 왕자: 시간의 모래",
             "year": 2010,
-            "userRating": "8.69",
+            "userRating": 8.69,
             "link": "67374",
             "poster_path": "https://image.tmdb.org/t/p/original//lXj92KL1LuXQ5A93QBkyrbaerzW.jpg",
             "popularity": 55.16
@@ -4829,7 +4829,7 @@
         "fields": {
             "title": "박물관이 살아있다 2",
             "year": 2009,
-            "userRating": "7.46",
+            "userRating": 7.46,
             "link": "50621",
             "poster_path": "https://image.tmdb.org/t/p/original//Iuf30yobtKBlCZQBseGccZA1oW.jpg",
             "popularity": 33.081
@@ -4841,7 +4841,7 @@
         "fields": {
             "title": "천문: 하늘에 묻는다",
             "year": 2019,
-            "userRating": "8.81",
+            "userRating": 8.81,
             "link": "181381",
             "poster_path": "https://image.tmdb.org/t/p/original//bumXyxQv1F488Ft3LrPoKFDkiXr.jpg",
             "popularity": 9.317
@@ -4853,7 +4853,7 @@
         "fields": {
             "title": "테넷",
             "year": 2020,
-            "userRating": "8.15",
+            "userRating": 8.15,
             "link": "190010",
             "poster_path": "https://image.tmdb.org/t/p/original//ylQRi3edixhzUiubw7LQP1YhI6W.jpg",
             "popularity": 72.151
@@ -4865,7 +4865,7 @@
         "fields": {
             "title": "시실리 2km",
             "year": 2004,
-            "userRating": "8.10",
+            "userRating": 8.1,
             "link": "38619",
             "poster_path": "https://image.tmdb.org/t/p/original//djl6k3QkipbNyNPHKZiIx7VOqMr.jpg",
             "popularity": 4.822
@@ -4877,7 +4877,7 @@
         "fields": {
             "title": "크루엘라",
             "year": 2021,
-            "userRating": "9.19",
+            "userRating": 9.19,
             "link": "187322",
             "poster_path": "https://image.tmdb.org/t/p/original//ejnSfKiUgqyiqdiLMc1wGAwvyTN.jpg",
             "popularity": 259.778
@@ -4889,7 +4889,7 @@
         "fields": {
             "title": "남자가 사랑할 때",
             "year": 2014,
-            "userRating": "5.49",
+            "userRating": 5.49,
             "link": "103055",
             "poster_path": "https://image.tmdb.org/t/p/original//iIsBeLLd38PR6uQdu3S0lYqDoJ7.jpg",
             "popularity": 4.733
@@ -4901,7 +4901,7 @@
         "fields": {
             "title": "루시",
             "year": 2014,
-            "userRating": "7.13",
+            "userRating": 7.13,
             "link": "107960",
             "poster_path": "https://image.tmdb.org/t/p/original//dHPhwkoDDslf2SFzccRG17Y9f2K.jpg",
             "popularity": 58.407
@@ -4913,7 +4913,7 @@
         "fields": {
             "title": "효자동 이발사",
             "year": 2004,
-            "userRating": "7.49",
+            "userRating": 7.49,
             "link": "37380",
             "poster_path": "https://image.tmdb.org/t/p/original//2PquLRzzEy2ECFHHfN2DesI7lw3.jpg",
             "popularity": 3.162
@@ -4925,7 +4925,7 @@
         "fields": {
             "title": "협상",
             "year": 2018,
-            "userRating": "7.32",
+            "userRating": 7.32,
             "link": "164106",
             "poster_path": "https://image.tmdb.org/t/p/original//imd5SWNlfs0uoaDftLvb9ZlgLKr.jpg",
             "popularity": 14.915
@@ -4937,7 +4937,7 @@
         "fields": {
             "title": "알리타: 배틀 엔젤",
             "year": 2019,
-            "userRating": "8.70",
+            "userRating": 8.7,
             "link": "66728",
             "poster_path": "https://image.tmdb.org/t/p/original//bvlSmyZY4mXpbxDxCZZrcykSrKS.jpg",
             "popularity": 103.467
@@ -4949,7 +4949,7 @@
         "fields": {
             "title": "뉴 문",
             "year": 2009,
-            "userRating": "6.59",
+            "userRating": 6.59,
             "link": "51918",
             "poster_path": "https://image.tmdb.org/t/p/original//q1zQIaDMBgLzpW8Hikzhau1InvI.jpg",
             "popularity": 98.331
@@ -4961,7 +4961,7 @@
         "fields": {
             "title": "천사와 악마",
             "year": 2009,
-            "userRating": "8.15",
+            "userRating": 8.15,
             "link": "61503",
             "poster_path": "https://image.tmdb.org/t/p/original//vsFzsh4ozewRyTzPY0LlI4r31EI.jpg",
             "popularity": 50.184
@@ -4973,7 +4973,7 @@
         "fields": {
             "title": "애나벨 : 인형의 주인",
             "year": 2017,
-            "userRating": "7.31",
+            "userRating": 7.31,
             "link": "152341",
             "poster_path": "https://image.tmdb.org/t/p/original//myc2B4lHDHuw6G5yQlW8Z0noVxk.jpg",
             "popularity": 64.47
@@ -4985,7 +4985,7 @@
         "fields": {
             "title": "컨저링 2",
             "year": 2016,
-            "userRating": "8.23",
+            "userRating": 8.23,
             "link": "114282",
             "poster_path": "https://image.tmdb.org/t/p/original//RTmoz2DYYOPDnTKGqkJDWKdcd6.jpg",
             "popularity": 128.739
@@ -4997,7 +4997,7 @@
         "fields": {
             "title": "터보",
             "year": 2013,
-            "userRating": "9.04",
+            "userRating": 9.04,
             "link": "97826",
             "poster_path": "https://image.tmdb.org/t/p/original//w5JeQUbF39AJjcmPGg8NUYtQ9jl.jpg",
             "popularity": 30.767
@@ -5009,7 +5009,7 @@
         "fields": {
             "title": "애자",
             "year": 2009,
-            "userRating": "8.76",
+            "userRating": 8.76,
             "link": "51407",
             "poster_path": "https://image.tmdb.org/t/p/original//chFMWs0waeWgo2mCoam70H3s5ZW.jpg",
             "popularity": 1.105
@@ -5021,7 +5021,7 @@
         "fields": {
             "title": "내안의 그놈",
             "year": 2019,
-            "userRating": "8.19",
+            "userRating": 8.19,
             "link": "164172",
             "poster_path": "https://image.tmdb.org/t/p/original//ofhf0Tn7hnBtboiUEuVj5IZyD3g.jpg",
             "popularity": 15.468
@@ -5033,7 +5033,7 @@
         "fields": {
             "title": "잠복근무",
             "year": 2005,
-            "userRating": "7.54",
+            "userRating": 7.54,
             "link": "39379",
             "poster_path": "https://image.tmdb.org/t/p/original//8slleMUAZ8zdqwDwLJWndsrDKkv.jpg",
             "popularity": 10.894
@@ -5045,7 +5045,7 @@
         "fields": {
             "title": "그림자 살인",
             "year": 2009,
-            "userRating": "7.36",
+            "userRating": 7.36,
             "link": "49480",
             "poster_path": "https://image.tmdb.org/t/p/original//pKUuC10oUa6cmRGxY5PTCm0BuGz.jpg",
             "popularity": 3.077
@@ -5057,7 +5057,7 @@
         "fields": {
             "title": "수어사이드 스쿼드",
             "year": 2016,
-            "userRating": "6.96",
+            "userRating": 6.96,
             "link": "126032",
             "poster_path": "https://image.tmdb.org/t/p/original//n9S2wRfX8DKOP6elv9nX1IV32JJ.jpg",
             "popularity": 66.095
@@ -5069,7 +5069,7 @@
         "fields": {
             "title": "오늘의 연애",
             "year": 2015,
-            "userRating": "6.64",
+            "userRating": 6.64,
             "link": "74027",
             "poster_path": "https://image.tmdb.org/t/p/original//aLhmyQXy1lCwA2htnjrJYtGgBbP.jpg",
             "popularity": 6.325
@@ -5081,7 +5081,7 @@
         "fields": {
             "title": "글러브",
             "year": 2011,
-            "userRating": "8.85",
+            "userRating": 8.85,
             "link": "73477",
             "poster_path": "https://image.tmdb.org/t/p/original//gbBIOpEBgImJDUCZPfH3ZlvOotl.jpg",
             "popularity": 1.506
@@ -5093,7 +5093,7 @@
         "fields": {
             "title": "러브 액츄얼리",
             "year": 2003,
-            "userRating": "8.92",
+            "userRating": 8.92,
             "link": "36843",
             "poster_path": "https://image.tmdb.org/t/p/original//9Po0Fu566Ow58IGTVVpGZvQ8smg.jpg",
             "popularity": 25.631
@@ -5105,7 +5105,7 @@
         "fields": {
             "title": "헤어질 결심",
             "year": 2022,
-            "userRating": "8.68",
+            "userRating": 8.68,
             "link": "198413",
             "poster_path": "https://image.tmdb.org/t/p/original//yGXMia1VNEovB7014ldTHwT1r50.jpg",
             "popularity": 104.436
@@ -5117,7 +5117,7 @@
         "fields": {
             "title": "라디오 스타",
             "year": 2006,
-            "userRating": "9.20",
+            "userRating": 9.2,
             "link": "58088",
             "poster_path": "https://image.tmdb.org/t/p/original//32hqLyDFAJAgqw8fXaYXaPf3ZUZ.jpg",
             "popularity": 2.166
@@ -5129,7 +5129,7 @@
         "fields": {
             "title": "해결사",
             "year": 2010,
-            "userRating": "7.57",
+            "userRating": 7.57,
             "link": "72962",
             "poster_path": "https://image.tmdb.org/t/p/original//gwLbLd9UV2WJsGGo4gIkFplX2Kc.jpg",
             "popularity": 2.237
@@ -5141,7 +5141,7 @@
         "fields": {
             "title": "코리아",
             "year": 2012,
-            "userRating": "8.56",
+            "userRating": 8.56,
             "link": "81891",
             "poster_path": "https://image.tmdb.org/t/p/original//q8I9NjukZtl3xzTMErJrEcesdJH.jpg",
             "popularity": 4.053
@@ -5153,7 +5153,7 @@
         "fields": {
             "title": "연애의 온도",
             "year": 2013,
-            "userRating": "7.47",
+            "userRating": 7.47,
             "link": "96959",
             "poster_path": "https://image.tmdb.org/t/p/original//37CQWtvzWjzkuqInoSO4NhQrxwT.jpg",
             "popularity": 3.56
@@ -5165,7 +5165,7 @@
         "fields": {
             "title": "마약왕",
             "year": 2018,
-            "userRating": "6.34",
+            "userRating": 6.34,
             "link": "157297",
             "poster_path": "https://image.tmdb.org/t/p/original//vXqDNIp7CrUpkcBc8eMBtDPch4J.jpg",
             "popularity": 15.074
@@ -5177,7 +5177,7 @@
         "fields": {
             "title": "구세주",
             "year": 2006,
-            "userRating": "6.72",
+            "userRating": 6.72,
             "link": "52495",
             "poster_path": "https://image.tmdb.org/t/p/original//2AxpdXT7ls0NMI4qVny9fI24a0E.jpg",
             "popularity": 2.214
@@ -5189,7 +5189,7 @@
         "fields": {
             "title": "지.아이.조 2",
             "year": 2013,
-            "userRating": "7.07",
+            "userRating": 7.07,
             "link": "72405",
             "poster_path": "https://image.tmdb.org/t/p/original//rcFLssrNgXCakYpc9axvQ40zUGc.jpg",
             "popularity": 41.957

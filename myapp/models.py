@@ -8,8 +8,9 @@ class movie(models.Model):
     poster_path = models.CharField(max_length=200)
     popularity = models.FloatField()
 
-class scoreboard(models.Model):
-    pass
+class Scoreboard(models.Model):
+    name = models.CharField(max_length=20)
+    score = models.IntegerField()
 
 
 
