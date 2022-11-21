@@ -1,4 +1,6 @@
 from django.db import models
+from django.core.validators import MinValueValidator, MaxValueValidator
+# 유효성 검증 중, 최소/최댓값에 대한 검증을 하는 validator
 
 class movie(models.Model):
     title = models.CharField(max_length=100,unique=True)
@@ -10,7 +12,7 @@ class movie(models.Model):
 
 class Scoreboard(models.Model):
     name = models.CharField(max_length=20)
-    score = models.IntegerField()
+    score = models.IntegerField(validators=[MinValueValidator(0),MaxValueValidator(30)])
 
 
 
