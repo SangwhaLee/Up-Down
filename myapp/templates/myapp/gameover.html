@@ -2,4 +2,8 @@
 {% block content %}
   <p>당신은 죽다!</p>
   <p>score: {{ score }} </p>
+  <p>당신을 위한 추천 영화 : {{ movie.title }}</p>
+  <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ movie.link }}">영화의 네이버 페이지로</a>
+  <p>popularuty {{ movie.popularity }} </p>
+  <p>인기 리뷰: {{ review }}</p>
 {% endblock content %}
