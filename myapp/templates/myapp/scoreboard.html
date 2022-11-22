@@ -1,12 +1,224 @@
 {% extends 'base.html' %}
 {% block content %}
-<p>스코어보드 페이지</p>
-{% for score in scoreboard %}
-  <h2>
-    {{ forloop.counter }}등 
-    {{ score.name }} 님의 점수:
-    {{ score.score }}
-  </h2>
-  <br>
-{% endfor %}
+<div class="container">
+  <div class="frame">
+    <header>Leaderboard</header>
+    <div class="score-card">
+    {% for score in scoreboard %}  
+      <div class="leader">
+        <div class="user">
+          <div class="number">{{ forloop.counter }}</div>
+        </div>
+        <div class="user-info">
+          <div class="user-name">{{ score.name }}</div>
+          <div class="score-value">{{ score.score }}</div>
+        </div>
+        <div class="gallery">
+          <div class="gallery-item"> 
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+    {% endfor %} 
+    </div>
+  </div>
+</div>
+  
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Glory:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Glory, sans-serif;
+}
+#reference {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.score-value{
+  display: none
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f3f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame {
+  min-width: 300px;
+  width: 50%;
+  min-height: 300px;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 1px 0 10px 1px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  overflow-y: scroll;
+}
+.frame header {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Glory, sans-serif;
+}
+{% comment %} .button-group {
+  background-color: #f2f3f7;
+  margin: 1rem 0;
+  display: flex;
+  padding: 5px;
+  border-radius: 16px;
+  min-height: 40px;
+  overflow: hidden;
+  position: relative;
+} {% endcomment %}
+.button-group[data-left="4px"]:before {
+  left: 4px;
+}
+.button-group[data-left="50%"]:before {
+  left: 50%;
+}
+.button-group:before {
+  transition: all 0.3s ease;
+  content: '';
+  position: absolute;
+  top: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 16px;
+}
+.button-group button {
+  flex: 1;
+  min-width: 120px;
+  padding: 5px 3px;
+  border: none;
+  font-family: Glory, sans-serif;
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+.button-group button:hover {
+  cursor: pointer;
+}
+.score-card {
+  flex: 1;
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.score-card .leader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 60px;
+}
+.score-card .leader:not(:first-child) {
+  margin-top: 1rem;
+}
+.score-card .leader .user {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #ebedf6;
+}
+.score-card .leader .user .number {
+  padding: 3px 7px 3px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.score-card .leader .user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3px 5px;
+  min-width: 50px;
+  width: 100px;
+}
+.score-card .leader .user-info .user-name {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.score-card .leader .user-info .view-count {
+  color: #a0a1aa;
+  font-size: 0.8rem;
+}
+.score-card .leader .gallery {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 5px;
+}
+
+.score-card .leader .gallery .gallery-item {
+  background: #eeaeca;
+  border-radius: 1rem;
+  min-width: 300px;
+  height: 50px;
+
+}
+
+.score-card .leader .gallery .gallery-item .progress {
+  background-color: white;
+  width : 10%;
+  border-radius: 1rem;
+  height: 50px;
+}
+
+.score-card .leader .gallery .gallery-item:not(:first-child) {
+  margin-left: 5px;
+}
+.cta-primary {
+  min-width: 120px;
+  padding: 8px 3px;
+  border: 1px solid currentcolor;
+  background-color: #0e1126;
+  color: #fff;
+  border-radius: 16px;
+}
+.cta-primary:hover {
+  transition: all 0.1s ease;
+  cursor: pointer;
+  border: 1px solid #0e1126;
+  color: #0e1126;
+  background-color: #fff;
+}
+</style>
+
 {% endblock content %}
+{% block script %} 
+<script> 
+    
+  const mydata= document.querySelectorAll('.score-value')
+  let innercolor = document.querySelectorAll('.progress')
+  for (let index = 0; index < mydata.length; index++) {
+    const mypercent = (mydata[index].innerText)*100/30
+    innercolor[index].style.width = `${mypercent}%`
+    console.log(innercolor.style)
+    innercolor[index].innerText = mydata[index].innerText
+  }
+   // 진행도 따라 게이지 채우기
+    
+  
+  {% comment %} const setButtonLeftAttr = (value) => {
+    const buttonGroup = document.querySelector('.button-group');
+
+    buttonGroup.dataset.left = value
+    } {% endcomment %}
+
+    const buttonClick = (value) => {
+      setButtonLeftAttr(value)
+    }
+
+  </script>
+{% endblock script %}
