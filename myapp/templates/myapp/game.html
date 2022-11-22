@@ -40,7 +40,9 @@
       <button class="up_btn answer-btn">up▲</button>
       <button class="down_btn answer-btn">down▼</button>
     </form>
-    <form id="full-score-form" class="hidden" action="{% url 'gameclear' %}"></form>
+    <form id="full-score-form" class="hidden" action="{% url 'gameclear' %}" method="POST">
+      {% csrf_token %}
+    </form>
   </div>
   {% endif %}
   {% endfor %}
@@ -68,6 +70,7 @@
 {% block script %}
  {% comment %} <script src="{% static 'javascripts/game.js' %}"></script> {% endcomment %}
  <script>
+  
   let movie = [
     {% for movie in randomdata %}
       {

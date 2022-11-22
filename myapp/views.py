@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-
+from django.views.decorators.http import require_POST
 import random
 from .models import movie, Scoreboard
 import requests
@@ -55,6 +55,7 @@ def game(request):
     }
     return render(request, 'myapp/game.html', context)
 
+@require_POST
 def gameover(request,score):
     moviedata = list(movie.objects.all()) 
     #평점과 popularity 기준으로 영화 추천
@@ -94,6 +95,7 @@ def gameover(request,score):
     return render(request,'myapp/gameover.html',context)
     #대중적이면서 평점 높은 영화 하나 뽑아서 리뷰와 함께 출력
 
+@require_POST
 def gameclear(request):    
 
 
