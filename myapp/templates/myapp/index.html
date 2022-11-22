@@ -9,13 +9,22 @@
     <img class="down-img" src="{% static 'image/down.png' %}" alt="">
   </div>
   <h1 id="game-explanation">어떤 <span style="color:rgb(245, 129, 66);">영화의</span> 평점이 <span style="color:lightgreen;">더 높을까?</span></h1>
-  <p style="color: gray;" >영화의 평점은 네이버 영화의 평점을 기반으로 하고 있습니다</p>
+  <br>
+  <div class="show-stage">
+    <p>Stage Select</p>
+  </div>
+
   <div class="index-forms">
     <form action="{% url 'game' %}">
-      <button class="index-btn">게임시작</button>
+      <div class="stage-select">
+        <input class="stage-checkbox hidden" type="checkbox" name="stage" value="1">
+        <input class="stage-checkbox hidden" type="checkbox" name="stage" value="2">
+        <input class="stage-checkbox hidden" type="checkbox" name="stage" value="3">
+      </div>
+      <button id="start-btn" class="index-btn" type="submit">START</button>
     </form>
     <form action="{% url 'scoreboard' %}">
-      <button class="index-btn">스코어보드</button>
+      <button id="score-btn" class="index-btn">Score Board</button>
     </form>
   </div>
 </div>
