@@ -1,31 +1,24 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="after-game">
-  <h1 style="font-family: 'Noto Sans KR', sans-serif;font-size: 200%;color: darkorange;margin-bottom: 1%;">당신의 점수는</h1>
-  <h1 class="your-score">만점!!!</h1>
+  <h1 style="font-family: 'Press Start 2P';font-size: 200%;color: darkorange;margin-bottom: 1%;">Your Score is</h1>
+  <h1 style="font-size: 600%;" class="your-score">Perfect!!</h1>
   <p style="font-family: 'Noto Sans KR', sans-serif;position: relative;top:-1%;" id="result-words"></p>
   <div class="after_game_slide after_game_slide_wrap">
+  {% for mv in movielist %}
     <div class="after_game_slide_item item1">
-      <img id="recommend-poster" src={{ movie.poster_path }} alt="">
+      <img id="recommend-poster" src={{ mv.movie.poster_path }} alt="">
       <div id="recommend-information">
-        <h2 id="recommend-title">{{ movie.title }}</h2>
-        <p style="margin-bottom:1%;margin-top:2%;position: absolute;top:15%;" >인기도: {{ movie.popularity }}점</p>
+        <h2 id="recommend-title">{{ mv.movie.title }}</h2>
+        <p style="margin-bottom:1%;margin-top:2%;position: absolute;top:15%;" >인기도: {{ mv.movie.popularity }}점</p>
         <h4 style="margin-bottom:1%;margin-top:2%;position: absolute;top:30%;" >📝베스트 리뷰👍</h4>
-        <p id="recommend-review">{{ review }}</p>
+        <p id="recommend-review">{{ mv.review }}</p>
         <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ movie.link }}">
           <img src="../../../static/image/naver.png" alt="">
         </a>
       </div>
     </div>
-    <div class="after_game_slide_item item2">
-      <img id="recommend-poster" src={{ movie.poster_path }} alt="">
-      <div id="recommend-information">
-        <h3 id="recommend-title">추천 영화 : {{ movie.title }}</h3>
-        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ movie.link }}">영화의 네이버 페이지로</a>
-        {% comment %} <p>popularuty {{ movie.popularity }} </p> {% endcomment %}
-        <p>인기 리뷰: {{ review }}</p>
-      </div>
-    </div>
+    {% endfor %}
     <div class="slide_prev_button after_game_slide_button">◀</div>
     <div class="slide_next_button after_game_slide_button">▶</div>
     <ul class="slide_pagination"></ul>

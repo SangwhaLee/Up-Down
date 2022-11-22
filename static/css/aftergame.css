@@ -12,11 +12,11 @@
 }
 
 .your-score {
+  font-family: 'Press Start 2P', cursive;
   color: darkorange;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 900%;
+  margin-top: 5.6rem;
+  margin-bottom: 3rem;
+  font-size: 800%;
 }
 
 .after_game_slide {
@@ -161,7 +161,7 @@ li {
 
 #recommend-information img {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 5rem;
   width: 2rem;
   height: 2rem;

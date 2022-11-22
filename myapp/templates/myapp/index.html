@@ -11,11 +11,12 @@
   <h1 id="game-explanation">어떤 <span style="color:rgb(245, 129, 66);">영화의</span> 평점이 <span style="color:lightgreen;">더 높을까?</span></h1>
   <br>
   <div class="show-stage">
-    <p>Stage Select</p>
+    <p id="stage-name">Stage Select</p>
+    <div class="stage-up-btn"><h3>▲</h3></div>
+    <div class="stage-down-btn"><h3>▼</h3></div>
   </div>
-
   <div class="index-forms">
-    <form action="{% url 'game' %}">
+    <form id="start-form" action="{% url 'game' %}">
       <div class="stage-select">
         <input class="stage-checkbox hidden" type="checkbox" name="stage" value="1">
         <input class="stage-checkbox hidden" type="checkbox" name="stage" value="2">
@@ -29,3 +30,67 @@
   </div>
 </div>
 {% endblock content %}
+{% block script %}
+  <script>
+    const stages = ['Stage 1', 'Stage 2', 'Stage 3']
+    let nowPoint = -1
+    let checkboxes = document.querySelectorAll(".stage-checkbox")
+    let stageName = document.getElementById("stage-name")
+
+    const upBtn = document.querySelector(".stage-up-btn")
+    const downBtn = document.querySelector(".stage-down-btn")
+
+    upBtn.addEventListener("click", upStage)
+    downBtn.addEventListener("click", downStage)
+
+    const startBtn = document.getElementById("start-btn")
+    const startForm = document.getElementById("start-form")
+    
+    function upStage() {
+      nowPoint += 1
+      if(nowPoint > 2){
+        nowPoint = 0
+      }
+      stageName.innerHTML = stages[nowPoint]
+      for(let i=0; i<3; i++){
+        if(i === nowPoint){
+          checkboxes[i].checked = true
+        }
+        else{
+          checkboxes[i].checked = false
+        }
+        // console.log(checkboxes[i].checked)
+      }
+    }
+
+    function downStage() {
+      nowPoint -= 1
+      if(nowPoint < 0){
+        nowPoint = 2
+      }
+      stageName.innerHTML = stages[nowPoint]
+      for(let i=0; i<3; i++){
+        if(i === nowPoint){
+          checkboxes[i].checked = true
+        }
+        else{
+          checkboxes[i].checked = false
+        }
+        // console.log(checkboxes[i].checked)
+      }
+    }
+
+    const isStageSelected = (event) => {
+      event.preventDefault()
+      if(nowPoint === -1){
+        alert("You have to select Stage!!!")
+      }
+      else{
+        startForm.submit()
+      }
+    }
+
+    startBtn.addEventListener("click", isStageSelected)
+
+  </script>
+{% endblock script %}

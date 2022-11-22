@@ -12,7 +12,6 @@ def index(request):
 
 def game(request):   
     selected = request.GET.getlist('stage')
-    print(selected)
     moviedata = list(movie.objects.all()) 
     #randomdata = random.sample(moviedata,30)
     #30개를 난이도별로 뽑기
@@ -26,27 +25,30 @@ def game(request):
     #조건에 맞는 영화들을 필터/람다함수를 이용해
     #random sample로 뽑은 뒤, stack(randomdata 리스트)에 push
     
-    for i in range(10): # 1단계, 1.5점차 이상의 영화들 출력
-        currating = current_movie.userRating
-        templist = list(filter(lambda x: abs(currating-x.userRating) > 1.5 and currating-x.userRating!=0, moviedata))
-        current_movie = random.sample(templist,1)[0]
-        randomdata.append(current_movie)
-        moviedata.remove(current_movie)
+    if int(selected[0]) == 1:
+        for i in range(30): # 1단계, 1.5점차 이상의 영화들 출력
+            currating = current_movie.userRating
+            templist = list(filter(lambda x: abs(currating-x.userRating) > 1.5 and currating-x.userRating!=0, moviedata))
+            current_movie = random.sample(templist,1)[0]
+            randomdata.append(current_movie)
+            moviedata.remove(current_movie)
 
-    for i in range(10): # 2단계, 0.7~1.5점차의 영화들 출력
-        currating = current_movie.userRating
-        templist = list(filter(lambda x: 0.7<= abs(currating-x.userRating) <= 1.5 and currating-x.userRating!=0, moviedata))
-        current_movie = random.sample(templist,1)[0]
-        randomdata.append(current_movie)
-        moviedata.remove(current_movie)
-        print(len(moviedata))
+    elif int(selected[0]) == 2:
+        for i in range(30): # 2단계, 0.7~1.5점차의 영화들 출력
+            currating = current_movie.userRating
+            templist = list(filter(lambda x: 0.7<= abs(currating-x.userRating) < 1.5 and currating-x.userRating!=0, moviedata))
+            current_movie = random.sample(templist,1)[0]
+            randomdata.append(current_movie)
+            moviedata.remove(current_movie)
+            print(len(moviedata))
 
-    for i in range(10): # 3단계, 1점차 미만의 영화들 출력
-        currating = current_movie.userRating
-        templist = list(filter(lambda x: abs(currating-x.userRating) <= 1 and currating-x.userRating!=0, moviedata))
-        current_movie = random.sample(templist,1)[0]
-        randomdata.append(current_movie)
-        moviedata.remove(current_movie)
+    else:
+        for i in range(30): # 3단계, 1점차 미만의 영화들 출력
+            currating = current_movie.userRating
+            templist = list(filter(lambda x: abs(currating-x.userRating) <= 0.6 and currating-x.userRating!=0, moviedata))
+            current_movie = random.sample(templist,1)[0]
+            randomdata.append(current_movie)
+            moviedata.remove(current_movie)
 
     context = {   
         'randomdata': randomdata
@@ -68,39 +70,52 @@ def gameover(request,score):
     # 2단계까지 통과했다면 영화에 관심이 많은 사람이니 적당히 마이너하면서 평가가 좋은 영화를 추천.
     # 위의 수치는 예시를 들어 만든 것이며 여러번 돌려보고 뽑혀나오는 표본이 너무 적을 경우 추후 수정 가능.
 
-    selectedmovie = random.sample(moviedata,1)[0]
-    url = f'https://movie.naver.com/movie/bi/mi/pointWriteFormList.naver?code={selectedmovie.link}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false'
-    html = requests.get(url)
-    soup = BeautifulSoup(html.content,'html.parser')
-    reviews = soup.select("div.score_reple > p > span")
-    mylist = [] 
-    for i in reviews:
-        if i.text.strip()!='관람객':
-            mylist.append(i.text.strip())
+    movielist= []
     
+    for i in range(3):
+        selectedmovie = random.sample(moviedata,1)[0]
+        url = f'https://movie.naver.com/movie/bi/mi/pointWriteFormList.naver?code={selectedmovie.link}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false'
+        html = requests.get(url)
+        soup = BeautifulSoup(html.content,'html.parser')
+        reviews = soup.select("div.score_reple > p > span")
+        mylist = [] 
+        for i in reviews:
+            if i.text.strip()!='관람객':
+                mylist.append(i.text.strip())
+        movielist.append({
+            'movie' : selectedmovie,
+            'review' : mylist[0]
+        })
+
     context = {
-        'score' : score,
-        'movie' : selectedmovie,
-        'review' : mylist[0]
+        'movielist' : movielist,
+        'score': score
     }
     return render(request,'myapp/gameover.html',context)
     #대중적이면서 평점 높은 영화 하나 뽑아서 리뷰와 함께 출력
 
 def gameclear(request):    
-    movie = random.sample(moviedata,1)[0]
+
+
+    movielist= []
     
-    url = f'https://movie.naver.com/movie/bi/mi/pointWriteFormList.naver?code={movie.link}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false'
-    html = requests.get(url)
-    soup = BeautifulSoup(html.content,'html.parser')
-    reviews = soup.select("div.score_reple > p > span")
-    mylist = [] 
-    for i in reviews:
-        if i.text.strip()!='관람객':
-            mylist.append(i.text.strip())
-    
+    for i in range(3):
+        movie = random.sample(moviedata,1)[0]
+        url = f'https://movie.naver.com/movie/bi/mi/pointWriteFormList.naver?code={movie.link}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false'
+        html = requests.get(url)
+        soup = BeautifulSoup(html.content,'html.parser')
+        reviews = soup.select("div.score_reple > p > span")
+        mylist = [] 
+        for i in reviews:
+            if i.text.strip()!='관람객':
+                mylist.append(i.text.strip())
+        movielist.append({
+            'movie' : movie,
+            'review' : mylist[0]
+        })
+        
     context = {
-        'movie' : movie,
-        'review' : mylist[0]
+        'movielist' : movielist,
     }
     return render(request, 'myapp/gameclear.html', context)
     #좋은 영화 데이터 하나 뽑아서 render
