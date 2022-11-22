@@ -90,7 +90,7 @@ def gameover(request,score):
 
     context = {
         'movielist' : movielist,
-        'score': score
+        'score': score-1
     }
     return render(request,'myapp/gameover.html',context)
     #대중적이면서 평점 높은 영화 하나 뽑아서 리뷰와 함께 출력
