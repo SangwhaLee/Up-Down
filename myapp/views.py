@@ -11,6 +11,8 @@ def index(request):
     return render(request,'myapp/index.html')
 
 def game(request):   
+    selected = request.GET.getlist('stage')
+    print(selected)
     moviedata = list(movie.objects.all()) 
     #randomdata = random.sample(moviedata,30)
     #30개를 난이도별로 뽑기

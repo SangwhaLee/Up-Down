@@ -29,9 +29,11 @@
   /* position */
   /* slide_button의 position absolute가 컨테이너 안쪽에서 top, left, right offset이 적용될 수 있도록 relative를 준다. (기본값이 static인데, static인 경우 그 상위 컨테이너로 나가면서 현재 코드에선 html을 기준으로 offset을 적용시키기 때문) */
   position: relative;
+  top: 1%;
 
   /* size */
-  width: 90%;
+  max-width: 44rem;
+  height: 30%;
   margin: auto;
   margin-top: 1%;
   margin-bottom: 0;
@@ -51,7 +53,7 @@
 
   /* size */
   width: 100%;
-  height: 300px;
+  height: 100%;
   /* flex item의 flex-shrink는 기본값이 1이므로 컨테이너 크기에 맞게 줄어드는데, 슬라이드를 구현할 것이므로 줄어들지 않도록 0을 준다. */
   flex-shrink: 0;
 
@@ -68,14 +70,9 @@
   position: absolute;
   /* 버튼이 중앙에 위치하게 하기위해 계산 */
   top: calc(50% - 16px);
+  color: red;
+  text-shadow: 1px 1px white;
 
-  /* size */
-  width: 32px;
-  height: 32px;
-
-  /* style */
-  border-radius: 100%;
-  background-color: #cccc;
   cursor: pointer;
 }
 
@@ -88,9 +85,11 @@
 
 /* 각 슬라이드가 변경되는 것을 시각적으로 확인하기 쉽도록 각 슬라이드별 색상 적용 */
 .after_game_slide_item.item1 {
-  background-color: darkgoldenrod;
+  background-color: transparent;
 }
-
+.after_game_slide_item.item2 {
+  background-color: blue;
+}
 /* 페이지네이션 스타일 */
 ul,
 li {
@@ -131,4 +130,39 @@ li {
   height: 300px;
   flex-shrink: 0;
   transition: left 0.15s;
+}
+
+.after_game_slide_item > img {
+  width: auto;
+  height: 100%;
+  border-radius: 1rem;
+
+}
+
+#recommend-information {
+  margin-left: 3%;
+  width: 55%;
+  text-align: start;
+}
+
+#recommend-title {
+  position: absolute;
+  top: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#recommend-review {
+  position: absolute;
+  top:38.5%;
+  word-break:keep-all;
+  width: 55%;
+}
+
+#recommend-information img {
+  position: absolute;
+  bottom: 2rem;
+  right: 5rem;
+  width: 2rem;
+  height: 2rem;
 }
