@@ -36,10 +36,10 @@
         </div>
       </div>
     </div>
-    <form id="answer-form" action="{% url 'gameover' forloop.counter0 %}" method="POST">
+    <form id="answer-form" method="POST" action="{% url 'gameover' forloop.counter0 %}">
       {% csrf_token %}
-      <button class="up_btn answer-btn">up</button>
-      <button class="down_btn answer-btn">down</button>
+      <button class="up_btn answer-btn">up▲</button>
+      <button class="down_btn answer-btn">down▼</button>
     </form>
     <form id="full-score-form" class="hidden" action="{% url 'gameclear' %}" method="POST">
       {% csrf_token %}
@@ -108,7 +108,7 @@
   // 슬라이드 전체를 선택해 값을 변경해주기 위해 슬라이드 전체 선택하기
   let slideItems = document.querySelectorAll(".slide_item");
   // 마지막 문제까지 풀 경우 만점 페이지로 이동하기 위한 값
-  const maxSlide = 29;
+  const maxSlide = (movie.length)-2;
 
   //up 버튼에 이벤트 추가
   const upButtons = document.querySelectorAll(".up_btn")
