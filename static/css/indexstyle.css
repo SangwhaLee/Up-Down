@@ -57,8 +57,8 @@
   margin-left: 1rem;
   margin-right: 1rem;
   position: relative;
-  width: 10rem;
-  height: 3.5rem;
+  width: 11rem;
+  height: 4rem;
   border: solid 2px white;
   background-color: transparent;
   color: white;
@@ -83,15 +83,49 @@
 }
 
 .show-stage {
+  position: relative;
   display: flex;
   align-items: center;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   border: 3px solid white;
-  width: 10rem;
-  height: 3rem;
+  width: 11rem;
+  height: 5rem;
   margin: auto;
   margin-top: 1%;
   margin-bottom: 0;
   border-radius: 5%;
+}
+
+#stage-name {
+  margin-left: 1rem;
+  width: 70%;
+}
+
+.stage-up-btn h3 {
+  width:1rem;
+  cursor: pointer;
+  position: absolute;
+  top: -0.1rem;
+  right: 0.65rem;
+}
+
+.stage-up-btn h3:hover {
+  color: lightgreen;
+  top: -0.5rem;
+  transition: 0.5s;
+}
+
+.stage-down-btn h3 {
+  width:1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -0.1rem;
+  right: 0.65rem;
+}
+
+.stage-down-btn h3:hover {
+  color: orange;
+  bottom: -0.5rem;
+  transition: 0.5s;
 }

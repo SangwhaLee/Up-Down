@@ -2,6 +2,7 @@ html {
   width: 100%;
   height: 100%;
   padding: 0;
+  user-select: none;
 }
 
 body {
@@ -78,17 +79,17 @@ body {
 }
 
 .answer-btn {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Press Start 2P', cursive;
   text-shadow: 1px 1px black;
   position: relative;
-  width: 8.5rem;
-  height: 3rem;
+  width: 10rem;
+  height: 4rem;
   border: solid 4px white;
   background-color: transparent;
   color: white;
-  border-radius: 1.3rem;
+  border-radius: 2rem;
   font-weight: 500;
-  font-size: 200%;
+  font-size: 150%;
   margin-top: 1.3rem;
 }
 
