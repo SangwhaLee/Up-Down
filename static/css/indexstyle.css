@@ -1,6 +1,8 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 .index {
-  background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../static/image/redorblue01.gif);
-  background-size: 100% 100%;
+  background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../static/image/up&down2.gif);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -41,8 +43,8 @@
 }
 
 #game-explanation {
-  font-family: 'Dokdo', cursive;
-  font-size: 330%;
+  font-family: 'Galmuri9';
+  font-size: 280%;
   margin-bottom: 0;
 }
 
