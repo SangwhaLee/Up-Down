@@ -26,7 +26,7 @@ def game(request):
     #random sample로 뽑은 뒤, stack(randomdata 리스트)에 push
     
     if int(selected[0]) == 1:
-        for i in range(30): # 1단계, 1.5점차 이상의 영화들 출력
+        for i in range(2): # 1단계, 1.5점차 이상의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: abs(currating-x.userRating) > 1.5 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -34,7 +34,7 @@ def game(request):
             moviedata.remove(current_movie)
 
     elif int(selected[0]) == 2:
-        for i in range(30): # 2단계, 0.7~1.5점차의 영화들 출력
+        for i in range(2): # 2단계, 0.7~1.5점차의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: 0.7<= abs(currating-x.userRating) < 1.5 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -43,7 +43,7 @@ def game(request):
             print(len(moviedata))
 
     else:
-        for i in range(30): # 3단계, 1점차 미만의 영화들 출력
+        for i in range(2): # 3단계, 1점차 미만의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: abs(currating-x.userRating) <= 0.6 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -51,12 +51,15 @@ def game(request):
             moviedata.remove(current_movie)
 
     context = {   
-        'randomdata': randomdata
+        'randomdata': randomdata,
+        'stage': int(selected[0]),
     }
     return render(request, 'myapp/game.html', context)
 
 @require_POST
-def gameover(request,score):
+def gameover(request,score,stage):
+    print(stage)
+
     moviedata = list(movie.objects.all()) 
     #평점과 popularity 기준으로 영화 추천
     #추후 수정
@@ -90,19 +93,19 @@ def gameover(request,score):
 
     context = {
         'movielist' : movielist,
-        'score': score-1
+        'score': score-1,
+        'stage': stage,
     }
     return render(request,'myapp/gameover.html',context)
     #대중적이면서 평점 높은 영화 하나 뽑아서 리뷰와 함께 출력
 
 @require_POST
-def gameclear(request):    
-
-
+def gameclear(request,stage):   
+    moviedatas = list(filter(lambda x: x.popularity < 15  and x.userRating > 8.0, moviedata)) 
     movielist= []
     
     for i in range(3):
-        movie = random.sample(moviedata,1)[0]
+        movie = random.sample(moviedatas,1)[0]
         url = f'https://movie.naver.com/movie/bi/mi/pointWriteFormList.naver?code={movie.link}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false'
         html = requests.get(url)
         soup = BeautifulSoup(html.content,'html.parser')
@@ -118,6 +121,7 @@ def gameclear(request):
         
     context = {
         'movielist' : movielist,
+        'stage': stage,
     }
     return render(request, 'myapp/gameclear.html', context)
     #좋은 영화 데이터 하나 뽑아서 render
