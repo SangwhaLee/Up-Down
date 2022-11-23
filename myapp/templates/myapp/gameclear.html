@@ -10,12 +10,16 @@
           <h1 style="font-size:600%;" class="your-score">Perfect!!</h1>
         </div>
         <div class="result-back">
-          <input type="text">
+          <p style="margin-top:5rem;">Enter your name</p>
+          <form method="POST" action="{% url 'myapp:gameclear' stage %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+          </form>
         </div>
       </div>
     </div>
   {% else %}
-    <h1 style="font-size:600%;" class="your-score">Perfect!!</h1>
+    <h1 style="font-size:500%;" class="your-score">Perfect!!</h1>
   {% endif %}
   <p style="font-family: 'Noto Sans KR', sans-serif;position: relative;top:-1%;" id="result-words"></p>
   <div class="after_game_slide after_game_slide_wrap">
@@ -37,6 +41,9 @@
     <div class="slide_next_button after_game_slide_button">▶</div>
     <ul class="slide_pagination"></ul>
   </div>
+  <a id="home-link" href="{% url 'myapp:index' %}">
+    <img src="{% static 'image/index/homepage.png' %}" alt="">
+  </a>
 </div>
 {% endblock content %}
 
@@ -44,6 +51,14 @@
   <script>
     const words = document.getElementById("result-words");
     words.innerText = "🥳당신은 영화의 신인가요?!🎉"
+
+    // form의 errorlist 없애기
+    const errorList = document.querySelector(".errorlist");
+    errorList.classList.add("hidden");
+
+    // form의 label 없애기
+    const formLabel = document.querySelector(".result-back label")
+    formLabel.classList.add("hidden");
 
     // 슬라이크 전체 크기(width 구하기)
     const slide = document.querySelector(".after_game_slide");

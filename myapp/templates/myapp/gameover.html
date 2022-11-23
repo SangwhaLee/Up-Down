@@ -10,7 +10,11 @@
           <h1 class="your-score">{{ score }}P!</h1>
         </div>
         <div class="result-back">
-          <input type="text">
+          <p style="margin-top:5rem;">Enter your name</p>
+          <form method="POST" action="{% url 'myapp:gameover' score stage %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+          </form>
         </div>
       </div>
     </div>
@@ -37,6 +41,9 @@
     <div class="slide_next_button after_game_slide_button">▶</div>
     <ul class="slide_pagination"></ul>
   </div>
+  <a id="home-link" href="{% url 'myapp:index' %}">
+    <img src="{% static 'image/index/homepage.png' %}" alt="">
+  </a>
 </div>
 {% endblock content %}
 
@@ -53,6 +60,14 @@
     else{
       words.innerText = "🤩조금만 더 갔으면 됐는데 너무 아쉽네요!😖"
     }
+
+    // form의 errorlist 없애기
+    const errorList = document.querySelector(".errorlist");
+    errorList.classList.add("hidden");
+
+    // form의 label 없애기
+    const formLabel = document.querySelector(".result-back label")
+    formLabel.classList.add("hidden");
 
     // 슬라이크 전체 크기(width 구하기)
     const slide = document.querySelector(".after_game_slide");
