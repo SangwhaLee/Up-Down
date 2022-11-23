@@ -36,12 +36,12 @@
         </div>
       </div>
     </div>
-    <form id="answer-form" method="POST" action="{% url 'gameover' forloop.counter0 %}">
+    <form id="answer-form" method="POST" action="{% url 'myapp:gameover' forloop.counter0 %}">
       {% csrf_token %}
       <button class="up_btn answer-btn">up▲</button>
       <button class="down_btn answer-btn">down▼</button>
     </form>
-    <form id="full-score-form" class="hidden" action="{% url 'gameclear' %}" method="POST">
+    <form id="full-score-form" class="hidden" action="{% url 'myapp:gameclear' %}" method="POST">
       {% csrf_token %}
     </form>
   </div>
