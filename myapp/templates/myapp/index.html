@@ -16,7 +16,7 @@
     <div class="stage-down-btn"><h3>▼</h3></div>
   </div>
   <div class="index-forms">
-    <form id="start-form" action="{% url 'game' %}">
+    <form id="start-form" action="{% url 'myapp:game' %}">
       <div class="stage-select">
         <input class="stage-checkbox hidden" type="checkbox" name="stage" value="1">
         <input class="stage-checkbox hidden" type="checkbox" name="stage" value="2">
@@ -24,7 +24,7 @@
       </div>
       <button id="start-btn" class="index-btn" type="submit">START</button>
     </form>
-    <form action="{% url 'scoreboard' %}">
+    <form action="{% url 'myapp:scoreboard' %}">
       <button id="score-btn" class="index-btn">Score Board</button>
     </form>
   </div>

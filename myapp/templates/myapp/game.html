@@ -4,7 +4,7 @@
   {% comment %} <button onclick="location.href='{% url 'gameclear' %}'">clear</button>
   <br> {% endcomment %}
   {% comment %} <button onclick="location.href='{% url 'gameclear' %}'">clear</button>
-  <button onclick="location.href='{% url 'gameover' forloop.counter0 %}'"> Gameover </button> {% endcomment %}
+  <button onclick="location.href='{% url 'myapp:gameover' forloop.counter0 %}'"> Gameover </button> {% endcomment %}
   <div class="slide slide_wrap">
   {% for movie in randomdata %}
   {% if forloop.first %}
@@ -36,12 +36,20 @@
         </div>
       </div>
     </div>
+<<<<<<< myapp/templates/myapp/game.html
     <form id="answer-form" method="POST" action="{% url 'gameover' forloop.counter0 stage %}">
+=======
+    <form id="answer-form" method="POST" action="{% url 'myapp:gameover' forloop.counter0 %}">
+>>>>>>> myapp/templates/myapp/game.html
       {% csrf_token %}
       <button class="up_btn answer-btn">up▲</button>
       <button class="down_btn answer-btn">down▼</button>
     </form>
+<<<<<<< myapp/templates/myapp/game.html
     <form id="full-score-form" class="hidden" action="{% url 'gameclear' stage %}" method="POST">
+=======
+    <form id="full-score-form" class="hidden" action="{% url 'myapp:gameclear' %}" method="POST">
+>>>>>>> myapp/templates/myapp/game.html
       {% csrf_token %}
     </form>
   </div>
