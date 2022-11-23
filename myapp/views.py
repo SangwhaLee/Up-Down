@@ -133,10 +133,12 @@ def gameclear(request,stage):
             'movie' : movie,
             'review' : mylist[0]
         })
+    # print(movielist)
         
     context = {
         'movielist' : movielist,
         'stage': stage,
+        'form':form,
     }
     return render(request, 'myapp/gameclear.html', context)
     #좋은 영화 데이터 하나 뽑아서 render

@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 .after-game {
   background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../image/gameclear/2.gif);
   background-size: 100% auto;
@@ -35,7 +37,7 @@
   top: 1%;
 
   /* size */
-  max-width: 44rem;
+  width: 44rem;
   height: 30%;
   margin: auto;
   margin-top: 1%;
@@ -90,9 +92,7 @@
 .after_game_slide_item.item1 {
   background-color: transparent;
 }
-.after_game_slide_item.item2 {
-  background-color: blue;
-}
+
 /* 페이지네이션 스타일 */
 ul,
 li {
@@ -195,8 +195,29 @@ li {
 
 .result-back {
   transform: rotateY(180deg);
+  font-family: 'Press Start 2P', cursive;
+}
+
+.result-back input {
+  font-size: larger;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: 'Galmuri7';
+  width: 45%;
+  height: 4rem;
+  background-color: orange;
+  color: black;
+  border: 2px dashed black;
+  border-radius: 0.5rem;
+  margin: 0;
 }
 
 .result-flip:hover .result-card {
   transform: rotateY(180deg);
+}
+
+#home-link {
+  position: fixed;
+  top: 2%;
+  right: 2%;
 }
