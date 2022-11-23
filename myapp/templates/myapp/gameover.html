@@ -3,6 +3,13 @@
 <div class="after-game">
   <h1 style="font-family: 'Press Start 2P', cursive;font-size: 200%;color: darkorange;margin-bottom: 1%;">Your Score is</h1>
   <h1 class="your-score">{{ score }}P!</h1>
+  {% comment %}  {% endcomment %}
+  <form action={% url "myapp:gameover" score %} method='POST'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit">
+  </form>
+  {% comment %}  {% endcomment %}
   <p style="font-family: 'Noto Sans KR', sans-serif;position: relative;top:-1%;" id="result-words"></p>
   <div class="after_game_slide after_game_slide_wrap">
   {% for mv in movielist %}

@@ -5,4 +5,4 @@ class ScoreForm(forms.ModelForm):
 
     class Meta:
         model = Scoreboard
-        fields = '__all__'
+        exclude =('score',)
