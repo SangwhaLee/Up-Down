@@ -61,13 +61,16 @@
       words.innerText = "🤩조금만 더 갔으면 됐는데 너무 아쉽네요!😖"
     }
 
-    // form의 errorlist 없애기
-    const errorList = document.querySelector(".errorlist");
-    errorList.classList.add("hidden");
+    const stageNum = {{ stage }};
+    if(stageNum === 3){
+      // form의 errorlist 없애기
+      const errorList = document.querySelector(".errorlist");
+      errorList.classList.add("hidden");
 
-    // form의 label 없애기
-    const formLabel = document.querySelector(".result-back label")
-    formLabel.classList.add("hidden");
+      // form의 label 없애기
+      const formLabel = document.querySelector(".result-back label")
+      formLabel.classList.add("hidden");
+    }
 
     // 슬라이크 전체 크기(width 구하기)
     const slide = document.querySelector(".after_game_slide");

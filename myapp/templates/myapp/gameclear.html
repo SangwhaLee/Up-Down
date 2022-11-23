@@ -49,16 +49,19 @@
 
 {% block script %}
   <script>
+    const stageNum = {{ stage }};
+    if(stageNum === 3){
+      // form의 errorlist 없애기
+      const errorList = document.querySelector(".errorlist");
+      errorList.classList.add("hidden");
+
+      // form의 label 없애기
+      const formLabel = document.querySelector(".result-back label")
+      formLabel.classList.add("hidden");
+    }
+
     const words = document.getElementById("result-words");
     words.innerText = "🥳당신은 영화의 신인가요?!🎉"
-
-    // form의 errorlist 없애기
-    const errorList = document.querySelector(".errorlist");
-    errorList.classList.add("hidden");
-
-    // form의 label 없애기
-    const formLabel = document.querySelector(".result-back label")
-    formLabel.classList.add("hidden");
 
     // 슬라이크 전체 크기(width 구하기)
     const slide = document.querySelector(".after_game_slide");
