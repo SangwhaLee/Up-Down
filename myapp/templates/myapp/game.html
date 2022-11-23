@@ -36,20 +36,12 @@
         </div>
       </div>
     </div>
-<<<<<<< myapp/templates/myapp/game.html
-    <form id="answer-form" method="POST" action="{% url 'gameover' forloop.counter0 stage %}">
-=======
-    <form id="answer-form" method="POST" action="{% url 'myapp:gameover' forloop.counter0 %}">
->>>>>>> myapp/templates/myapp/game.html
+    <form id="answer-form" method="POST" action="{% url 'myapp:gameover' forloop.counter0 stage %}">
       {% csrf_token %}
       <button class="up_btn answer-btn">up▲</button>
       <button class="down_btn answer-btn">down▼</button>
     </form>
-<<<<<<< myapp/templates/myapp/game.html
-    <form id="full-score-form" class="hidden" action="{% url 'gameclear' stage %}" method="POST">
-=======
-    <form id="full-score-form" class="hidden" action="{% url 'myapp:gameclear' %}" method="POST">
->>>>>>> myapp/templates/myapp/game.html
+    <form id="full-score-form" class="hidden" action="{% url 'myapp:gameclear' stage %}" method="POST">
       {% csrf_token %}
     </form>
   </div>
@@ -71,7 +63,7 @@
     <div class="side vs-back"></div>
   </div>
   <div class="loading">
-    <img src="../../../static/image/loading.gif" alt="">
+    <img src={% static 'image/index/loading.gif' %} alt="">
   </div>
   
 
