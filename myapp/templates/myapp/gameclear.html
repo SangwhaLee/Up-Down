@@ -1,8 +1,22 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
 <div class="after-game">
   <h1 style="font-family: 'Press Start 2P';font-size: 200%;color: darkorange;margin-bottom: 1%;">Your Score is</h1>
-  <h1 style="font-size: 600%;" class="your-score">Perfect!!</h1>
+  {% if stage == 3 %}
+    <div class="result-flip">
+      <div class="result-card">
+        <div class="result-front" >
+          <h1 style="font-size:600%;" class="your-score">Perfect!!</h1>
+        </div>
+        <div class="result-back">
+          <input type="text">
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <h1 style="font-size:600%;" class="your-score">Perfect!!</h1>
+  {% endif %}
   <p style="font-family: 'Noto Sans KR', sans-serif;position: relative;top:-1%;" id="result-words"></p>
   <div class="after_game_slide after_game_slide_wrap">
   {% for mv in movielist %}
@@ -13,8 +27,8 @@
         <p style="margin-bottom:1%;margin-top:2%;position: absolute;top:15%;" >인기도: {{ mv.movie.popularity }}점</p>
         <h4 style="margin-bottom:1%;margin-top:2%;position: absolute;top:30%;" >📝베스트 리뷰👍</h4>
         <p id="recommend-review">{{ mv.review }}</p>
-        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ movie.link }}">
-          <img src="../../../static/image/naver.png" alt="">
+        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code={{ mv.movie.link }}">
+          <img src={% static 'image/naver.png' %} alt="naver.icon">
         </a>
       </div>
     </div>
