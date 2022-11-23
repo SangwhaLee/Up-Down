@@ -59,8 +59,6 @@ def game(request):
 
 @require_POST
 def gameover(request,score,stage):
-    print(stage)
-
     moviedata = list(movie.objects.all()) 
     form = ScoreForm(request.POST)
     if form.is_valid():
@@ -102,13 +100,15 @@ def gameover(request,score,stage):
     context = {
         'movielist' : movielist,
         'score': score-1,
-        'form' : form
+        'form' : form,
+        'stage': stage,
     }
     return render(request,'myapp/gameover.html',context)
     #대중적이면서 평점 높은 영화 하나 뽑아서 리뷰와 함께 출력
 
 @require_POST
-def gameclear(request):    
+def gameclear(request,stage):   
+    moviedatas = list(filter(lambda x: x.popularity < 15  and x.userRating > 8.0, moviedata)) 
     form = ScoreForm(request.POST)
     if form.is_valid():
         data = form.save(commit=False)
