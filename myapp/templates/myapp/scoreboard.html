@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
 <div class="container">
   <div class="frame">
     <header>Scoreboard</header>
@@ -22,6 +23,9 @@
     {% endfor %} 
     </div>
   </div>
+  <a id="home-link" href="{% url 'myapp:index' %}">
+    <img src="{% static 'image/index/homepage.png' %}" alt="">
+  </a>
 </div>
   
 <style>

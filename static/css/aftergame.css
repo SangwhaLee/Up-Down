@@ -160,6 +160,7 @@ li {
   top:38.5%;
   word-break:keep-all;
   width: 55%;
+  word-wrap: normal;
 }
 
 #recommend-information img {

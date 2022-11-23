@@ -239,6 +239,12 @@ body {
   top: 0.7%;
 }
 
+.now-stage {
+  left: 50%;
+  top: 0.7%;
+  transform: translateX(-50%);
+}
+
 .loading {
   background-image: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8));
   position: absolute;
