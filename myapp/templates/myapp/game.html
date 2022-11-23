@@ -54,6 +54,9 @@
   <div class="now-score score">
     <h3>현재 점수</h3>
     <h2 id="now-score">0</h2>
+  </div>
+  <div class="now-stage score">
+    <h1>{{ stage }} 단계</h1>
   </div>  
   </div>
   <div id="coin" class="versus-circle">
@@ -82,10 +85,12 @@
     {% endfor %}
   ]
 
+  const stageNum = {{ stage }};
+      
   console.log(movie)
 
   const sItems = document.querySelectorAll(".item")
-    
+
   const vsCircle = document.getElementById("coin")
   const backCircle = document.querySelector(".vs-back")
   // 버튼 클릭할 때 마다 현재 슬라이드가 어디인지 알려주기 위한 변수
@@ -135,7 +140,7 @@
   // 게임에서의 현재 점수
   const nowScore = document.getElementById("now-score")
   // 로컬 스토리지에 최고 점수를 넣기 위한 key값
-  const SCORE_KEY = "bestScore"
+  const SCORE_KEY = `S${stageNum}bestScore`
 
   // 점수를 화면에 드러내기 위한 함수
   const writeScore = () => {
@@ -193,7 +198,8 @@
         upButtons[currSlide].classList.add("hidden")
         downButtons[currSlide].classList.add("hidden")
         resultScore[currSlide+1].classList.remove("hidden")
-        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating));
+        saveBestScore(currSlide);
         setTimeout(function() {
           vsFlip();
           setTimeout(() => {
@@ -257,10 +263,11 @@
         backCircle.style.backgroundColor = "green";
         backCircle.style.color = "white";
         backCircle.appendChild(word);
-        upButtons[currSlide].classList.add("hidden")
-        downButtons[currSlide].classList.add("hidden")
-        resultScore[currSlide+1].classList.remove("hidden")
-        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating))
+        upButtons[currSlide].classList.add("hidden");
+        downButtons[currSlide].classList.add("hidden");
+        resultScore[currSlide+1].classList.remove("hidden");
+        countScore(countArray[currSlide+1],ratings[currSlide+1], parseFloat(movie[currSlide+1].rating));
+        saveBestScore(currSlide);
         setTimeout(function() {
           vsFlip();
           setTimeout(() => {
