@@ -1,6 +1,8 @@
 .after-game {
-  background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7));
-  background-size: 100% 100%;
+  background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../image/gameclear/2.gif);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -8,6 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: white;
 }
 
@@ -16,7 +19,7 @@
   color: darkorange;
   margin-top: 5.6rem;
   margin-bottom: 3rem;
-  font-size: 800%;
+  font-size: 700%;
 }
 
 .after_game_slide {
@@ -165,4 +168,35 @@ li {
   right: 5rem;
   width: 2rem;
   height: 2rem;
+}
+
+.result-flip {
+  width: 58rem;
+  height: 15rem;
+  perspective: 1100px;
+  border: 1px solid rgba(255,255,255,0);
+  background-color: transparent;
+}
+
+.result-card {
+  width: 100%; 
+  height: 100%; 
+  position: relative;
+  transition: .5s;
+  transform-style: preserve-3d;
+}
+
+.result-front, .result-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.result-back {
+  transform: rotateY(180deg);
+}
+
+.result-flip:hover .result-card {
+  transform: rotateY(180deg);
 }
