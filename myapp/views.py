@@ -6,7 +6,7 @@ from .models import movie, Scoreboard
 import requests
 from bs4 import BeautifulSoup
 
-moviedata = list(movie.objects.all()) #moviedata 뽑아오기
+# moviedata = list(movie.objects.all()) #moviedata 뽑아오기
 
 def index(request):
     return render(request,'myapp/index.html')
@@ -27,7 +27,7 @@ def game(request):
     #random sample로 뽑은 뒤, stack(randomdata 리스트)에 push
     
     if int(selected[0]) == 1:
-        for i in range(2): # 1단계, 1.5점차 이상의 영화들 출력
+        for i in range(30): # 1단계, 1.5점차 이상의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: abs(currating-x.userRating) > 1.5 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -35,7 +35,7 @@ def game(request):
             moviedata.remove(current_movie)
 
     elif int(selected[0]) == 2:
-        for i in range(2): # 2단계, 0.7~1.5점차의 영화들 출력
+        for i in range(30): # 2단계, 0.7~1.5점차의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: 0.7<= abs(currating-x.userRating) < 1.5 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -44,7 +44,7 @@ def game(request):
             print(len(moviedata))
 
     else:
-        for i in range(2): # 3단계, 1점차 미만의 영화들 출력
+        for i in range(30): # 3단계, 1점차 미만의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: abs(currating-x.userRating) <= 0.6 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -108,7 +108,8 @@ def gameover(request,score,stage):
     #대중적이면서 평점 높은 영화 하나 뽑아서 리뷰와 함께 출력
 
 @require_POST
-def gameclear(request,stage):   
+def gameclear(request,stage): 
+    moviedata = list(movie.objects.all())  
     moviedatas = list(filter(lambda x: x.popularity < 15  and x.userRating > 8.0, moviedata)) 
     form = ScoreForm(request.POST)
     if form.is_valid():
