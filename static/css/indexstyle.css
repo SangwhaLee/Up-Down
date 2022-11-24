@@ -58,16 +58,20 @@
   margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  position: relative;
   width: 11rem;
   height: 4rem;
+
   border: solid 2px white;
   background-color: transparent;
-  color: white;
   border-radius: 7rem;
+
+  color: white;
   font-size: large;
   font-weight: 800;
+  
   cursor: pointer;
+  position: relative;
+  bottom: -1rem;
 }
 
 #start-btn:hover {
@@ -100,34 +104,85 @@
 }
 
 #stage-name {
-  margin-left: 1rem;
-  width: 70%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: black;
+  margin-top: 2.7rem;
 }
 
-.stage-up-btn h3 {
-  width:1rem;
+#level-name {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-bottom: 14.920px;
   cursor: pointer;
-  position: absolute;
-  top: -0.1rem;
-  right: 0.65rem;
+  
 }
 
-.stage-up-btn h3:hover {
+#level-name:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+#level-name:active {
+  color: blue;
+}
+
+#level-name:visited {
+  color: red;
+}
+
+.stage-up-btn h1 {
+  cursor: pointer;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.stage-up-btn h1:hover {
   color: lightgreen;
-  top: -0.5rem;
-  transition: 0.5s;
+  transform: translateY(-0.3rem);
+  transition:linear 0.3s;
 }
 
-.stage-down-btn h3 {
-  width:1rem;
+.stage-down-btn h1 {
+  position: relative;
   cursor: pointer;
-  position: absolute;
-  bottom: -0.1rem;
-  right: 0.65rem;
+  margin-top: 0;
 }
 
-.stage-down-btn h3:hover {
+.stage-down-btn h1:hover {
   color: orange;
-  bottom: -0.5rem;
+  transform: translateY(0.3rem);
   transition: 0.5s;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 30rem;
+  height: 20rem;
+  border-radius: 1%;
+  border: 5px dashed black;
+  background-color: white;
+  color: black;
+
+
+  transform: translate(-50%, -50%);
 }

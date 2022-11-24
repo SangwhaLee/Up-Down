@@ -10,11 +10,11 @@
   </div>
   <h1 id="game-explanation">어떤 <span style="color:rgb(245, 129, 66);">영화의</span> 평점이 <span style="color:lightgreen;">더 높을까?</span></h1>
   <br>
-  <div class="show-stage">
+  {% comment %} <div class="show-stage">
     <p id="stage-name">Stage Select</p>
     <div class="stage-up-btn"><h3>▲</h3></div>
     <div class="stage-down-btn"><h3>▼</h3></div>
-  </div>
+  </div> {% endcomment %}
   <div class="index-forms">
     <form id="start-form" action="{% url 'myapp:game' %}">
       <div class="stage-select">
@@ -28,30 +28,73 @@
       <button id="score-btn" class="index-btn">Score Board</button>
     </form>
   </div>
+  <div class="modal hidden">
+    <div class="modal-body">
+      <h2 id="stage-name">Select & Click</h2>
+      <h2 id="stage-name" style="margin-top:0;margin-bottom:7px;"><span style="color:red;">Level</span></h2>
+      <div class="stage-up-btn"><h1>▲</h1></div>
+      <h2 id="level-name">SELECT</h2>
+      <div class="stage-down-btn"><h1>▼</h1></div>
+    </div>
+  </div>
 </div>
 {% endblock content %}
 {% block script %}
   <script>
-    const stages = ['Stage 1', 'Stage 2', 'Stage 3']
+    // 난이도 선택에 따라 보여줄 값
+    const stages = ['Level 1', 'Level 2', 'Level 3']
+    // 현재의 난이도 상태
     let nowPoint = -1
+    // 난이도의 값을 form에 보내야 하기 때문에 checkbox를 통해 값을 결정
     let checkboxes = document.querySelectorAll(".stage-checkbox")
-    let stageName = document.getElementById("stage-name")
+    // 현재 난이도의 값이 들어갈 공간
+    let levelName = document.getElementById("level-name")
 
+    //난이도 조절 버튼과 각각에 해당하는 액션
     const upBtn = document.querySelector(".stage-up-btn")
     const downBtn = document.querySelector(".stage-down-btn")
 
     upBtn.addEventListener("click", upStage)
     downBtn.addEventListener("click", downStage)
 
+    // 게임 시작버튼과 submit 해야할 form
     const startBtn = document.getElementById("start-btn")
     const startForm = document.getElementById("start-form")
+
+    // 전송을 중지하고 게임 난이도 선택 창을 띄운다.
+    const isStageSelected = (event) => {
+      event.preventDefault();
+      modal.classList.remove("hidden");
+    }
+    // modal을 불러와 시작 버튼 클릭시 창을 띄운다
+    startBtn.addEventListener("click", isStageSelected)
+
+    // modal 창
+    const modal = document.querySelector(".modal");
+    const levelBtn = document.getElementById("level-name");
+
+    //modal이 떠 있는 상태에서
+    modal.addEventListener("click", (event) => {
+      if(event.target!==event.currentTarget){
+        return;
+      }
+      event.currentTarget.classList.add("hidden");
+    }) 
+
+    // modal에서 난이도를 클릭하면 게임 화면으로 전송한다.
+    levelBtn.addEventListener("click", (event) => {
+      if(nowPoint !== -1){
+        startForm.submit();
+      }
+    })
     
+    // 난이도 버튼을 클릭하면 nowPoint 값에 따라 체크박스의 상태를 바꾼다.
     function upStage() {
       nowPoint += 1
       if(nowPoint > 2){
         nowPoint = 0
       }
-      stageName.innerHTML = stages[nowPoint]
+      levelName.innerHTML = stages[nowPoint]
       for(let i=0; i<3; i++){
         if(i === nowPoint){
           checkboxes[i].checked = true
@@ -68,7 +111,7 @@
       if(nowPoint < 0){
         nowPoint = 2
       }
-      stageName.innerHTML = stages[nowPoint]
+      levelName.innerHTML = stages[nowPoint]
       for(let i=0; i<3; i++){
         if(i === nowPoint){
           checkboxes[i].checked = true
@@ -80,17 +123,6 @@
       }
     }
 
-    const isStageSelected = (event) => {
-      event.preventDefault()
-      if(nowPoint === -1){
-        alert("You have to select Stage!!!")
-      }
-      else{
-        startForm.submit()
-      }
-    }
-
-    startBtn.addEventListener("click", isStageSelected)
 
   </script>
 {% endblock script %}

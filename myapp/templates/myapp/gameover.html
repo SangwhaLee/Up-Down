@@ -8,6 +8,7 @@
       <div class="result-card">
         <div class="result-front" >
           <h1 class="your-score">{{ score }}P!</h1>
+          <img class="pointer-guide" src="{% static 'image/index/pointer.png' %}" alt="">
         </div>
         <div class="result-back">
           <p style="margin-top:5rem;">Enter your name</p>
@@ -50,15 +51,34 @@
 {% block script %}
   <script>
     const score = {{ score }};
+
+    // 점수에 들어갈 마지막 말이랑 STATIC 파일에서 랜덤으로 배경에 들어갈 gif파일을 뽑는다
     const words = document.getElementById("result-words");
+    const ranNum = Math.floor(Math.random()*3+1);
+    const afterGame = document.querySelector(".after-game");
     if(score < 10){
       words.innerText = "🙄네? 장난치시는 거죠?😨"
+      let urlPath = `/static/image/gameover/lv1/${ranNum}.gif`;
+      afterGame.style.backgroundImage = 'linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),'+"url('" + urlPath + "')";
+      afterGame.style.backgroundRepeat = "no-repeat"
+      afterGame.style.backgroundSize = "100% auto"
+      afterGame.style.backgroundPosition = "center" 
     }
     else if(score>=10 && score < 20){
       words.innerText = "😅아쉽지만, 아직 갈길이 머네요... 힘내세요🤗"
+      let urlPath = `/static/image/gameover/lv2/${ranNum}.gif`;
+      afterGame.style.backgroundImage = 'linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),'+"url('" + urlPath + "')";
+      afterGame.style.backgroundRepeat = "no-repeat"
+      afterGame.style.backgroundSize = "100% auto"
+      afterGame.style.backgroundPosition = "center" 
     }
     else{
       words.innerText = "🤩조금만 더 갔으면 됐는데 너무 아쉽네요!😖"
+      let urlPath = `/static/image/gameover/lv3/${ranNum}.gif`;
+      afterGame.style.backgroundImage = 'linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),'+"url('" + urlPath + "')";
+      afterGame.style.backgroundRepeat = "no-repeat"
+      afterGame.style.backgroundSize = "100% auto"
+      afterGame.style.backgroundPosition = "center" 
     }
 
     const stageNum = {{ stage }};

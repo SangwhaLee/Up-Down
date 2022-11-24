@@ -8,6 +8,7 @@
       <div class="result-card">
         <div class="result-front" >
           <h1 style="font-size:600%;" class="your-score">Perfect!!</h1>
+          <img class="pointer-guide" src="{% static 'image/index/pointer.png' %}" alt="">
         </div>
         <div class="result-back">
           <p style="margin-top:5rem;">Enter your name</p>
@@ -62,6 +63,15 @@
 
     const words = document.getElementById("result-words");
     words.innerText = "🥳당신은 영화의 신인가요?!🎉"
+
+    // STATIC 파일에서 랜덤으로 배경에 들어갈 gif파일을 뽑는다
+    const ranNum = Math.floor(Math.random()*3+1);
+    const afterGame = document.querySelector(".after-game");
+    let urlPath = `/static/image/gameclear/${ranNum}.gif`;
+    afterGame.style.backgroundImage = 'linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),'+"url('" + urlPath + "')";
+    afterGame.style.backgroundRepeat = "no-repeat"
+    afterGame.style.backgroundSize = "100% auto"
+    afterGame.style.backgroundPosition = "center" 
 
     // 슬라이크 전체 크기(width 구하기)
     const slide = document.querySelector(".after_game_slide");
