@@ -70,20 +70,21 @@ def gameover(request,score,stage):
     #평점과 popularity 기준으로 영화 추천
     #추후 수정
     if score <= 10:
-        moviedata = list(filter(lambda x: x.popularity > 110 and x.userRating > 8.5, moviedata))
+        moviedata = list(filter(lambda x: x.popularity > 70+(3-stage)*10 and x.userRating > 8.5, moviedata))
     # 1단계를 통과하지 못한 사람에게는 대중적이면서도 평점이 높은 영화 추천(필요하다면 장르까지 넣을 수도 있음)
     elif score <= 20:
-        moviedata = list(filter(lambda x: 30 < x.popularity < 110 and x.userRating > 9.0, moviedata))
-    # 2단계까지 간 사람에게는 적당히 유명하면서도 평점이 높은 영화를 추천.
+        moviedata = list(filter(lambda x: 40+(3-stage)*10 < x.popularity < 80+(3-stage)*10 and x.userRating > 9.0, moviedata))
+    # 2단계까지 간 사람에게는 적당히 유명하면서도 평점이 높은 영화를 추천.         
     else:
-        moviedata = list(filter(lambda x: 5 < x.popularity < 30  and x.userRating > 9.0, moviedata))
+        moviedata = list(filter(lambda x: 4+(3-stage)*10 < x.popularity < 40+(3-stage)*10  and x.userRating > 9.0, moviedata))
     # 2단계까지 통과했다면 영화에 관심이 많은 사람이니 적당히 마이너하면서 평가가 좋은 영화를 추천.
     # 위의 수치는 예시를 들어 만든 것이며 여러번 돌려보고 뽑혀나오는 표본이 너무 적을 경우 추후 수정 가능.
 
-    movielist= []
+    movielist= [] #moviedata 중 랜덤으로 뽑아서 담아줄 리스트
     
     for i in range(3):
         selectedmovie = random.sample(moviedata,1)[0]
+        moviedata.remove(selectedmovie)
         url = f'https://movie.naver.com/movie/bi/mi/pointWriteFormList.naver?code={selectedmovie.link}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false'
         html = requests.get(url)
         soup = BeautifulSoup(html.content,'html.parser')
