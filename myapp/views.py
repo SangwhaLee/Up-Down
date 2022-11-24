@@ -44,7 +44,7 @@ def game(request):
             print(len(moviedata))
 
     else:
-        for i in range(2): # 3단계, 1점차 미만의 영화들 출력
+        for i in range(30): # 3단계, 1점차 미만의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: abs(currating-x.userRating) <= 0.6 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
