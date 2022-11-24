@@ -3,7 +3,9 @@
 {% load static %}
 <div class="container">
   <div class="frame">
-    <header>Scoreboard</header>
+    <div id="header-area">
+      <header>Scoreboard</header>
+    </div> 
     <div class="score-card">
     {% for score in scoreboard %}  
       <div class="leader">
@@ -60,6 +62,7 @@
   align-items: center;
 }
 .frame {
+  background-color:black;
   min-width: 300px;
   width: 50%;
   min-height: 300px;
@@ -71,19 +74,30 @@
   align-items: center;
   justify-content: flex-start;
   padding: 2rem;
+  padding-top: 0;
   color: aliceblue;
   border: solid white 1px;
-  {% comment %} overflow-y: scroll; {% endcomment %}
+  overflow-y: scroll;
 }
 
 .frame::-webkit-scrollbar {
   display:none;
 }
 
+#header-area {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top:0;
+  left:0;
+}
+
 .frame header {
   font-size: 1.5rem;
   font-family: 'Press Start 2P', cursive;
   margin-bottom: 20px;
+  margin-top: 2rem;
 }
 {% comment %} .button-group {
   background-color: #f2f3f7;
@@ -152,7 +166,10 @@
   margin-left : 20px;
 }
 .score-card .leader .user .number {
-  padding: 3px 7px 3px;
+  text-align: center;
+  padding-left: 2px;
+  padding-top: 2px;
+  {% comment %} padding: 3px 7px 3px; {% endcomment %}
   font-weight: bold;
   width: 25px;
   height: 30px;
