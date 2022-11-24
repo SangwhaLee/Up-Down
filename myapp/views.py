@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.views.decorators.http import require_POST
 import random
 from .forms import ScoreForm
-from .models import movie, Scoreboard
+from .models import Movie, Scoreboard
 import requests
 from bs4 import BeautifulSoup
 
@@ -13,7 +13,7 @@ def index(request):
 
 def game(request):   
     selected = request.GET.getlist('stage')
-    moviedata = list(movie.objects.all()) 
+    moviedata = list(Movie.objects.all()) 
     #randomdata = random.sample(moviedata,30)
     #30개를 난이도별로 뽑기
     #처음엔 평점 2점차 이상, 그다음 1~2점차, 그다음 1점차 이내를 총 10개씩 30개 뽑는다.
@@ -44,7 +44,7 @@ def game(request):
             print(len(moviedata))
 
     else:
-        for i in range(30): # 3단계, 1점차 미만의 영화들 출력
+        for i in range(2): # 3단계, 1점차 미만의 영화들 출력
             currating = current_movie.userRating
             templist = list(filter(lambda x: abs(currating-x.userRating) <= 0.6 and currating-x.userRating!=0, moviedata))
             current_movie = random.sample(templist,1)[0]
@@ -59,7 +59,7 @@ def game(request):
 
 @require_POST
 def gameover(request,score,stage):
-    moviedata = list(movie.objects.all()) 
+    moviedata = list(Movie.objects.all()) 
     form = ScoreForm(request.POST)
     if form.is_valid():
         data = form.save(commit=False)
@@ -109,7 +109,7 @@ def gameover(request,score,stage):
 
 @require_POST
 def gameclear(request,stage): 
-    moviedata = list(movie.objects.all())  
+    moviedata = list(Movie.objects.all())  
     moviedatas = list(filter(lambda x: x.popularity < 15  and x.userRating > 8.0, moviedata)) 
     form = ScoreForm(request.POST)
     if form.is_valid():
